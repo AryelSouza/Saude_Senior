@@ -1,0 +1,31 @@
+.body {
+  padding: 48px 40px 0 98px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 68px);
+  width: 100%;
+}
+
+.content{
+  border-radius: 25px;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+
+}
+
+.footer{
+  height: 48px;
+  width: 100%;
+}
+
+.barraLateral{
+  background-color: blueviolet;
+}
+
+.home{
+  background-color: orange;
+}
