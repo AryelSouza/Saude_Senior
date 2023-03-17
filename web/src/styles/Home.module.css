@@ -11,10 +11,10 @@
 
 .content{
   border-radius: 25px;
-  background-color: white;
   height: 100%;
   width: 100%;
-
+  background-color: white;
+  
 }
 
 .footer{
@@ -24,8 +24,14 @@
 
 .barraLateral{
   background-color: blueviolet;
+  height: 100%;
+  width: 25px;
 }
 
 .home{
   background-color: orange;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background-color: white;
 }

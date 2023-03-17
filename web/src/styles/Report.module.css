@@ -1,0 +1,68 @@
+  .main{
+    margin: 38px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 68px);
+    width: 100%;
+  }
+  
+  .content{
+    margin: 0 47px 0 4px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .footer{
+    height: 20px;
+    width: 100%;
+  }
+  
+  .barraLateral{
+    background-color: blueviolet;
+    height: 100%;
+    width: 78px;
+    margin-right: 14px;
+  }
+  
+  .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    border-radius: 25px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .ReportPesquisa{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .ReportBusca{
+    width: 80%;
+    height: 33px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+  }
+
+  .ReportFrequency{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+
+      /* display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 1em;
+      padding-top: 40px;
+      align-items: center;
+      background-color: red; */
+  }
+  .ReportBalon{
+    background: #0085FF;  
+  }
