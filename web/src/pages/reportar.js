@@ -1,19 +1,36 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Report.module.css'
+import stylesGlobal from '@/styles/Global.module.css'
+import {useRouter} from 'next/router'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const router = useRouter();
   return (
-    <div className={styles.body}>
-      <div className={styles.main}>
+      <div className={stylesGlobal.main}>
 
-        <div className={styles.content}>
-          <div className={styles.barraLateral}>
+        <div className={stylesGlobal.content}>
+        <div className={stylesGlobal.barraLateral}>
             
+            <div className={stylesGlobal.logo}>
+
+            </div>
+
+            <div className={stylesGlobal.options}>
+              <img className={stylesGlobal.option} src='/home.svg' onClick={()=>{router.push('/')}}></img>
+              <img className={stylesGlobal.option} src='/video.svg'></img>
+              <img className={stylesGlobal.option} src='/map.svg'></img>
+              <img className={stylesGlobal.option} src='/moon.svg'></img>
+              <img className={stylesGlobal.option} src='/flag.svg' width={30} height={30}></img>
+            </div>
+
+            <div className={stylesGlobal.info}>
+              <img className={stylesGlobal.option} src='/info.svg'></img>
+            </div>
           </div>
-          <div className={styles.home}>
+          <div className={stylesGlobal.home}>
             <div className={styles.ReportPesquisa}>
               <input type="text" className={styles.ReportBusca} placeholder="Buscar..."/>
               
@@ -43,12 +60,11 @@ export default function Home() {
           </div>
 
         </div>
-        <div className={styles.footer}>
-
-
+        <div className={stylesGlobal.footer}>
+          <img src='/logos.svg'></img>
+          <p className={stylesGlobal.textFooter}>© Copyright NOME PRA DEFINIR. Todos os direitos reservados.</p>
         </div>
 
       </div>
-    </div>
   )
 }
