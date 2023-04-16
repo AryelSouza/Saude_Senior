@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Report.module.css'
 import stylesGlobal from '@/styles/Global.module.css'
 import {useRouter} from 'next/router'
+import axios from 'axios'
+import SideBar from '@/components/sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,24 +14,7 @@ export default function Home() {
       <div className={stylesGlobal.main}>
 
         <div className={stylesGlobal.content}>
-        <div className={stylesGlobal.barraLateral}>
-            
-            <div className={stylesGlobal.logo}>
-
-            </div>
-
-            <div className={stylesGlobal.options}>
-              <img className={stylesGlobal.option} src='/home.svg' onClick={()=>{router.push('/')}}></img>
-              <img className={stylesGlobal.option} src='/video.svg'></img>
-              <img className={stylesGlobal.option} src='/map.svg'></img>
-              <img className={stylesGlobal.option} src='/moon.svg'></img>
-              <img className={stylesGlobal.option} src='/flag.svg' width={30} height={30}></img>
-            </div>
-
-            <div className={stylesGlobal.info}>
-              <img className={stylesGlobal.option} src='/info.svg'></img>
-            </div>
-          </div>
+        <SideBar/>
           <div className={stylesGlobal.home}>
             <div className={styles.ReportPesquisa}>
               <input type="text" className={styles.ReportBusca} placeholder="Buscar..."/>
@@ -55,7 +40,15 @@ export default function Home() {
             <h6>Qual o Problema encontrado ?</h6>
             <textarea rows="6"cols="60" className={styles.ReportTextProblem}></textarea>
 
-            <button className={styles.ReportButton}>Enviar</button>
+            <button className={styles.ReportButton} onClick={()=>{
+              axios.get('http://localhost:3000/teste').then((resposta)=>{
+                alert(resposta.data)
+                console.log(resposta.data)
+              }).catch((err)=>{
+                alert(err.message)
+                console.log(err)
+              })
+            }}>Enviar</button>
             </div>
           </div>
 
