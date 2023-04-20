@@ -5,26 +5,15 @@ import stylesGlobal from '@/styles/Global.module.css'
 const inter = Inter({ subsets: ['latin'] })
 import { useRouter } from 'next/router'
 import SideBar from '@/components/sidebar'
+import Background from '@/components/background'
 
 
 
 export default function Home() {
   const router = useRouter();
   return (
-      <div className={stylesGlobal.main}>
-
-        <div className={stylesGlobal.content}>
-          <SideBar/>
-          <div className={stylesGlobal.home}>
-            
-          </div>
-
-        </div>
-        <div className={stylesGlobal.footer}>
-          <img src='/logos.svg'></img>
-          <p className={stylesGlobal.textFooter}>© Copyright NOME PRA DEFINIR. Todos os direitos reservados.</p>
-        </div>
-
-      </div>
+      <Background>
+        
+      </Background>
   )
 }
