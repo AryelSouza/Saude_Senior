@@ -34,11 +34,12 @@
   }
 
   .ReportFrequency{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     padding-left: 50px;
   }
   .ReportBalon{
@@ -46,14 +47,17 @@
     display: flex;
     background: #0085FF;
     width: 80%;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
     
   }
   .ReportBalon:hover{
+    padding: 2px;
+    cursor: pointer;
     box-shadow: 0px 4px 4px 0px #00000040;
+    transition: linear 0.1s;
   }
   .ReportQuestions{
     width: 100%;

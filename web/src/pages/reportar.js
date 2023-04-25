@@ -8,12 +8,16 @@ import SideBar from '@/components/sidebar'
 import Background from '@/components/background'
 import Button from '@/components/button'
 import {BiSearchAlt2} from "react-icons/bi"
+import HeadPadrao from '@/components/headPadrao'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const router = useRouter();
   return (
+    <div>
+      <HeadPadrao>Reportar</HeadPadrao>
+
       <Background>
         <div className={styles.all}>
             <div className={styles.ReportPesquisa}>
@@ -27,16 +31,10 @@ export default function Home() {
                 </div>
                 <div className={styles.Problems}>
                   <div className={styles.ReportFrequency}>
-                  <div className={styles.ReportBalon}>Eduardo</div>
-                  <div className={styles.ReportBalon}>Lipe</div>
-                  <div className={styles.ReportBalon}>Aryel</div>
-                  <div className={styles.ReportBalon}>Daniel</div>
-                  <div className={styles.ReportBalon}>Alessandro</div>
-                  <div className={styles.ReportBalon}>Livia</div>
-                  <div className={styles.ReportBalon}>Leticia</div>
-                  <div className={styles.ReportBalon}></div>
-                  <div className={styles.ReportBalon}></div>
-                </div>
+                    <div className={styles.ReportBalon}>Este é um exemplo de pergunta?</div>
+                    <div className={styles.ReportBalon}>Como podemos melhorar?</div>
+                    <div className={styles.ReportBalon}>Qual equipe fez isso?</div>
+                  </div>
                 
                 </div>
             </div>
@@ -59,5 +57,6 @@ export default function Home() {
           </div>
         </div>
       </Background>
+    </div>
   )
 }
