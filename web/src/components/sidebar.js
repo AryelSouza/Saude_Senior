@@ -20,7 +20,7 @@ export default function SideBar({pagAtual}){
             </div>
 
             <div className={stylesGlobal.info}>
-              <img className={stylesGlobal.option} src='/info.svg'></img>
+              <img className={stylesGlobal.option} onClick={()=>{router.push('/info')}} src='/info.svg'></img>
             </div>
         </div>
     )
