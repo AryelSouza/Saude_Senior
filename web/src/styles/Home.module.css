@@ -1,0 +1,15 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 95%;
+    width: 100vh;
+  }
+
+.apresentacoes{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    
+}

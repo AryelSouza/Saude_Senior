@@ -5,12 +5,12 @@ import SideBar from '@/components/sidebar'
 
 
 
-export default function Background({children}) {
+export default function Background({children, pagAtual}) {
   return (
       <div className={stylesGlobal.main}>
 
         <div className={stylesGlobal.content}>
-          <SideBar/>
+          <SideBar pagAtual={pagAtual}/>
           <div className={stylesGlobal.home}>
             {children}
           </div>

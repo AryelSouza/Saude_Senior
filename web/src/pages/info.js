@@ -8,23 +8,16 @@ import SideBar from '@/components/sidebar'
 import Background from '@/components/background'
 import HeadPadrao from '@/components/headPadrao'
 import BarraPesquisa from '@/components/barraPesquisa'
-import Apresentacao from '@/components/apresentacao'
 
 
 export default function Home() {
   const router = useRouter();
   return (
     <>
-      <HeadPadrao>Home</HeadPadrao>
+      <HeadPadrao>Info</HeadPadrao>
       <Background>
         <div className={styles.all}>
           <BarraPesquisa></BarraPesquisa>
-        </div>
-        <div className={styles.apresentacoes}>
-          <Apresentacao/>
-          <Apresentacao/>
-          <Apresentacao/>
-          <Apresentacao/>
         </div>
       </Background>
     </>

@@ -7,12 +7,12 @@ import axios from 'axios'
 import SideBar from '@/components/sidebar'
 import Background from '@/components/background'
 import Button from '@/components/button'
-import {BiSearchAlt2} from "react-icons/bi"
 import HeadPadrao from '@/components/headPadrao'
+import BarraPesquisa from '@/components/barraPesquisa'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Reportar() {
   const router = useRouter();
   return (
     <div>
@@ -20,11 +20,7 @@ export default function Home() {
 
       <Background>
         <div className={styles.all}>
-            <div className={styles.ReportPesquisa}>
-              <input type="text" className={styles.ReportBusca} placeholder="Buscar..."/>
-              <BiSearchAlt2 color='#00000035' className={styles.icon}/>
-              
-            </div>
+            <BarraPesquisa/>
             <div className={styles.ReportQuestions}>
                 <div className={styles.title}>
                   <h3 className={styles.ReportText}>Perguntas mais frequentes:</h3>
