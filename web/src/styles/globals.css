@@ -3,4 +3,5 @@
 body{
   font-family: 'Poppins', sans-serif;
   background-color: #181818;
+  max-height: 100vh;
 }

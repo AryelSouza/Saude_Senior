@@ -1,27 +1,31 @@
   .main{
-    margin: 38px 0 0 0;
+    margin: 18px 0 0 0;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 48px);
+    height: calc(100vh - 26px);
+    max-height: calc(100vh - 26px);
     width: 100%;
   }
   
   .content{
-    margin: 0 27px 0 6px;
+    margin: 0 15px 0 0;
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: calc(100% - 52px);
+    max-height: calc(100% - 52px);
   }
   
   .footer{
     /* background-color: aqua; */
-    margin-top: 15px;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    height: 68px;
+    height: 52px;
+    gap: 10px;
+    max-height: 52px;
     width: 100%;
+    margin-top: 10px;
   }
   
   .barraLateral{
@@ -30,7 +34,7 @@
     background-color: #d9d9d923;
     height: 100%;
     width: 58px;
-    margin: 0 24px 0 0;
+    margin: 0 15px 0 0;
     border-radius: 25px;
     justify-content: space-between;
   }
@@ -39,13 +43,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 0px;
+    justify-content: space-between;
     
     border-radius: 25px;
     background-color: white;
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
   
   .textFooter{
@@ -72,4 +76,14 @@
     background-color: #d9d9d941;
     border-radius: 8px;
     cursor: pointer;
+  }
+
+  .divLogo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo{
+    width: 41px;
+    height: 41px;
   }

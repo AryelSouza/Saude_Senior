@@ -7,8 +7,8 @@ export default function SideBar({pagAtual}){
     return(
         <div className={stylesGlobal.barraLateral}>
             
-            <div className={stylesGlobal.logo}>
-
+            <div className={stylesGlobal.divLogo}>
+              <img className={stylesGlobal.logo}src='/logo.svg'></img>
             </div>
 
             <div className={stylesGlobal.options}>
