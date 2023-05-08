@@ -9,10 +9,12 @@
     border-radius: 8px;
     padding: 5px 15px;
     margin-top: 15px;
+    transition: all linear 250ms;
     
   }
 .ReportPesquisa:hover{
     box-shadow: 0px 4px 4px 0px #00000040;
+    cursor: pointer;
   }
 .ReportPesquisa:focus-within {
     box-shadow: 0px 4px 4px 0px #00000040;
