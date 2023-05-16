@@ -9,13 +9,27 @@ import Background from '@/components/background'
 import HeadPadrao from '@/components/headPadrao'
 import BarraPesquisa from '@/components/barraPesquisa'
 import Apresentacao from '@/components/apresentacao'
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 export default function Home() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    autoplaySpeed: 2000,
+    arrows: true,
+    autoplay: true,
+  }
   const router = useRouter();
-  const styleBg = {
-    backgroundImage: `url("/big.png")`,
-    /* outras propriedades de estilo */
+  const styleBgs = {
+    big: "/big.png",
+    apresentacao:"/apresentacao.png",
+    mudar:"/mudar.png",
+    profs:"/profs.png",
   };
   return (
     <>
@@ -25,14 +39,33 @@ export default function Home() {
           <BarraPesquisa></BarraPesquisa>
         </div>
 
-        <div className={styles.contain} style={styleBg}></div>
+        {/* <Carrossel> */}
+
+          <div className={styles.contain}>
+            <Slider {...settings}>
+              <div className={styles.box}>
+                <img src={styleBgs.big}></img>
+              </div>
+              <div className={styles.box}>
+                <img src={styleBgs.apresentacao}></img>
+              </div>
+              <div className={styles.box}>
+                <img src={styleBgs.mudar}></img>
+              </div>
+              <div className={styles.box}>
+                <img src={styleBgs.profs}></img>
+              </div>
+            </Slider>
+          </div>
+
+        
 
         <div className={styles.apresentacoes}>
 
-          <Apresentacao src={"/capacita.png"} />
-          <Apresentacao src={"/sobrenos.png"} />
-          <Apresentacao src={"/feedback.png"} />
-          <Apresentacao src={"/explica.png"} />
+          <Apresentacao src={"/capacita.png"}/>
+          <Apresentacao src={"/sobrenos.png"}/>
+          <Apresentacao src={"/feedback.png"}/>
+          <Apresentacao src={"/explica.png"}/>
         </div>
       </Background>
     </>

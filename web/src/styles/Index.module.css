@@ -1,0 +1,10 @@
+.contain{
+  margin-top: 25px;
+  width: 1035px;
+  height: 323px;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.slick-slide div {
+  margin: auto;
+}

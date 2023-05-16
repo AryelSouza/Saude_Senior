@@ -19,7 +19,7 @@ export default function Background({children, pagAtual}) {
         <div className={stylesGlobal.footer}>
           <img src='/logos.svg'></img>
           <p className={stylesGlobal.textFooter} >•</p>
-          <p className={stylesGlobal.textFooter}> © Copyright NOME PRA DEFINIR. Todos os direitos reservados.</p>
+          <p className={stylesGlobal.textFooter}> © Copyright Saude Senior. Todos os direitos reservados.</p>
         </div>
 
       </div>
