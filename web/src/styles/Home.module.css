@@ -15,11 +15,12 @@
 }
 
 .contain{
-  margin-top: 25px;
   width: 1035px;
   height: 323px;
+  max-height: 323px;
   box-shadow:  0px 4px 4px 0px #00000020;
   border-radius: 15px;
+  transform: scale(0.75);
 }
 
 .box{
@@ -35,4 +36,8 @@
 
 .box img{
   border-radius: 15px;
+}
+
+.atalhos:hover{
+  cursor: pointer;
 }

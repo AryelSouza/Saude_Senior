@@ -23,6 +23,8 @@ export default function Home() {
     autoplaySpeed: 2000,
     arrows: true,
     autoplay: true,
+    slidesToShow: 1, // define quantos slides serão exibidos por vez
+    slidesToScroll: 1, // define quantos slides serão percorridos por vez,
   }
   const router = useRouter();
   const styleBgs = {
@@ -36,37 +38,37 @@ export default function Home() {
       <HeadPadrao>Home</HeadPadrao>
       <Background>
         <div className={styles.all}>
-          <BarraPesquisa></BarraPesquisa>
-        </div>
+          {/* <Carrossel> */}
 
-        {/* <Carrossel> */}
+            <div className={styles.contain}>
+              <Slider {...settings}>
+                <div className={styles.box}>
+                  <img src={styleBgs.big}></img>
+                </div>
+                <div className={styles.box}>
+                  <img src={styleBgs.apresentacao}></img>
+                </div>
+                <div className={styles.box}>
+                  <img src={styleBgs.mudar}></img>
+                </div>
+                <div className={styles.box}>
+                  <img src={styleBgs.profs}></img>
+                </div>
+              </Slider>
+            </div>
 
-          <div className={styles.contain}>
-            <Slider {...settings}>
-              <div className={styles.box}>
-                <img src={styleBgs.big}></img>
-              </div>
-              <div className={styles.box}>
-                <img src={styleBgs.apresentacao}></img>
-              </div>
-              <div className={styles.box}>
-                <img src={styleBgs.mudar}></img>
-              </div>
-              <div className={styles.box}>
-                <img src={styleBgs.profs}></img>
-              </div>
-            </Slider>
+          
+
+          <div className={styles.apresentacoes}>
+
+            <Apresentacao src={"/sobrenos.png"}/>
+            <Apresentacao src={"/explica.png"}/>
+            <Apresentacao src={"/capacita.png"}/>
+            <Apresentacao src={"/feedback.png"}/>
           </div>
 
-        
-
-        <div className={styles.apresentacoes}>
-
-          <Apresentacao src={"/capacita.png"}/>
-          <Apresentacao src={"/sobrenos.png"}/>
-          <Apresentacao src={"/feedback.png"}/>
-          <Apresentacao src={"/explica.png"}/>
         </div>
+
       </Background>
     </>
   )

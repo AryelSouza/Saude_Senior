@@ -1,91 +1,126 @@
-  .main{
-    margin: 18px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh - 26px);
-    max-height: calc(100vh - 26px);
-    width: 100%;
-  }
-  
-  .content{
-    margin: 0 15px 0 0;
-    display: flex;
-    flex-direction: row;
-    height: calc(100% - 52px);
-    max-height: calc(100% - 52px);
-  }
-  
-  .footer{
-    /* background-color: aqua; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 52px;
-    gap: 10px;
-    max-height: 52px;
-    width: 100%;
-    margin-top: 10px;
-  }
-  
-  .barraLateral{
-    display: flex;
-    flex-direction: column;
-    background-color: #d9d9d923;
-    height: 100%;
-    width: 58px;
-    margin: 0 15px 0 0;
-    border-radius: 25px;
-    justify-content: space-between;
-  }
-  
-  .home{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0px;
-    justify-content: space-between;
-    
-    border-radius: 25px;
-    background-color: white;
-    width: 100%;
-    max-width: 100vw;
-    max-height: 100vh;
-    height: 100%;
-  }
-  
-  .textFooter{
-    color: gray;
-    font-size: 10px;
-    font-weight: 500;
-  }
-  
-  .info{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .options{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
-  
-  .option:hover{
-    background-color: #d9d9d941;
-    border-radius: 8px;
-    cursor: pointer;
-  }
+.main {
+  margin: 18px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 26px);
+  max-height: calc(100vh - 26px);
+  width: 100%;
+}
 
-  .divLogo{
-    display: flex;
-    align-items: center;
-    padding: 10px;
+.content {
+  margin: 0 15px 0 0;
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 52px);
+  max-height: calc(100% - 52px);
+}
+
+.footer {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  gap: 10px;
+  max-height: 52px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.barraLateral {
+  position: fixed; /* torna a barra lateral fixa na tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  left: 0; /* alinha a barra lateral à esquerda */
+  top: 0; /* alinha a barra lateral no topo */
+  background-color: #333333;
+  width: 58px;
+  height: calc(100% - 70px);
+  margin: 15px 15px 0 5px;
+  border-radius: 25px;
+  z-index: 9999; /* define uma camada acima dos outros elementos */
+  transition: width 0.3s; /* adiciona uma transição suave */
+}
+
+.barraLateral:hover {
+  width: 300px; /* aumenta a largura ao passar o mouse */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  margin-left: 80px;
+  justify-content: space-between;
+  border-radius: 25px;
+  background-color: white;
+  width: calc(100% - 78px); /* considera a largura da barra lateral */
+  max-width: calc(100vw - 78px); /* considera a largura da barra lateral */
+  max-height: 100vh;
+  height: 100%;
+}
+
+.textFooter {
+  color: gray;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.info {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.options {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+
+.divLogo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 41px;
+  height: 41px;
+}
+.divSidebar{
+  display: flex;
+  width: 250px;
+  align-items: start;
+  flex-direction: row;
+  gap: 15px;
+}
+.divSidebar:hover{
+  cursor: pointer;
+  background-color: #d9d9d913;
+  border-radius: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
   }
-  .logo{
-    width: 41px;
-    height: 41px;
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
+}
+
+
+.tituloSidebar{
+  color: white;
+  font-size: 30px;
+  animation: fadeIn 0.5s ease-in-out;
+}

@@ -1,26 +1,65 @@
 import styles from '@/styles/Home.module.css'
 import stylesGlobal from '@/styles/Global.module.css'
 import {useRouter} from 'next/router'
+import { useState } from 'react';
 
 export default function SideBar({pagAtual}){
     const router = useRouter();
+    const [sideBar, setSideBar] = useState(false)
     return(
-        <div className={stylesGlobal.barraLateral}>
+        <div onMouseEnter={()=>{setSideBar(true)}} onMouseLeave={()=>{setSideBar(false)}} className={stylesGlobal.barraLateral}>
             
             <div className={stylesGlobal.divLogo}>
               <img className={stylesGlobal.logo}src='/logo.svg'></img>
             </div>
-
+            
             <div className={stylesGlobal.options}>
-              <img className={stylesGlobal.option} onClick={()=>{router.push('/')}}  src='/home.svg'></img>
-              <img className={stylesGlobal.option} src='/video.svg'></img>
-              <img className={stylesGlobal.option} src='/map.svg'></img>
-              <img className={stylesGlobal.option} src='/moon.svg'></img>
-              <img className={stylesGlobal.option} onClick={()=>{router.push('/reportar')}} src='/flag.svg'></img>
+
+              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/')}}  >
+                <img className={stylesGlobal.option} src='/home.svg'></img>
+                {
+                sideBar
+                  ? <h2 className={stylesGlobal.tituloSidebar}>Inicio</h2>
+                  : null
+                }
+              </div>
+
+              <div className={stylesGlobal.divSidebar}>
+                <img className={stylesGlobal.option} src='/video.svg'></img>
+                {
+                  sideBar
+                    ? <h2 className={stylesGlobal.tituloSidebar}>Capacitação</h2>
+                    : null
+                }
+              </div>
+              <div className={stylesGlobal.divSidebar}>
+                <img className={stylesGlobal.option} src='/map.svg'></img>
+                {
+                  sideBar
+                    ? <h2 className={stylesGlobal.tituloSidebar}>Mapa</h2>
+                    : null
+                }
+              </div>
+
+              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/reportar')}}>
+                <img className={stylesGlobal.option} src='/flag.svg'></img>
+                {
+                  sideBar
+                    ? <h2 className={stylesGlobal.tituloSidebar}>Reportar</h2>
+                    : null
+                }
+              </div>
             </div>
 
             <div className={stylesGlobal.info}>
-              <img className={stylesGlobal.option} onClick={()=>{router.push('/info')}} src='/info.svg'></img>
+              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/info')}} >
+                <img className={stylesGlobal.option} src='/info.svg'></img>
+                {
+                  sideBar
+                    ? <h2 className={stylesGlobal.tituloSidebar}>Informações</h2>
+                    : null
+                }
+              </div>
             </div>
         </div>
     )

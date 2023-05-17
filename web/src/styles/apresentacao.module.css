@@ -4,6 +4,11 @@
     height: 195px;
     background-color: rgba(0, 0, 0, 0.08);
     border-radius: 10px;
+    transform: scale(0.9);
+}
+
+.contain:hover{
+    cursor: pointer;
 }
 
 .image{
