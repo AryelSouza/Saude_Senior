@@ -85,9 +85,12 @@
 }
 
 .divLogo {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 10px;
+  transition: linear 0.3s; /* adiciona uma transição suave */
 }
 
 .logo {
@@ -121,6 +124,6 @@
 
 .tituloSidebar{
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   animation: fadeIn 0.5s ease-in-out;
 }
