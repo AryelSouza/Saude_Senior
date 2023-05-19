@@ -20,7 +20,6 @@ Uma parceria IFPB - UEPB - Secretaria de Saúde
     <br/>
     ``` yarn ```
     <br/>
-    
     ``` yarn dev ```
 <br/><br/>
 ---
