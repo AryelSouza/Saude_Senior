@@ -9,6 +9,8 @@ Uma parceria IFPB - UEPB - Secretaria de Saúde
     <br/>
     ``` cd ./api/ ```
     <br/>
+    ``` yarn ```
+    <br/>
     ``` node server.js ```
 <br/><br/>
 
@@ -16,6 +18,9 @@ Uma parceria IFPB - UEPB - Secretaria de Saúde
     <br/>
     ``` cd ./web/ ```
     <br/>
+    ``` yarn ```
+    <br/>
+    
     ``` yarn dev ```
 <br/><br/>
 ---
