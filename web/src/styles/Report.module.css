@@ -95,3 +95,117 @@
     width: 24px;
     height: 24px;
   }
+
+  @media (max-width: 1024px){
+    .all{
+      width: 100%;
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    .ReportFrequency{
+      width: 100%;
+      padding-left: 0px;
+    }
+    .ReportBalon{
+      width: 100%;
+      height: 50px;
+    }
+    .ReportQuestions{
+      width: 100%;
+      height: 260px;
+      max-height: 260px;
+    }
+    .ReportProblem{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .ReportTextProblem{
+      width: 100%;
+      height: 100%;
+      resize: none;
+      padding: 10px;
+      border: none;
+      background: rgba(0, 0, 0, 0.08);
+      mix-blend-mode: normal;
+      border-radius: 15px;
+    }
+    .ReportButton{
+      width: 100%;
+      height: 40px;
+      margin-top: 12px;
+    }
+    .Problems{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .title{
+      margin-left: 0%;
+    }
+    .icon{
+      width: 24px;
+      height: 24px;
+    }
+}
+
+@media (max-width: 768px){
+  .all{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .ReportFrequency{
+    width: 100%;
+    padding-left: 0px;
+  }
+  .ReportBalon{
+    width: 100%;
+    height: 50px;
+  }
+  .ReportQuestions{
+    width: 100%;
+    height: 260px;
+    max-height: 260px;
+  }
+  .ReportProblem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ReportTextProblem{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.08);
+    mix-blend-mode: normal;
+    border-radius: 15px;
+  }
+  .ReportButton{
+    width: 100%;
+    height: 40px;
+    margin-top: 12px;
+  }
+  .Problems{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title{
+    margin-left: 0%;
+  }
+  .icon{
+    width: 24px;
+    height: 24px;
+  }
+}
