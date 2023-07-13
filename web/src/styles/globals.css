@@ -13,3 +13,7 @@ body{
 :focus{
   outline: none;
 }
+
+.slick-prev.slick-arrow:before, .slick-next.slick-arrow:before{
+  color: black !important;
+}

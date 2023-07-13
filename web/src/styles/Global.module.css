@@ -57,7 +57,7 @@
   margin-left: 80px;
   justify-content: space-between;
   border-radius: 25px;
-  background-color: white;
+  background-color: #fff;
   width: calc(100% - 78px); /* considera a largura da barra lateral */
   max-width: calc(100vw - 78px); /* considera a largura da barra lateral */
   max-height: 100vh;
@@ -99,7 +99,7 @@
 }
 .divSidebar{
   display: flex;
-  width: 250px;
+  width: 41px;
   align-items: start;
   flex-direction: row;
   gap: 15px;
@@ -107,12 +107,13 @@
 .divSidebar:hover{
   cursor: pointer;
   background-color: #d9d9d913;
+  width: 250px;
   border-radius: 8px;
 }
 
 @keyframes fadeIn {
   from {
-    opacity: 0;
+    display: none;
     transform: translateX(-20px);
   }
   to {
@@ -120,7 +121,6 @@
     transform: translateX(0);
   }
 }
-
 
 .tituloSidebar{
   color: white;
