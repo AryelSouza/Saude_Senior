@@ -127,3 +127,11 @@
   font-size: 25px;
   animation: fadeIn 0.5s ease-in-out;
 }
+
+@media (max-width: 1024px) {
+ 
+}
+
+@media (max-width: 768px) {
+  
+}
