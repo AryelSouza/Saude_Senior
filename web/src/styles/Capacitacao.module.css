@@ -29,3 +29,22 @@
     box-shadow: 0px 4px 4px 0px #00000040;
     cursor: pointer;
 }
+
+@media(max-width: 1000px){
+    .all{
+        width: 100%;
+    }
+    .options{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .options{
+        flex-direction: column;
+        height: 80px;
+    }
+    .option{
+        width: 100%;
+    }
+}
