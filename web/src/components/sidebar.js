@@ -24,7 +24,7 @@ export default function SideBar({pagAtual}){
                 }
               </div>
 
-              <div className={stylesGlobal.divSidebar}>
+              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/capacitacao')}}>
                 <img className={stylesGlobal.option} src='/video.svg'></img>
                 {
                   sideBar
@@ -32,7 +32,7 @@ export default function SideBar({pagAtual}){
                     : null
                 }
               </div>
-              <div className={stylesGlobal.divSidebar}>
+              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/maps')}}>
                 <img className={stylesGlobal.option} src='/map.svg'></img>
                 {
                   sideBar

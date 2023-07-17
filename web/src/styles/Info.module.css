@@ -78,4 +78,10 @@
       gap: 20px;
     }
   }
+
+  @media (max-height: 800px) {
+    .perfil {
+      zoom: 90%;
+    }
+  }
   
