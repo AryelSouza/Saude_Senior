@@ -30,6 +30,21 @@
     cursor: pointer;
 }
 
+.videos {
+    display: flex;
+    justify-content: left;
+    margin-top: 100px;
+
+  }
+  
+  .videoItem {
+    margin-right: 200px;
+    flex: 0 0 auto;
+    width: 400px;
+
+  }
+  
+
 @media(max-width: 1000px){
     .all{
         width: 100%;

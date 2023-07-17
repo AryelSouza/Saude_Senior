@@ -11,6 +11,7 @@ import BarraPesquisa from '@/components/barraPesquisa';
 import Apresentacao from '@/components/apresentacao';
 import { useState } from 'react';
 
+
 export default function Home() {
   const router = useRouter();
   const [mostrarVideos, setMostrarVideos] = useState(false);
@@ -61,23 +62,29 @@ export default function Home() {
           {mostrarVideos && (
             <div className={styles.videos}>
               {/* Renderizar seus vídeos aqui */}
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/EDhkxMvpnEE"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-              <iframe width="560"
-               height="315"
-              src="https://www.youtube.com/embed/2G1Bnwsw7lA" 
-              title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen>
-              </iframe>
+              {/* Exemplo de vídeo: */}
+              <div className={styles.videoItem}>
+                <iframe
+                  width="400"
+                  height="200"
+                  src="https://www.youtube.com/embed/EDhkxMvpnEE"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className={styles.videoItem}>
+                <iframe
+                  width="400"
+                  height="200"
+                  src="https://www.youtube.com/embed/2G1Bnwsw7lA"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           )}
 
