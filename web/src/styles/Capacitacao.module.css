@@ -52,6 +52,15 @@
     .options{
         width: 100%;
     }
+
+    .videos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .videoItem{
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width: 600px){
@@ -61,5 +70,15 @@
     }
     .option{
         width: 100%;
+    }
+
+    .videos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .videoItem{
+        margin-right: 0px;
+        margin-bottom: 50px;
     }
 }
