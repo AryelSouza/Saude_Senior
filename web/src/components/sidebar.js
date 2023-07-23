@@ -32,6 +32,7 @@ export default function SideBar({pagAtual}){
                     : null
                 }
               </div>
+              
               <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/maps')}}>
                 <img className={stylesGlobal.option} src='/map.svg'></img>
                 {

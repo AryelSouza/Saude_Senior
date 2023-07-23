@@ -90,12 +90,14 @@ export default function Home() {
 
           {mostrarDocumentos && (
             <div className={styles.documentos}>
+              DOCUMENTOS
               {/* Renderizar seus documentos aqui */}
             </div>
           )}
 
           {mostrarMapasMentais && (
             <div className={styles.mapasMentais}>
+              MAPAS
               {/* Renderizar seus mapas mentais aqui */}
             </div>
           )}
