@@ -43,18 +43,31 @@ export default function Home() {
 
   return (
     <>
-      <HeadPadrao>Home</HeadPadrao>
+      <HeadPadrao  >Home</HeadPadrao >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <Background>
         <div className={styles.all}>
           <BarraPesquisa></BarraPesquisa>
           <div className={styles.options}>
-            <div className={styles.option} onClick={toggleMostrarVideos}>
+            <div className={styles.option} 
+              style={{
+                backgroundColor: mostrarVideos ? 'rgba(0, 0, 0, 0.2)' : 'rgba(0, 0, 0, 0.08)',
+              }}
+            onClick={toggleMostrarVideos}>
               Videos
             </div>
-            <div className={styles.option} onClick={toggleMostrarDocumentos}>
+            <div className={styles.option} 
+            style={{
+              backgroundColor: mostrarDocumentos ? 'rgba(0, 0, 0, 0.2)' : 'rgba(0, 0, 0, 0.08)',
+            }}
+            onClick={toggleMostrarDocumentos}>
               Documentos
             </div>
-            <div className={styles.option} onClick={toggleMostrarMapasMentais}>
+            <div className={styles.option} 
+            style={{
+              backgroundColor: mostrarMapasMentais ? 'rgba(0, 0, 0, 0.2)' : 'rgba(0, 0, 0, 0.08)',
+            }}
+            onClick={toggleMostrarMapasMentais}>
               Mapas Mentais
             </div>
           </div>
@@ -63,10 +76,11 @@ export default function Home() {
             <div className={styles.videos}>
               {/* Renderizar seus vídeos aqui */}
               {/* Exemplo de vídeo: */}
+              
               <div className={styles.videoItem}>
                 <iframe
-                  width="400"
-                  height="200"
+                 //width="400"
+                  //height="200"
                   src="https://www.youtube.com/embed/EDhkxMvpnEE"
                   title="YouTube video player"
                   frameBorder="0"
@@ -76,14 +90,36 @@ export default function Home() {
               </div>
               <div className={styles.videoItem}>
                 <iframe
-                  width="400"
-                  height="200"
+                  //width="400"
+                  //height="200"
                   src="https://www.youtube.com/embed/2G1Bnwsw7lA"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
+              </div>
+              <div className={styles.videoItem}>
+                <iframe 
+              //width="560"
+               //height="315" 
+               src="https://www.youtube.com/embed/MGWOw9IEHco" 
+               title="YouTube video player" 
+               frameborder="0" 
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+               allowfullscreen>
+                </iframe>
+              </div>
+              <div className={styles.videoItem}>
+              <iframe 
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/_u8qTN3cCnQ" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+              </iframe>
               </div>
             </div>
           )}
