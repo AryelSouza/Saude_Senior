@@ -38,17 +38,17 @@ export default function Info() {
             <Perfil
               imageUrl="/lipe.png" // Replace with the actual path to your image
               username="Luis felipe" // Replace with the username
-              profileInfo="Estudante de Enhenharia da Computação" // Replace with the profile information
+              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
             />
             <Perfil
               imageUrl="/Daniel.png"
               username="Daniel Vasconcelos"// Replace with the actual path to your image
-              profileInfo="Estudante de Enhenharia da Computação" // Replace with the profile information
+              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
             />
             <Perfil
               imageUrl="/Alessandro.jpeg" // Replace with the actual path to your image
               username="Alessandro" // Replace with the username
-              profileInfo="Estudante de Enhenharia da Computação" // Replace with the profile information
+              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
             />
             {/* Add other profile cards here */}
           </div>
@@ -57,12 +57,12 @@ export default function Info() {
             <Perfil
               imageUrl="/Eduardo.jpeg" // Replace with the actual path to your image
               username="Eduardo" // Replace with the username
-              profileInfo="Estudante de Enhenharia da Computação" // Replace with the profile information
+              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
             />
             <Perfil
               imageUrl="/Aryel.jpeg" // Replace with the actual path to your image
               username="Aryel" // Replace with the username
-              profileInfo="Estudante de Enhenharia da Computação" // Replace with the profile information
+              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
             />
             <Perfil/>
           </div>
