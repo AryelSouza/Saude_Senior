@@ -29,7 +29,7 @@
     width: 185px;
     height: 260px;
     border-radius: 10px;
-    background: rgba(100, 84, 84, 0.56);
+    background: rgba(0, 0, 0, 0.56);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.1px);
     -webkit-backdrop-filter: blur(6.1px);
@@ -37,21 +37,23 @@
   }
   
   .detail {
+    justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
     width: 185px;
     height: 195px;
     border-radius: 10px;
-    background-color: rgba(78, 77, 54, 0.986);
+    background-color: rgba(255, 255, 255, 0.986);
   }
   
   .profileImg {
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     object-fit: cover;
     margin-top: 5px; /* Adjust the position of the image to overlap with the profile card */
     margin-left: 8px;
-    border: 1px solid rgb(24, 21, 21); /* Optional: Add a border to the image */
   }
   .detail:hover{
     box-shadow: 0px 3px 3px 0px #00000040;

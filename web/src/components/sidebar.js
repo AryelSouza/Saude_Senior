@@ -1,7 +1,8 @@
 import styles from '@/styles/Home.module.css'
 import stylesGlobal from '@/styles/Global.module.css'
 import {useRouter} from 'next/router'
-import { useState } from 'react';
+import ThemeContext from '@/contexts/flagSideBar';
+import { useContext, useState } from 'react';
 
 export default function SideBar({pagAtual}){
     const router = useRouter();
@@ -15,7 +16,7 @@ export default function SideBar({pagAtual}){
             
             <div className={stylesGlobal.options}>
 
-              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/')}}  >
+              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/')}}>
                 <img className={stylesGlobal.option} src='/home.svg'></img>
                 {
                 sideBar
@@ -24,7 +25,7 @@ export default function SideBar({pagAtual}){
                 }
               </div>
 
-              <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/capacitacao')}}>
+              <div className={stylesGlobal.divSidebar} onClick={()=>{console.log(sideBar);router.push('/capacitacao')}}>
                 <img className={stylesGlobal.option} src='/video.svg'></img>
                 {
                   sideBar

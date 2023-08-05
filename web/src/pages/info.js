@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import stylesGlobal from '@/styles/Global.module.css'
-const inter = Inter({ subsets: ['latin'] })
 import { useRouter } from 'next/router'
 import SideBar from '@/components/sidebar'
 import Background from '@/components/background'
@@ -13,20 +11,6 @@ import Perfil from "@/components/perfilInfo.js"
 /* componente responsável pela página info */
 export default function Info() {
   const router = useRouter();
-
-  const Perfil = ({ imageUrl, username, profileInfo }) => {
-    return (
-      <div className={styles.perfil}>
-        <div className={styles.detail}>
-          {/* Add your image here */}
-          <img src={imageUrl} alt="Profile Picture" className={styles.profileImg} />
-        </div>
-        {/* Display other profile details here */}
-        <h2>{username}</h2>
-        <p>{profileInfo}</p>
-      </div>
-    );
-  };
 
   return (
     <>
