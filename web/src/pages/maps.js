@@ -25,12 +25,10 @@ export default function Home() {
             <BarraPesquisa/>
             {
               data.map((element)=>
-              {
                 <div key={element.nome}>
                   <p>Nome: {element.nome}</p>
                   Endereço: {element.endereco}
                 </div>
-              }
               )
             }
         </div>
