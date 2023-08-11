@@ -47,7 +47,7 @@ export default function SideBar({pagAtual}){
                 <img className={stylesGlobal.option} src='/flag.svg'></img>
                 {
                   sideBar
-                    ? <h2 className={stylesGlobal.tituloSidebar}>Reportar</h2>
+                    ? <h2 className={stylesGlobal.tituloSidebar}>Dúvidas</h2>
                     : null
                 }
               </div>

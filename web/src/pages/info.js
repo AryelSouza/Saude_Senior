@@ -1,54 +1,55 @@
-import Head from 'next/head'
-import stylesGlobal from '@/styles/Global.module.css'
 import { useRouter } from 'next/router'
-import SideBar from '@/components/sidebar'
 import Background from '@/components/background'
 import HeadPadrao from '@/components/headPadrao'
-import BarraPesquisa from '@/components/barraPesquisa'
 import styles from "@/styles/Info.module.css"
-import Perfil from "@/components/perfilInfo.js"
+import Image from 'next/image'
+
+import { useState, useEffect, useRef } from 'react'
+
+import { motion } from 'framer-motion'
+import image1 from "@/images/1.svg"
+import image2 from "@/images/2.svg"
+import image3 from "@/images/3.svg"
+import image4 from "@/images/4.svg"
+import image5 from "@/images/5.svg"
+import image6 from "@/images/6.svg"
+import image7 from "@/images/7.svg"
+
+const images = [image1,image2,image3,image4,image5,image6,image7]
 
 /* componente responsável pela página info */
 export default function Info() {
   const router = useRouter();
+  const carousel = useRef();
+  const [width, setWidth] = useState(0)
+
+  useEffect(()=>{
+    setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
+  },[])
 
   return (
     <>
       <HeadPadrao>Info</HeadPadrao>
       <Background>
-        <div className={styles.all}>
-          <div className={styles.perfis}>
-            {/* Use the Perfil component with the image */}
-            <Perfil
-              imageUrl="/lipe.png" // Replace with the actual path to your image
-              username="Luis felipe" // Replace with the username
-              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
-            />
-            <Perfil
-              imageUrl="/Daniel.png"
-              username="Daniel Vasconcelos"// Replace with the actual path to your image
-              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
-            />
-            <Perfil
-              imageUrl="/Alessandro.jpeg" // Replace with the actual path to your image
-              username="Alessandro" // Replace with the username
-              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
-            />
-            {/* Add other profile cards here */}
-          </div>
-          <div className={styles.perfis}>
-            {/* Add more profile cards here */}
-            <Perfil
-              imageUrl="/Eduardo.jpeg" // Replace with the actual path to your image
-              username="Eduardo" // Replace with the username
-              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
-            />
-            <Perfil
-              imageUrl="/Aryel.jpeg" // Replace with the actual path to your image
-              username="Aryel" // Replace with the username
-              profileInfo="Estudante de Engenharia da Computação" // Replace with the profile information
-            />
-            <Perfil/>
+        <div className={styles.global}>
+          <h1 >Equipe de Produção</h1>
+          <div className={styles.all}>
+            <motion.div ref={carousel} className={styles.carousel} whileTap={{cursor: "grabbing"}}>
+              <motion.div 
+                className={styles.inner}
+                drag={"x"}
+                dragConstraints={{right:0, left: -width}}
+              > 
+                {
+                  images.map(image => (
+                    <motion.div className={styles.item} key={image}>
+                      <Image className={styles.img} src={image} alt='Apresentação dos relacionados'/>
+                    </motion.div>
+                  ))
+                }
+
+              </motion.div>
+            </motion.div>
           </div>
         </div>
       </Background>

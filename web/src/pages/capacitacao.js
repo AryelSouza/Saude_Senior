@@ -10,15 +10,11 @@ import HeadPadrao from "@/components/headPadrao";
 import BarraPesquisa from "@/components/barraPesquisa";
 import Apresentacao from "@/components/apresentacao";
 import { useState } from "react";
+import Button from "@/components/button";
 
 export default function Home() {
   const router = useRouter();
   const [fase, setFase] = useState(1);
-
-  const styleBg = {
-    backgroundImage: `url("/big.png")`,
-    /* outras propriedades de estilo */
-  };
 
   return (
     <>
@@ -29,7 +25,6 @@ export default function Home() {
       ></meta>
       <Background>
         <div className={styles.all}>
-          <BarraPesquisa></BarraPesquisa>
           <div className={styles.options}>
             <div
               className={styles.option}
@@ -61,57 +56,37 @@ export default function Home() {
             >
               Fase 3
             </div>
+            <div
+              className={styles.option}
+              style={{
+                backgroundColor:
+                  fase == 4 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+              }}
+              onClick={() => setFase(4)}
+            >
+              Fase 4
+            </div>
+            <div
+              className={styles.option}
+              style={{
+                backgroundColor:
+                  fase == 5 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+              }}
+              onClick={() => setFase(5)}
+            >
+              Fase 5
+            </div>
           </div>
 
           {fase == 1 && (
-            <div className={styles.videos}>
+            <div className={styles.fase}>
               {/* Renderizar seus vídeos aqui */}
               {/* Exemplo de vídeo: */}
 
               <div className={styles.videoItem}>
-                <iframe
-                  //width="400"
-                  //height="200"
-                  src="https://www.youtube.com/embed/EDhkxMvpnEE"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/SMBPnXK-VKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
-              <div className={styles.videoItem}>
-                <iframe
-                  //width="400"
-                  //height="200"
-                  src="https://www.youtube.com/embed/2G1Bnwsw7lA"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className={styles.videoItem}>
-                <iframe
-                  //width="560"
-                  //height="315"
-                  src="https://www.youtube.com/embed/MGWOw9IEHco"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <div className={styles.videoItem}>
-                <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/_u8qTN3cCnQ"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-              </div>
+              <Button>Baixar</Button>
             </div>
           )}
 

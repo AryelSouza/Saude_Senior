@@ -17,3 +17,9 @@ body{
 .slick-prev.slick-arrow:before, .slick-next.slick-arrow:before{
   color: black !important;
 }
+
+h1{
+  font-weight: 900;
+  font-size: 36px;
+  color: black;
+}

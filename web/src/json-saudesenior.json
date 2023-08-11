@@ -1,0 +1,1851 @@
+﻿[
+    {
+        "nome": "UBS Antônio Arruda",
+        "endereco": "R.Josino Agra, S/N - José Pinheiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Ant%C3%B4nio+Arruda/@-7.2200629,-35.8734571,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f52625623c1:0x5927709563549ca8!8m2!3d-7.2200682!4d-35.8708822!16s%2Fg%2F11f7fpxgtr?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Antônio Mesquita de Almeida",
+        "endereco": "R. Professor Hortêncio Ribeiro, 478 – M. Castelo.",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Ubs+Ant%C3%B4nio+Mesquita+De+Almeida/@-7.2214356,-35.8707968,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ef924ca738d:0x4724deb493df413!8m2!3d-7.2214409!4d-35.8682219!16s%2Fg%2F11gfdd4cvm?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Plínio Lemos - Equipe I e II",
+        "endereco": "R. Severino de Branco, S/N - José Pinheiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Pl%C3%ADnio+Lemos/@-7.2190913,-35.8722857,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1eff173c4435:0x8749c71bf96bc92a!8m2!3d-7.2190966!4d-35.8697108!16s%2Fg%2F11f10g29k4?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Campos Sales",
+        "endereco": "R. Campos Sales, S/N - José Pinheiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+B%C3%A1sica+de+Sa%C3%BAde+-+Campos+Sales/@-7.2271044,-35.8747643,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e5887921eef:0xb725ffee59a075b6!8m2!3d-7.2271097!4d-35.8721894!16s%2Fg%2F11b6d9j6y5?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Francisco Brasileiro",
+        "endereco": "R. Srg. Edson Sales, S/N - José Pinheiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Francisco+Brasileiro/@-7.2225104,-35.8713647,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ef8ff3a0657:0x8f55d9cdeb5a7b9b!8m2!3d-7.2225157!4d-35.8687898!16s%2Fg%2F11b6hp2f9j?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Horacina de Almeida - Equipe I e II",
+        "endereco": "R. Abdedon Licarião, S/N – M. Castelo",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Horacina+Almeida/@-7.2184824,-35.8684134,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1efdd6760323:0xca9515226fc10673!8m2!3d-7.2184877!4d-35.8658385!16s%2Fg%2F11b6hnkbs0?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Padre Rachid - Equipe I e II",
+        "endereco": "R. Francisco Antônio Nascimento - Glória",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Padre+Rachid+Ilo+Beserra+(Gl%C3%B3ria+2)/@-7.2127443,-35.8629373,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f21d534ce61:0x162d79475005e482!8m2!3d-7.2127496!4d-35.8580664!16s%2Fg%2F11sqsjtwlh?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "Âncora - Sítio Marinho",
+        "endereco": "R. Sítio Marinho s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Jardim Tavares",
+        "endereco": "R. Epaminondas Macaxeira, s/n - Jardim Tavares",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+JARDIM+TAVARES/@-7.2104921,-35.8775739,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f0a930874f1:0xaf9c8eb06b4f0f9!8m2!3d-7.2104974!4d-35.874999!16s%2Fg%2F11tfgwymz8?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Tota Agra",
+        "endereco": "R. José Adelino de Melo, S/N – J. Pinheiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Jos%C3%A9+Adelino+de+Melo+-+Jos%C3%A9+Pinheiro,+Campina+Grande+-+PB,+58407-285/@-7.2243606,-35.8712768,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ef9ccd86ad1:0x388e6ebae85e91fd!8m2!3d-7.2243659!4d-35.8687019!16s%2Fg%2F1ymsx81w4?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Wesley Cariri Targino - Equipe I e II",
+        "endereco": "R. Juiz Orlando Tejo, 30 - Nova Brasília",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Ju%C3%ADz+Orlando+Tej%C3%B3,+30+-+Nova+Bras%C3%ADlia,+Campina+Grande+-+PB,+58406-735/@-7.2187301,-35.8626342,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ee2d086f2cd:0x4260258b20343325!8m2!3d-7.2187354!4d-35.8600593!16s%2Fg%2F11c5dxt356?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "Centro de Saúde Francisco Pinto",
+        "endereco": "R. Venâncio Neiva, S/N - Centro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+de+Sa%C3%BAde+Dr.+Francisco+Pinto+de+Oliveira/@-7.2191309,-35.88872,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e4ddfa190ef:0x9824d978720ab21a!8m2!3d-7.2191362!4d-35.8838491!16s%2Fg%2F1ydnqh24p?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "Policlínica Terezinha Garcia Ribeiro - Zona Leste",
+        "endereco": "R. Pedro da Costa Agra, S/N - José Pinheiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Pedro+da+Costa+Agra+-+Jos%C3%A9+Pinheiro,+Campina+Grande+-+PB,+58407-270/@-7.2253492,-35.8688561,18.38z/data=!4m6!3m5!1s0x7ac1ef77b33e12f:0x2103da219a048b49!8m2!3d-7.2254439!4d-35.8682139!16s%2Fg%2F1ymw9xhqq?entry=ttu",
+        "telefone": "null",
+        "distrito": 1
+    },
+    {
+        "nome": "UBS Bela vista",
+        "endereco": "R. Aprígio Veloso, 195 - Bela Vista",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Apr%C3%ADgio+Veloso,+195+-+Prata,+Campina+Grande+-+PB,+58429-170/@-7.2168562,-35.9096291,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e2dfa6be223:0xfa2841cfe9168304!8m2!3d-7.2168615!4d-35.9047582!16s%2Fg%2F11s9tg9wy8?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Adalberto César - Equipe I e II",
+        "endereco": "R. Nilton Paiva Fernandes S/N - Pedregal",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Adalberto+C%C3%A9sar/@-7.2224293,-35.873693,21z/data=!4m7!3m6!1s0x7ac1e564ce12d7f:0x21e62c5abd153737!8m2!3d-7.2223503!4d-35.8734767!10e5!16s%2Fg%2F11b6hrd13s?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Bodocongó - Equipe I e II",
+        "endereco": "R. Florípedes Coutinho S/N – Bodocongó",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Bodocong%C3%B3/@-7.2171335,-35.9233629,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea14f9b0456df:0xe1e3c7b587ea3eaa!8m2!3d-7.2171388!4d-35.920788!16s%2Fg%2F11p6l9lfcb?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Eduardo Ramos",
+        "endereco": "R. Ladislau Rodrigues de Souza, 428 - Centenário",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Ladislau+Rodrigues+de+Souza,+428+-+Centen%C3%A1rio,+Campina+Grande+-+PB,+58428-090/@-7.2287265,-35.9045237,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e3cfc282573:0x9a89cf824e43ce72!8m2!3d-7.2287318!4d-35.9019488!16s%2Fg%2F11h0t8vm37?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS João Rique - Equipe I e II",
+        "endereco": "R. Cantor Paulo Sergio S/N - Bodocongó",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Jo%C3%A3o+Rique/@-7.2244322,-35.9204984,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea09dadf173b7:0xba1ce5bbc22f9ec8!8m2!3d-7.2244375!4d-35.9179235!16s%2Fg%2F11b6j72w6_?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Malvinas V - Equipe I e II",
+        "endereco": "R. José Zacarias da Costa, 504 - Malvinas",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Ubs+Malvinas+V/@-7.2308133,-35.9334335,15z/data=!4m10!1m2!2m1!1sUBS+Malvinas+!3m6!1s0x7aea0a259d3b333:0xe501cebf5b362469!8m2!3d-7.2308454!4d-35.9231338!15sCgxVQlMgTWFsdmluYXOSARdjb21tdW5pdHlfaGVhbHRoX2NlbnRlcuABAA!16s%2Fg%2F11c6ldggyk?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Raimundo Carneiro - Equipe I e II",
+        "endereco": "R. Reginaldo Cavalcante S/N - Pedregal",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+RAIMUNDO+CARNEIRO/@-7.2265632,-35.9156813,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e216eaa052b:0x8157c04ec0d99fc6!8m2!3d-7.2265685!4d-35.9108104!16s%2Fg%2F11b6hnvhmw?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Ricardo Amorim Guedes - Equipe I e II",
+        "endereco": "R. Pinta Marinho Santiago S/N - Malvinas",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Ricardo+Amorim+Guedes/@-7.2323066,-35.929114,18.17z/data=!4m6!3m5!1s0x7aea0bc685a2235:0xcef450ffab3aa8b2!8m2!3d-7.2319022!4d-35.9298508!16s%2Fg%2F11cn5r3f2h?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Jardim Quarenta",
+        "endereco": "R. Avenida Juscelino Kubitschek 233 - Velame",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Jardim+Quarenta/@-7.2390346,-35.9040176,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f40a37ccb07:0x701ec9dbeb614df7!8m2!3d-7.2390399!4d-35.9014427!16s%2Fg%2F11p_6dg7jx?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Quarenta",
+        "endereco": "R. Rua do Sol, 810 - Santa Rosa",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+do+Sol,+810+-+Quarenta,+Campina+Grande+-+PB,+58416-540/@-7.2332721,-35.9048877,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e17a7c350f1:0xf2e9a951a15e8d65!8m2!3d-7.2332774!4d-35.9023128!16s%2Fg%2F11c5kcdj1k?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Hindemburgo Nunes de Figueiredo - Equipe I, II e III - Saúde na Hora",
+        "endereco": "R. Joaquim Amorim Júnior, 941 - Bodocongó / Ramadinha",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Joaquim+Amorim+Jr.,+941+-+Malvinas,+Campina+Grande+-+PB,+58433-360/@-7.2264539,-35.9285645,17z/data=!3m1!4b1!4m5!3m4!1s0x7aea0977de04d65:0x64bbc1b7310a93a3!8m2!3d-7.2264592!4d-35.9259896?entry=ttu",
+        "telefone": "null",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS – Adriana Bezerra - Equipe I, II e III - Saúde na Hora",
+        "endereco": "R. do Sol, 810 - Santa Rosa",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+B%C3%A1sica+de+Sa%C3%BAde+-+Adriana+Bezerra+Carvalho/@-7.2330783,-35.9069116,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e182a9b9995:0x29f98919d2d93ece!8m2!3d-7.2330836!4d-35.9043367!16s%2Fg%2F11b6cl0842?entry=ttu",
+        "telefone": "8333106259",
+        "distrito": 2
+    },
+    {
+        "nome": "Centro de Saúde Bela Vista",
+        "endereco": "R. Pedro II, S/N - Bela Vista",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Posto+de+Saude+da+Bela+Vista/@-7.2171547,-35.9018987,18.29z/data=!4m10!1m2!2m1!1scentro+de+sa%C3%BAde+bela+vista!3m6!1s0x7ac1e33d74bcec7:0x6dcc558516381712!8m2!3d-7.2172925!4d-35.9011041!15sChtjZW50cm8gZGUgc2HDumRlIGJlbGEgdmlzdGGSAQ5tZWRpY2FsX2NlbnRlcuABAA!16s%2Fg%2F11b66c_ylk?entry=ttu",
+        "telefone": "8333106347",
+        "distrito": 2
+    },
+    {
+        "nome": "UBS Araxá",
+        "endereco": "R. Prof. Euripedes Gomes da Cruz, S/N - Jeremias",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+do+Araxá+(Postinho+do+Araxá)/@-7.2057024,-35.9026225,15.61z/data=!4m14!1m7!3m6!1s0x7ac1f280eca08f3:0xa1aec1a9fba2dfda!2sUBSF+do+Araxá+(Postinho+do+Araxá)!8m2!3d-7.202496!4d-35.8997057!16s%2Fg%2F11h1zd7q3g!3m5!1s0x7ac1f280eca08f3:0xa1aec1a9fba2dfda!8m2!3d-7.202496!4d-35.8997057!16s%2Fg%2F11h1zd7q3g?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Bonald Filho - Equipe I e II",
+        "endereco": "R. Antonieta Cavalcante S/N - Monte Santo",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+da+Família+-+Bonald+Filho/@-7.2116121,-35.910981,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fccf1c1b89d:0xcd905a85f48e179c!8m2!3d-7.2116122!4d-35.9006813!16s%2Fg%2F11b6ggvqzq?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Conceição",
+        "endereco": "R. José P. Soares nº. 55 - Conceição",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Conceição/@-7.2113261,-35.8960286,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ff0d88bebf5:0x5db654e8b76d3588!8m2!3d-7.2113262!4d-35.8857289!16s%2Fg%2F11t6mfxv_v?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Inácio Mayer - Equipe I e II",
+        "endereco": "R. Antonio Soares da Silva S/N - Jeremias",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Inácio+Mayer+(Postinho+do+Jeremias)/@-7.2053448,-35.9112764,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fcf6be5efc9:0xa74db975c8d0391f!8m2!3d-7.2053449!4d-35.9009767!16s%2Fg%2F11b6j728k3?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Jardim Continental",
+        "endereco": "R. Antonio A. de Lima, 297 - Jardim Continental",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Jardim+Continental/@-7.1960089,-35.9036557,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f9501ad7ff3:0xb3fb902747efa880!8m2!3d-7.196009!4d-35.893356!16s%2Fg%2F1v9lb_46?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Jeremias - Equipe I e II",
+        "endereco": "R. São Benedito, S/N - Jeremias",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Jeremias+II/@-7.2057563,-35.9042018,16z/data=!4m10!1m2!2m1!1sUBS+Jeremias+-+Equipe+I+e+II!3m6!1s0x7ac1f949974d671:0xd521793eba807a1!8m2!3d-7.2061678!4d-35.8971271!15sChxVQlMgSmVyZW1pYXMgLSBFcXVpcGUgSSBlIElJkgEXY29tbXVuaXR5X2hlYWx0aF9jZW50ZXLgAQA!16s%2Fg%2F11rhwhs1w9?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Jocel Fechine",
+        "endereco": "R. Bruxelas S/N - Cuités",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Ubsf+-+Jocel+Fechine/@-7.187413,-35.9094181,16z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fef89ce2039:0x8342f5e55e19428!8m2!3d-7.187413!4d-35.9042682!16s%2Fg%2F11b6j7psgz?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Monte Santo",
+        "endereco": "R. Agripino Diniz, 58 - Jeremias",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+-+Monte+Santo/@-7.2099582,-35.9014462,18z/data=!4m10!1m2!2m1!1sUBS+Monte+Santo!3m6!1s0x7ac1fcea502af0b:0xd5699b028a191748!8m2!3d-7.2083042!4d-35.8996361!15sCg9VQlMgTW9udGUgU2FudG8iA_ABAZIBDm1lZGljYWxfY2VudGVy4AEA!16s%2Fg%2F11b6ggcvy4?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Nações",
+        "endereco": "R. Dr. Vasconcelos 1509-B - Nações",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Nações+30771321+ramal+4127/@-7.1995845,-35.8900402,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fbc904ca175:0x53b2323a065cc03f!8m2!3d-7.1995846!4d-35.8797405!16s%2Fg%2F11hcvgn5_6?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Novo Araxá",
+        "endereco": "R. Alcides Carneiro, 506 - Araxá",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Novo+Araxá/@-7.2041094,-35.91869,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f59ca7dbd3f:0x2168f68ec38f33c4!8m2!3d-7.2041095!4d-35.9083903!16s%2Fg%2F11shlp19bc?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Palmeira",
+        "endereco": "R. Sinhazinha de Oliveira, 403 - Palmeira",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+PALMEIRA+I+-+POSTO+DE+SAÚDE/@-7.2103834,-35.9065774,15z/data=!4m10!1m2!2m1!1sUBS+Palmeira!3m6!1s0x7ac1f9b7f2ec187:0xf38f740df23d841b!8m2!3d-7.211509!4d-35.89659!15sCgxVQlMgUGFsbWVpcmEiA_ABAZIBBmRvY3RvcuABAA!16s%2Fg%2F11h_tv7ls7?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Rosa Mística",
+        "endereco": "R. Franklin Araújo S/N - Alto Branco",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Rosa+Mistica/@-7.207824,-35.8965151,15z/data=!4m6!3m5!1s0x7ac1fae3c285a89:0xa224351983ba373e!8m2!3d-7.2078241!4d-35.8862154!16s%2Fg%2F11fz9x53jn?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "Centro de Saúde da Palmeira",
+        "endereco": "R. Ana Azevedo, 508 - Palmeira",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+de+Saúde+da+Palmeira/@-7.209258,-35.9062651,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fca2b0284fd:0xe4ec36230b7e6709!8m2!3d-7.2092581!4d-35.8959654!16s%2Fg%2F11cmh98kgn?entry=ttu",
+        "telefone": "null",
+        "distrito": 3
+    },
+    {
+        "nome": "UBS Estação Velha",
+        "endereco": "R. Goiás, 90 - Estação Velha",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+Estação+Velha/@-7.2315058,-35.8956514,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e42e451caf9:0xb7a91413694a6025!8m2!3d-7.2315059!4d-35.8853517!16s%2Fg%2F11b6dxsj6v?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS José Aurino Barros - Equipe I e II",
+        "endereco": "R. João Benoni de Andrade - Catolé",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+da+Família+José+Aurino+de+Barros+Filho/@-7.2312426,-35.8897597,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e5da94d9e57:0x1cd80386d0775468!8m2!3d-7.2312427!4d-35.87946!16s%2Fg%2F11b6gn76k_?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Liberdade III",
+        "endereco": "R. São Paulo, 173 - Liberdade",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+S%C3%A3o+Paulo,+173+-+Liberdade,+S%C3%A3o+Paulo+-+SP,+01513-000/@-23.5569109,-46.6313037,19.12z/data=!4m5!3m4!1s0x94ce590872fbba13:0x94dee4bd41a89bc5!8m2!3d-23.5567831!4d-46.6311848?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Nossa Senhora Aparecida",
+        "endereco": "R. João Bezerra Paz, 35 - Tambor",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+Nossa+Senhora+Aparecida/@-7.2429111,-35.8955139,15z/data=!4m10!1m2!2m1!1sUBS+Nossa+Senhora+Aparecida!3m6!1s0x7ac1e702e3f008b:0x8f6324ba733605ea!8m2!3d-7.2427309!4d-35.8852697!15sChtVQlMgTm9zc2EgU2VuaG9yYSBBcGFyZWNpZGGSAQhob3NwaXRhbOABAA!16s%2Fg%2F11b6gddrqn?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Porteira de Pedra",
+        "endereco": "Trav. João Galdino, 2388 - Santa Terezinha",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+PORTEIRA+DE+PEDRA/@-7.2447167,-35.8603621,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f464598f2b7:0x8f69b3f9f41cc055!8m2!3d-7.2447168!4d-35.8500624!16s%2Fg%2F11q4cxrb9c?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Romualdo Brito de Figueiredo - Equipe I e I",
+        "endereco": "R. Praça Floriano da S. Colaço, S/N - Jardim Paulistano",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Pra%C3%A7a+Florinda+da+Silva+Cola%C3%A7o+-+Jardim+Paulistano,+Campina+Grande+-+PB,+58415-247/@-7.2515441,-35.8970516,16.76z/data=!4m6!3m5!1s0x7ac1e0a81a3aa75:0x10e3bc940db7e21b!8m2!3d-7.24957!4d-35.8958687!16s%2Fg%2F11cmkrr914?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Tambor I",
+        "endereco": "R. do Juá, S/N - Tambor",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+TAMBOR+I/@-7.2500585,-35.9367062,13z/data=!4m10!1m2!2m1!1sUBS+Tambor+I!3m6!1s0x7ac1dfeda85e229:0xf9e197600d6162d3!8m2!3d-7.2539743!4d-35.8862735!15sCgxVQlMgVGFtYm9yIEmSARlmYW1pbHlfcHJhY3RpY2VfcGh5c2ljaWFu4AEA!16s%2Fg%2F11tkb4v616?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Tambor II",
+        "endereco": "R. Maurício Travassos de Moura, 237 - Tambor",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Tambor+II/@-7.2360946,-35.9021109,14z/data=!4m10!1m2!2m1!1sUBS+Tambor+II!3m6!1s0x7ac1f2aacf5a88f:0x331ca15d60670794!8m2!3d-7.2498398!4d-35.889546!15sCg1VQlMgVGFtYm9yIElJkgEXY29tbXVuaXR5X2hlYWx0aF9jZW50ZXLgAQA!16s%2Fg%2F11shkcpbqd?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Wilson Furtado I",
+        "endereco": "R. Maria Araújo, S/N - Vila Cabral",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Wilson+Furtado/@-7.2402703,-35.8741876,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e8ef29db239:0x130e2d4438dde858!8m2!3d-7.2402704!4d-35.8638879!16s%2Fg%2F11b6hqw76w?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Wilson Furtado II",
+        "endereco": "R. Antônio Matias de Figueiredo, SN - Itararé",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Ant%C3%B4nio+Matias+Figueiredo+-+Vila+Cabral,+Campina+Grande+-+PB,+58408-305/@-7.2480222,-35.8726311,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e80c88e9a49:0x62555d125d4bc3ec!8m2!3d-7.2480275!4d-35.8700562!16s%2Fg%2F1ymt57vrp?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora assentamento Santa Cruz",
+        "endereco": "SITIO S/N",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora Vera Cruz",
+        "endereco": "SITIO S/N",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS José Bezerra Pimentel",
+        "endereco": "R. Professor Clovis de Oliveira, 173 - Sandra Cavalcante",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+José+Bezerra+Pimentel/@-7.2433351,-35.8872927,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f91001ef7d9:0xc2d73b4f3fa7b40e!8m2!3d-7.2433352!4d-35.876993!16s%2Fg%2F11trlz2l4q?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Crisóstomo Lucena - Equipe I, II e III - Saúde na Hora",
+        "endereco": "Av. José da Cunha Lima S/N - Aluízio Campos",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Crisóstomo+Lucena/@-7.2884573,-35.894025,15z/data=!4m6!3m5!1s0x7ac1d6cedb1a1c9:0x8c5f7ef0da321ef9!8m2!3d-7.2884574!4d-35.8837253!16s%2Fg%2F11q33sxj22?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Antônio Virgílio Brasileiro - Equipe I, II e III - Saúde na Hora",
+        "endereco": "R. Ronaldo Cunha Lima S/N – Aluízio Campos",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Dr.+Ant%C3%B4nio+Virg%C3%ADlio+Brasileiro+Silva/@-7.2933493,-35.8807128,17.7z/data=!4m9!1m2!2m1!1sAv.+Ronaldo+Jos%C3%A9+da+Cunha+Lima+-+Campina+Grande,+PB!3m5!1s0x7ac1dab7e5f00bf:0x1202700c8169ddc2!8m2!3d-7.2939618!4d-35.878086!16s%2Fg%2F11n0prh817?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora Fazenda Velha",
+        "endereco": "Av. Ferroviária, s/n - Sítio Fazenda Velha",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Galante - Equipe I, II e III - Saúde na Hora",
+        "endereco": "R. Antônio Silva s/n – Galante",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Galante/@-7.3071497,-35.7844155,11z/data=!4m10!1m2!2m1!1sUBS+Galante!3m6!1s0x7ac1b29c592a2d3:0xc50361e4987a9923!8m2!3d-7.3071333!4d-35.7844167!15sCgtVQlMgR2FsYW50ZZIBF2NvbW11bml0eV9oZWFsdGhfY2VudGVy4AEA!16s%2Fg%2F11tryfnvp5?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora Sitio Brito",
+        "endereco": "SITIO S/N",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora Sítio Jorge",
+        "endereco": "SITIO S/N",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora Sítio Surrão",
+        "endereco": "SITIO S/N",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora Sítio Santana",
+        "endereco": "SITIO S/N",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Âncora Massapê",
+        "endereco": "SITIO S/N",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "Policlínica do Catolé",
+        "endereco": "R. Eutécia Vital Ribeiro, S/N - Catolé",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+de+Saúde+do+Catolé/@-7.2349141,-35.8804195,16z/data=!4m10!1m2!2m1!1sPoliclínica+do+Catolé!3m6!1s0x7ac1f7d38e805a5:0x9351a898cc913417!8m2!3d-7.2394572!4d-35.8727472!15sChdQb2xpY2zDrW5pY2EgZG8gQ2F0b2zDqVoZIhdwb2xpY2zDrW5pY2EgZG8gY2F0b2zDqZIBBmRvY3RvcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSU2NEZFVTVWxSRUFF4AEA!16s%2Fg%2F11g20htjyt?entry=ttu",
+        "telefone": "null",
+        "distrito": 4
+    },
+    {
+        "nome": "UBS Aluísio Salviano de Farias",
+        "endereco": "R. Maria Porto de Farias 471 - Acácio Figueiredo",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com.br/maps/place/R.+Maria+Porto+de+Farias,+471+-+Tr%C3%AAs+Irm%C3%A3s,+Campina+Grande+-+PB,+58424-229/@-7.2595501,-35.9355911,17z/data=!3m1!4b1!4m5!3m4!1s0x7aea74149b116b3:0x891313e2c69de941!8m2!3d-7.2595554!4d-35.9330162?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Anailda Carvalho Marinho",
+        "endereco": "R. Maria da Penha Castro Silva, QP1 - Acácio Figueiredo",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Anailda+Carvalho+Marinho/@-7.2671169,-35.9274876,21z/data=!4m6!3m5!1s0x7aea7688abe0fff:0xfe4171febaa00daf!8m2!3d-7.2671444!4d-35.9273715!16s%2Fg%2F11g00y2qv6?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Argemiro de Figueiredo",
+        "endereco": "R. José Gonçalves Lucena, S/N - Liberdade",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Argemiro+de+Figueiredo/@-7.2487941,-35.9109469,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e0ed97b7235:0xf06d1a69238fe7bb!8m2!3d-7.2487942!4d-35.9006472!16s%2Fg%2F11b6hv8bsq?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Bairro das Cidades I",
+        "endereco": "Av. São João Del Rei - Bairro das Cidades",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Bairro+das+Cidades+I/@-7.2732808,-35.9286566,19.24z/data=!4m6!3m5!1s0x7aea76fd000f717:0x271c3e2eaad754da!8m2!3d-7.2732977!4d-35.9282063!16s%2Fg%2F11b6j718r_?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Bairro das Cidades II",
+        "endereco": "R. Paulista, 249 - Bairro das Cidades",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Bairro+das+Cidades+II/@-7.2738784,-35.9413592,15z/data=!4m6!3m5!1s0x7aea75de77cd993:0x7d68dc7ae7e44d0a!8m2!3d-7.2738785!4d-35.9310595!16s%2Fg%2F11kp9hxmbc?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Benjamim B. da Silva - Equipe I e II",
+        "endereco": "R. Manoel Batista , S/N - Catingueira",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Benjamim+B+da+Silva/@-7.2730425,-35.934082,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea77778b46163:0x1dc31f85576015eb!8m2!3d-7.2730426!4d-35.9237823!16s%2Fg%2F11b6hp530m?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Catolé de Zé Ferreira",
+        "endereco": "R. Dulce Amorim 360 - Catolé de Zé Ferreira",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF-+Catolé+de+Zé+Ferreira/@-7.2747254,-35.9313997,14z/data=!4m10!1m2!2m1!1sUBS+Zé+Ferreira!3m6!1s0x7ac1d86c0f04685:0xc8916c1b91e3d0fa!8m2!3d-7.2786951!4d-35.911931!15sChBVQlMgWsOpIEZlcnJlaXJhkgEVcHVibGljX21lZGljYWxfY2VudGVy4AEA!16s%2Fg%2F11b6j7vmyd?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Maria de Lourdes Leôncio - Equipe I, II e III - Saúde na Hora",
+        "endereco": "R. Josefa Schafer, S/N - Novo Cruzeiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS.+Maria+de+Lourdes+Leôncio/@-7.2535096,-35.9137484,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1df471c075e3:0x454df22158ac76a2!8m2!3d-7.2535097!4d-35.9034487!16s%2Fg%2F11h2p86hq0?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Novo Horizonte",
+        "endereco": "Av. João Wallig, 2677-A - Novo Horizonte",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Novo+Horizonte/@-7.2590893,-35.9110885,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1def6fa09c45:0x9dbebf77338690a2!8m2!3d-7.2590894!4d-35.9007888!16s%2Fg%2F11dxssczg8?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Raiff Ramalho - Equipe I e II - Saúde na Hora",
+        "endereco": "R. Fco. Lopes de Almeida, S/N - Santa Cruz",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+-+Raiff+Ramalho/@-7.2462557,-35.9228974,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea74de7090fc3:0x3814c550049329de!8m2!3d-7.2462558!4d-35.9125977!16s%2Fg%2F11b6hmgjjv?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Ressurreição",
+        "endereco": "R. Iara Cordeiro da Costa, 400 - Ressurreição",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Ressureição/@-7.2462259,-36.0774078,11z/data=!4m10!1m2!2m1!1zVUJTIFJlc3N1cnJlacOnw6Nv!3m6!1s0x7ac1da3fd19f227:0x943b46f32d6a8dec!8m2!3d-7.2564971!4d-35.905269!15sChJVQlMgUmVzc3VycmVpw6fDo2-SARdjb21tdW5pdHlfaGVhbHRoX2NlbnRlcuABAA!16s%2Fg%2F11thf1gq19?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Ronaldo Cunha Lima",
+        "endereco": "R.Dalila Brito de Oliveira, Três Irmãs",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+da+Família+Ronaldo+da+Cunha+Lima/@-7.2593902,-35.9332828,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea75b09c0d915:0x13a8bef9c1ba7b77!8m2!3d-7.2593903!4d-35.9229831!16s%2Fg%2F11c2nn7fp_?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Serra da Borborema",
+        "endereco": "R. André Dias Pereira, 102 Ligeiro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+Serra+da+Borborema/@-7.2882822,-35.9037047,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1da2f5cbdd9d:0xe24ceac94b31f5e5!8m2!3d-7.2882823!4d-35.893405!16s%2Fg%2F11rfqp6jgb?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Severino de Souza Costa",
+        "endereco": "R. Dorgival de Oliveira, 63 - Presidente Médici",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Severino+de+Souza+Costa/@-7.2488665,-35.9220384,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1dc58e2a1f07:0x47d4512d28b95d30!8m2!3d-7.2488666!4d-35.9117387!16s%2Fg%2F11t8c93618?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Velame - Equipe I e II",
+        "endereco": "R. Coração de Jesus, 63 - Velame",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Velame/@-7.257209,-35.920858,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1d37f50faf05:0x5f4ee4ae36559e52!8m2!3d-7.2572091!4d-35.9105583!16s%2Fg%2F11jfjvgy3q?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Dra. Ana Cantalice – Equipe I e II - Saúde na hora",
+        "endereco": "R. Irmã Zuleide Porto S/N - Três irmãs",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Dra.+Ana+Cantalice/@-7.2711158,-35.9360173,15z/data=!4m6!3m5!1s0x7aea7066b73c68b:0xfc94b8fc612a3ab2!8m2!3d-7.2711493!4d-35.9358743!16s%2Fg%2F11qg9wk563?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "Centro de Saúde Liberdade",
+        "endereco": "R. Manoel L. Gomes, S/N - Liberdade",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+De+Saúde+Da+Liberdade/@-7.235982,-35.8991399,16z/data=!4m10!1m2!2m1!1scentro+de+saúde+da+liberdade!3m6!1s0x7ac1e0db6a246d9:0x3a20ce4b8060ce4d!8m2!3d-7.2425508!4d-35.8973386!15sCh1jZW50cm8gZGUgc2HDumRlIGRhIGxpYmVyZGFkZZIBBmRvY3RvcuABAA!16s%2Fg%2F11g9f4xzgr?entry=ttu",
+        "telefone": "null",
+        "distrito": 5
+    },
+    {
+        "nome": "UBS Ana Amélia Vilar Cantalice - Equipe I e II",
+        "endereco": "R. Fernando Noronha, S/N – Rocha Cavalcante",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/PSF+Ana+Amélia/@-7.2513354,-35.931564,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea753f09ca179:0x405556cd2e5add5e!8m2!3d-7.2513355!4d-35.9212643!16s%2Fg%2F11cm926j1p?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Antônio Aurélio Ventura",
+        "endereco": "R. Maria Eva de Moura, S/N - Três Irmãs/Cinza",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Antônio+Aurélio+Ventura/@-7.2533102,-35.9366481,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea7d10571d4d7:0x7e016513e6d2c073!8m2!3d-7.2533103!4d-35.9263484!16s%2Fg%2F11tryg2_t5?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Djalma Barbosa",
+        "endereco": "Sítio Catolé de Boa Vista",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "Âncora - Boi Velho",
+        "endereco": "Sítio Boi Velho",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": " Âncora - Queimada da Ema",
+        "endereco": "Sítio Queimada da Ema",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Estreito",
+        "endereco": "Distrito de Catolé de Boa Vista",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "Âncora - Lucas",
+        "endereco": "Sítio Lucas",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "Âncora - Salgadinho",
+        "endereco": "Sítio Salgadinho",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Jardim Verdejante",
+        "endereco": "R. Raul Pereira dos Santos, 80 A - Três Irmãs",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Jardim+Verdejante/@-7.2531738,-35.9350963,19.54z/data=!4m6!3m5!1s0x7aea748f17b3009:0x1fb24ddc6bc469e4!8m2!3d-7.2531003!4d-35.9346314!16s%2Fg%2F11b6hl5x3r?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Malvinas I - Equipe I e II - Saúde na Hora",
+        "endereco": "R. Fernando Noronha, S/N – Rocha Cavalcante",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+Malvinas+Um/@-7.2515146,-35.9215006,19.54z/data=!4m10!1m2!2m1!1sUBS+Malvinas+!3m6!1s0x7aea0acaf431175:0x9d3360d37e96fd54!8m2!3d-7.251423!4d-35.9212348!15sCgxVQlMgTWFsdmluYXOSARdjb21tdW5pdHlfaGVhbHRoX2NlbnRlcuABAA!16s%2Fg%2F11ggt1gwx7?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Malvinas III - Equipe I",
+        "endereco": "R. Carlos Formiga, 86 - Malvinas",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Malvinas+III+-+Equipe+I/@-7.2411339,-35.9358425,15z/data=!4m10!1m2!2m1!1sUBS+Malvinas+!3m6!1s0x7aea157c482b735:0x996b3091f1751dc!8m2!3d-7.2447941!4d-35.9266187!15sCgxVQlMgTWFsdmluYXOSARdjb21tdW5pdHlfaGVhbHRoX2NlbnRlcuABAA!16s%2Fg%2F11k9lhvtfk?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Malvinas III - Equipe II",
+        "endereco": "R. Lídia Batista Marques, 203 - Malvinas",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Malvinas+III+-+Equipe+II/@-7.2470677,-35.9288151,16.82z/data=!4m10!1m2!2m1!1sUBS+Malvinas+!3m6!1s0x7aea7ca48bcf139:0xbe7c4b35905e5552!8m2!3d-7.2483752!4d-35.9265508!15sCgxVQlMgTWFsdmluYXOSARdjb21tdW5pdHlfaGVhbHRoX2NlbnRlcuABAA!16s%2Fg%2F11sg5my3x7?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Malvinas II (Umburanas)",
+        "endereco": "Rua das Umburanas, S/N - Malvinas",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Umburanas/@-7.2441371,-35.9265176,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea0b27a02b9bb:0xb3dee69ba613b672!8m2!3d-7.2441371!4d-35.9265176!16s%2Fg%2F11f3xjj4k7?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Malvinas IV",
+        "endereco": "Av. Floriano Peixoto, S/N – Álvaro Gaudêncio",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Malvinas+IV+(+Posto+De+Saúde+Malvinas+)/@-7.2411336,-35.9344331,15z/data=!4m10!1m2!2m1!1sUBS+Malvinas+dois!3m6!1s0x7aea149ee93884f:0x8778043e0b525888!8m2!3d-7.237195!4d-35.9241128!15sChFVQlMgTWFsdmluYXMgZG9pc5IBF2NvbW11bml0eV9oZWFsdGhfY2VudGVy4AEA!16s%2Fg%2F11gj6yc21t?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Paus Brancos",
+        "endereco": "Sítio Paus Brancos",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "Âncora - Açude de Dentro",
+        "endereco": "Sítio Açude de Dentro",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Portal Sudoeste",
+        "endereco": "R. Pedro Feitosa Neves Filho nº 170 A - Portal Sudoeste",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Portal+Sudoeste/@-7.2411279,-35.9653331,13z/data=!4m10!1m2!2m1!1sUBS+Portal+Sudoeste!3m6!1s0x7aea7397230d779:0xd681189a49ca2322!8m2!3d-7.2649146!4d-35.9337802!15sChNVQlMgUG9ydGFsIFN1ZG9lc3RlkgEXY29tbXVuaXR5X2hlYWx0aF9jZW50ZXLgAQA!16s%2Fg%2F11s2rzjhvh?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Grande Campina",
+        "endereco": "R. Lindemberg Galdino da Silva nº 160 - Grande Campina",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+GRANDE+CAMPINA/@-7.2341545,-35.9375462,17z/data=!4m9!1m2!2m1!1sR.+Lindemberg+Galdino+da+Silva+n%C2%BA+160+-+Grande+Campina!3m5!1s0x7aea1aba2eab6e7:0x9514dfab9b2fe213!8m2!3d-7.2344578!4d-35.9363036!16s%2Fg%2F11sdytkgb4?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "Policlínica Luzia Cosme Dantas",
+        "endereco": "R. Plínio Lemos, S/N - Malvinas",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Policlínica+Luíza+Cosme+Dantas/@-7.2371171,-35.9344315,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea1e14469c5bb:0xa61391a3a52a03df!8m2!3d-7.2371172!4d-35.9241318!16s%2Fg%2F11t2lg17q0?entry=ttu",
+        "telefone": "null",
+        "distrito": 6
+    },
+    {
+        "nome": "UBS Beija Flor – (Zona rural I)",
+        "endereco": "Sítio Tambor - São José da Mata",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+Beija+Flor/@-7.2370948,-36.0065332,12z/data=!4m10!1m2!2m1!1sUBS+Beija+Flor!3m6!1s0x7aea152b4eccf6d:0x2afbb5409928392f!8m2!3d-7.1766763!4d-35.9968809!15sCg5VQlMgQmVpamEgRmxvcpIBF2NvbW11bml0eV9oZWFsdGhfY2VudGVy4AEA!16s%2Fg%2F11qmrrgph3?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS Bem-te-vi – (Zona rural II)",
+        "endereco": "Sítio Bosque - São José da Mata",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Bem-Te-Vi/@-13.7099676,-67.1555068,4z/data=!4m10!1m2!2m1!1sUBS+Bem-te-vi+!3m6!1s0x7aea184907af77f:0xed267f808e6b6084!8m2!3d-7.1827683!4d-35.9764703!15sCg1VQlMgQmVtLXRlLXZpkgEXY29tbXVuaXR5X2hlYWx0aF9jZW50ZXLgAQA!16s%2Fg%2F11khw2bx1f?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Âncora Sítio Covão",
+        "endereco": "Sítio s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Âncora Assentamento Antônio Eufrázio",
+        "endereco": "Sítio s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Âncora Sítio Monte Alegre",
+        "endereco": "Sítio s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS Colibri – (Zona urbana I)",
+        "endereco": "R. Arnaldo L. de Melo, 154 - São José da Mata",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBS+Colibri/@-7.1874733,-35.9798121,16.32z/data=!4m10!1m2!2m1!1sUBS+Colibri!3m6!1s0x7aea1b399e812f1:0x9cb3e3977e92f879!8m2!3d-7.186776!4d-35.977471!15sCgtVQlMgQ29saWJyaZIBF2NvbW11bml0eV9oZWFsdGhfY2VudGVy4AEA!16s%2Fg%2F11ss1gn122?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS Mutirão",
+        "endereco": "R. Praça Caixa D’água S/N - Mutirão",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Multir%C3%A3o/@-7.2285094,-35.9498979,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea0e7782f7f7d:0x37cda5a40d57c8ba!8m2!3d-7.2285146!4d-35.9473702!16s%2Fg%2F11b6j7np_w?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS Nely Maia",
+        "endereco": "R. Santa Terezinha, S/N - Bodocongó",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Ubsf+-+Nely+Maia/@-7.2089775,-35.9435061,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea088a9a7f5d7:0x13d165218bb894!8m2!3d-7.2089776!4d-35.9332064!16s%2Fg%2F11b6hl5lg2?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS Odete Leandro de Oliveira - UEPB",
+        "endereco": "R. Baraúnas, Universitário Bairro Bodocongó",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/UBSF+Odete+Leandro/@-7.2101571,-35.9163161,17.72z/data=!4m6!3m5!1s0x7ac1f5a7f9c8e57:0xf3fa6deb8e5942e9!8m2!3d-7.21007!4d-35.9151867!16s%2Fg%2F11j2zsp_ms?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS Pardal – (Zona rural III)",
+        "endereco": "Capim Grande, 203 - SÍTIO CAPIM GRANDE",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Âncora Sítio Serra de Joaquim Vieira",
+        "endereco": "Sítio s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Âncora Sítio Castelo",
+        "endereco": "Sítio s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Âncora Sítio Felix Amaro",
+        "endereco": "Sítio s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Âncora Sitio Cajazeiras",
+        "endereco": "Sítio s/n",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "zona rural",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS Sabiá – (Zona urbana II)",
+        "endereco": "R. Francisco Nogueira de Souza, 171 - São José da Mata",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Francisco+de+Sousa+Nogueira+-+S%C3%A3o+Jos%C3%A9+da+Mata,+Campina+Grande+-+PB/@-7.1776868,-35.9844738,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea1e7876195a5:0xa89bf39539576437!8m2!3d-7.1776921!4d-35.9818989!16s%2Fg%2F11cly74zxt?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "UBS São Januário II",
+        "endereco": "R. Maria Amélia Sobrinho, S/N - Bodocongó",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Ubsf+-+São+Januário+II/@-7.2076915,-35.9558081,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea058f04bdc8d:0x829c5b39f10f6c5b!8m2!3d-7.2076916!4d-35.9455084!16s%2Fg%2F11b6hn_w2d?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "Centro de Saúde Severino B. Cabral",
+        "endereco": "R. José Francisco de Farias S/N - São José da Mata",
+        "tipo": "Atenção Primária- Unidades Básicas de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+de+Saúde+Severino+Bezerra/@-7.1737672,-35.9802302,18.63z/data=!4m6!3m5!1s0x7aea1d3ec7ebd01:0x9c08f418c3a1d776!8m2!3d-7.1729945!4d-35.9797776!16s%2Fg%2F11t2ldb6vy?entry=ttu",
+        "telefone": "null",
+        "distrito": 7
+    },
+    {
+        "nome": "PROGRAMA ACADEMIA DA SAÚDE",
+        "endereco": "RUA JOSINO AGRA, JOSÉ PINHEIRO",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/R.+Josino+Agra+-+Jos%C3%A9+Pinheiro,+Campina+Grande+-+PB,+58407-315/@-7.2201163,-35.871748,18z/data=!3m1!4b1!4m6!3m5!1s0x7ac1eff5a569d15:0x27bfaeac979a0681!8m2!3d-7.2201178!4d-35.8710167!16s%2Fg%2F1ymsjnn_6?entry=ttu",
+        "telefone": "8333227072",
+        "distrito": null
+    },
+    {
+        "nome": "UBS RICARDO AMORIM GUEDES",
+        "endereco": "RUA PINTA MARINHO SANTIAGO, MALVINAS",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/UBS+Ricardo+Amorim+Guedes/@-7.2319021,-35.9401505,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea0bc685a2235:0xcef450ffab3aa8b2!8m2!3d-7.2319022!4d-35.9298508!16s%2Fg%2F11cn5r3f2h?entry=ttu",
+        "telefone": "8333107194",
+        "distrito": null
+    },
+    {
+        "nome": "UBS PADRE RACHID",
+        "endereco": "NOVA BRASÍLIA, CAMPINA GRANDE - PB",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/UBS+-+Padre+Rachid+Ilo+Beserra+(Glória+2)/@-7.2127495,-35.8683661,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f21d534ce61:0x162d79475005e482!8m2!3d-7.2127496!4d-35.8580664!16s%2Fg%2F11sqsjtwlh?entry=ttu",
+        "telefone": "83986581083",
+        "distrito": null
+    },
+    {
+        "nome": "UBS TAMBOR I",
+        "endereco": " RUA DO JUÁ, S/N - TAMBOR",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/UBSF+TAMBOR+I/@-7.2381618,-35.9021109,14z/data=!4m10!1m2!2m1!1sUBS+TAMBOR+L!3m6!1s0x7ac1dfeda85e229:0xf9e197600d6162d3!8m2!3d-7.2539743!4d-35.8862735!15sCgxVQlMgVEFNQk9SIEySARlmYW1pbHlfcHJhY3RpY2VfcGh5c2ljaWFu4AEA!16s%2Fg%2F11tkb4v616?entry=ttu",
+        "telefone": "8333155161",
+        "distrito": null
+    },
+    {
+        "nome": "UBS BENJAMIM B. DA SILVA",
+        "endereco": "RUA MANOEL BATISTA - CATINGUEIRA",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Benjamim+B+da+Silva/@-7.2730425,-35.934082,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea77778b46163:0x1dc31f85576015eb!8m2!3d-7.2730426!4d-35.9237823!16s%2Fg%2F11b6hp530m?entry=ttu",
+        "telefone": "8333106336",
+        "distrito": null
+    },
+    {
+        "nome": "POLICLÍNICA LUZIA COSME DANTAS",
+        "endereco": "AV. PLÍNIO LEMOS, 378 - MALVINAS",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/Policlínica+Luíza+Cosme+Dantas/@-7.2371171,-35.9344315,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea1e14469c5bb:0xa61391a3a52a03df!8m2!3d-7.2371172!4d-35.9241318!16s%2Fg%2F11t2lg17q0?entry=ttu",
+        "telefone": "8333107063",
+        "distrito": null
+    },
+    {
+        "nome": "UBS ANA AMÉLIA VILAR CANTALICE",
+        "endereco": "R. FERNANDO DE NORONHA, S.N. - TRÊS IRMÃS",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/PSF+Ana+Amélia/@-7.2513354,-35.931564,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea753f09ca179:0x405556cd2e5add5e!8m2!3d-7.2513355!4d-35.9212643!16s%2Fg%2F11cm926j1p?entry=ttu",
+        "telefone": "8333396317",
+        "distrito": null
+    },
+    {
+        "nome": "UBS DJALMA BARBOSA",
+        "endereco": "CATOLÉ DE BOA VISTA S/N DISTRITO DE CATOLÉ D",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/UBS+Djalma+Barbosa/@-7.2715607,-36.0982484,17z/data=!3m1!4b1!4m6!3m5!1s0x7aebb5f24a5d74d:0x241e0adbe149863a!8m2!3d-7.271566!4d-36.0956735!16s%2Fg%2F11fd3zc8x5?entry=ttu",
+        "telefone": "8399540886",
+        "distrito": null
+    },
+    {
+        "nome": "UBS MULTIRÃO",
+        "endereco": "R. SEVERINA MARTINS DE ARAÚJO, 12 - SERROTÃO",
+        "tipo": "PROGRAMA ACADEMIA DA SAÚDE",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Multirão/@-7.4189688,-39.289871,7z/data=!4m10!1m2!2m1!1sUBS+MUTIRÃO!3m6!1s0x7aea0e7782f7f7d:0x37cda5a40d57c8ba!8m2!3d-7.2285146!4d-35.9473702!15sCgxVQlMgTVVUSVLDg0-SARVwdWJsaWNfbWVkaWNhbF9jZW50ZXLgAQA!16s%2Fg%2F11b6j7np_w?entry=ttu",
+        "telefone": "8333349213",
+        "distrito": null
+    },
+    {
+        "nome": "UBS RAIFF RAMALHO",
+        "endereco": "AV. FRANCISCO LOPES DE ALMEIDA - SANTA CRUZ",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+-+Raiff+Ramalho/@-7.2462557,-35.9228974,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea74de7090fc3:0x3814c550049329de!8m2!3d-7.2462558!4d-35.9125977!16s%2Fg%2F11b6hmgjjv?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "CAPS AD SABER VIVER",
+        "endereco": "R. CAP. ADEMAR MAIA PAIVA, 896 - ALTO BRANCO",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Caps+AD+Adulto/@-7.2030442,-35.8846283,18.82z/data=!4m15!1m8!3m7!1s0x7ac1fbb3c53e991:0x5bb9a0d510b045e6!2sR.+Cap.+Ademar+Maia+Paiva,+896+-+Alto+Branco,+Campina+Grande+-+PB,+58401-740!3b1!8m2!3d-7.2028631!4d-35.8838508!16s%2Fg%2F11csdkctgr!3m5!1s0x7ac1fbae01364cf:0x5a0dd629f8c6b3af!8m2!3d-7.2035435!4d-35.8839389!16s%2Fg%2F11fx8cvhkx?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS JOÃO RIQUE",
+        "endereco": "R. CANTOR PAULO SÉRGIO - BODOCONGÓ",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+-+João+Rique/@-7.2244374,-35.9282232,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea09dadf173b7:0xba1ce5bbc22f9ec8!8m2!3d-7.2244375!4d-35.9179235!16s%2Fg%2F11b6j72w6_?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS MARIA DE LOURDES LEÔNCIO",
+        "endereco": "R. JOSEF SCHAFER - CRUZEIRO",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS.+Maria+de+Lourdes+Leôncio/@-7.2535096,-35.9137484,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1df471c075e3:0x454df22158ac76a2!8m2!3d-7.2535097!4d-35.9034487!16s%2Fg%2F11h2p86hq0?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO DE SAÚDE CATOLÉ",
+        "endereco": "R. PROFA. EUTÉCIA VITAL RIBEIRO - SANDRA CAVALCANTE",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Centro+de+Saúde+do+Catolé/@-7.2394571,-35.8830469,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f7d38e805a5:0x9351a898cc913417!8m2!3d-7.2394572!4d-35.8727472!16s%2Fg%2F11g20htjyt?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS HINDEMBURGO NUNES DE FIGUEIREDO",
+        "endereco": "R. JOAQUIM AMORIM JR- MALVINAS",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+Hindenburgo+Nunes+de+Figueiredo/@-7.2265918,-35.9362094,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea13e442b22a7:0x447ed552f68c41f9!8m2!3d-7.2265919!4d-35.9259097!16s%2Fg%2F11h84_nnjw?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO DE SAÚDE DR. FRANCISCO PINTO DE OLIVEIRA",
+        "endereco": "R. VENÂNCIO NEIVA - CENTRO",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Centro+de+Saúde+Dr.+Francisco+Pinto+de+Oliveira/@-7.2191361,-35.8941488,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e4ddfa190ef:0x9824d978720ab21a!8m2!3d-7.2191362!4d-35.8838491!16s%2Fg%2F1ydnqh24p?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS - CRISÓSTOMO LUCENA",
+        "endereco": "AV. RONALDO JOSÉ DA CUNHA LIMA, S/N - COMPLEXO ALUÍZIO CAMPOS",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+-+Crisóstomo+Lucena/@-7.2884573,-35.894025,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1d6cedb1a1c9:0x8c5f7ef0da321ef9!8m2!3d-7.2884574!4d-35.8837253!16s%2Fg%2F11q33sxj22?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO DE ATENÇÃO PSICOSSOCIAL – CAPS III",
+        "endereco": "R. CÔNEGO PEQUENO, 257 - BELA VISTA",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Centro+de+Atenção+Psicossocial+–+CAPS+III+–+Reviver/@-7.2275344,-35.9344021,13z/data=!4m10!1m2!2m1!1sCENTRO+DE+ATENÇÃO+PSICOSSOCIAL+!3m6!1s0x7ac1e233fc89259:0xa6cf566cd131595!8m2!3d-7.2181832!4d-35.9005656!15sCiBDRU5UUk8gREUgQVRFTsOHw4NPIFBTSUNPU1NPQ0lBTJIBDXBzeWNob2FuYWx5c3TgAQA!16s%2Fg%2F11b6ggfs9c?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBSF ODETE LEANDRO",
+        "endereco": "UNIVERSITÁRIO, UEPB",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBSF+Odete+Leandro/@-7.2100699,-35.9254864,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f5a7f9c8e57:0xf3fa6deb8e5942e9!8m2!3d-7.21007!4d-35.9151867!16s%2Fg%2F11j2zsp_ms?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS RESSURREIÇÃO",
+        "endereco": "RUA IARA CORDEIRO DA ROCHA, 66, CRUZEIRO",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+Ressureição/@-7.2100403,-36.0799968,11z/data=!4m10!1m2!2m1!1zVUJTIFJFU1NVUlJFScOHw4NP!3m6!1s0x7ac1da3fd19f227:0x943b46f32d6a8dec!8m2!3d-7.2564971!4d-35.905269!15sChJVQlMgUkVTU1VSUkVJw4fDg0-SARdjb21tdW5pdHlfaGVhbHRoX2NlbnRlcuABAA!16s%2Fg%2F11thf1gq19?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "HOSPITAL UNIVERSITÁRIO ALCIDES CARNEIRO HUAC",
+        "endereco": "R. CARLOS CHAGAS, S/N - SÃO JOSÉ",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Hospital+Universitário+Alcides+Carneiro+HUAC/@-7.2273248,-35.9030491,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e40cb9ca0bf:0xe114a743c7f8b668!8m2!3d-7.2273249!4d-35.8927494!16s%2Fg%2F1pyqgl08b?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS ANA AMÉLIA VILAR CANTALICE",
+        "endereco": "RUA FERNANDO DE NORONHA S/N, ROCHA CAVALCANTE",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/PSF+Ana+Amélia/@-7.2513354,-35.931564,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea753f09ca179:0x405556cd2e5add5e!8m2!3d-7.2513355!4d-35.9212643!16s%2Fg%2F11cm926j1p?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBSF PORTEIRA DE PEDRA",
+        "endereco": "R. CONSTRUTOR JOÃO GALDINO FILHO, 2388",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBSF+PORTEIRA+DE+PEDRA/@-7.2447167,-35.8603621,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f464598f2b7:0x8f69b3f9f41cc055!8m2!3d-7.2447168!4d-35.8500624!16s%2Fg%2F11q4cxrb9c?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "POSTO DE SAUDE DA BELA VISTA",
+        "endereco": "R. DOM PEDRO II, 1554 - BELA VISTA",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Posto+de+Saude+da+Bela+Vista/@-7.217077,-35.908081,16z/data=!4m10!1m2!2m1!1sPOSTO+DE+SAUDE+DA+BELA+VISTA!3m6!1s0x7ac1e33d74bcec7:0x6dcc558516381712!8m2!3d-7.2172925!4d-35.9011041!15sChxQT1NUTyBERSBTQVVERSBEQSBCRUxBIFZJU1RBkgEObWVkaWNhbF9jZW50ZXLgAQA!16s%2Fg%2F11b66c_ylk?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS JOSÉ AURINO",
+        "endereco": "R. JOÃO BENONE DE ANDRADE - CATOLÉ",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+da+Família+José+Aurino+de+Barros+Filho/@-7.2312426,-35.8897597,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e5da94d9e57:0x1cd80386d0775468!8m2!3d-7.2312427!4d-35.87946!16s%2Fg%2F11b6gn76k_?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS BODOCONGÓ",
+        "endereco": "R. FLORÍPEDES COUTINHO - BODOCONGÓ",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+-+Bodocongó/@-7.2207881,-35.9219307,17z/data=!4m10!1m2!2m1!1sUBS+BODOCONGÓ!3m6!1s0x7aea14f9b0456df:0xe1e3c7b587ea3eaa!8m2!3d-7.2171388!4d-35.920788!15sCg5VQlMgQk9ET0NPTkfDkyID8AEBkgEXY29tbXVuaXR5X2hlYWx0aF9jZW50ZXLgAQA!16s%2Fg%2F11p6l9lfcb?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS HORACINA DE ALMEIDA",
+        "endereco": "ABDEDON LICARIÃO, S/N - MONTE CASTELO",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Horacina+Almeida/@-7.2184824,-35.8684134,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1efdd6760323:0xca9515226fc10673!8m2!3d-7.2184877!4d-35.8658385!16s%2Fg%2F11b6hnkbs0?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS NOSSA SENHORA APARECIDA",
+        "endereco": "R. JOÃO BEZERRA PAES 35 - CATOLÉ",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+Nossa+Senhora+Aparecida/@-7.2429111,-35.8955139,15z/data=!4m10!1m2!2m1!1sUBS+NOSSA+SENHORA+APARECIDA!3m6!1s0x7ac1e702e3f008b:0x8f6324ba733605ea!8m2!3d-7.2427309!4d-35.8852697!15sChtVQlMgTk9TU0EgU0VOSE9SQSBBUEFSRUNJREGSAQhob3NwaXRhbOABAA!16s%2Fg%2F11b6gddrqn?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS ADALBERTO CÉSAR",
+        "endereco": "R. PROF. FRANCISCO COLARES - PEDREGAL",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBSF+-+Adalberto+César+-+Pedregal/@-7.2429092,-35.9264139,13z/data=!4m10!1m2!2m1!1sUBS+ADALBERTO+CÉSAR!3m6!1s0x7ac1e258b64417f:0x543b42e4fbf39190!8m2!3d-7.2218286!4d-35.90831!15sChRVQlMgQURBTEJFUlRPIEPDiVNBUpIBBmRvY3RvcuABAA!16s%2Fg%2F11dxdxt78c?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS ESTAÇÃO VELHA",
+        "endereco": "R. GOIÁS, 90 - ESTACAO VELHA",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/Unidade+Básica+de+Saúde+Estação+Velha/@-7.2318269,-35.886537,18.03z/data=!4m6!3m5!1s0x7ac1e42e451caf9:0xb7a91413694a6025!8m2!3d-7.2315059!4d-35.8853517!16s%2Fg%2F11b6dxsj6v?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS SEVERINO DE SOUZA COSTA",
+        "endereco": "R. DORGIVAL DE OLIVEIRA, 63 - PRES. MÉDICI",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+Severino+de+Souza+Costa/@-7.2488665,-35.9220384,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1dc58e2a1f07:0x47d4512d28b95d30!8m2!3d-7.2488666!4d-35.9117387!16s%2Fg%2F11t8c93618?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "UBS ALUÍSIO SALVIANO DE FARIAS",
+        "endereco": "TRÊS IRMÃS",
+        "tipo": "PROGRAMA DE TABAGISMO",
+        "maps": "https://www.google.com/maps/place/UBS+Aluisio+Salviano+De+Farias/@-7.2654548,-35.9420933,15z/data=!3m1!4b1!4m6!3m5!1s0x7aea766d7d25117:0x4e2f5cf94fc73724!8m2!3d-7.2654549!4d-35.9317936!16s%2Fg%2F11g1k7fxj5?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "PROGRAMA DE MELHOR EM CASA",
+        "endereco": "---",
+        "tipo": "PROGRAMA DE MELHOR EM CASA",
+        "maps": "---",
+        "telefone": "330771321",
+        "distrito": null
+    },
+    {
+        "nome": "PROGRAMA NACIONAL DE IMUNIZAÇÕES",
+        "endereco": "AV. JORN. ASSIS CHATEAUBRIAND, 1376 - LIBERDADE, CAMPINA",
+        "tipo": "PROGRAMA NACIONAL DE IMUNIZAÇÕES",
+        "maps": "https://www.google.com/maps/place/Av.+Jorn.+Assis+Chateaubriand,+1376+-+Estacao+Velha,+Campina+Grande+-+PB,+58414-285/@-7.2408624,-35.8908371,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e6de324e94b:0xe6934e4f06ff597c!8m2!3d-7.2408677!4d-35.8882622!16s%2Fg%2F11c5pzt42b?entry=ttu",
+        "telefone": "8333106335",
+        "distrito": null
+    },
+    {
+        "nome": "Policlínica da Liberdade",
+        "endereco": "Rua Pernambuco, 815 Liberdade",
+        "tipo": "Centros de Saúde",
+        "maps": "https://www.google.com/maps/place/Policlínica+Liberdade/@-8.4613489,-37.0088718,8z/data=!4m10!1m2!2m1!1sPoliclínica+da+Liberdade!3m6!1s0x7ac1f36084f2b8d:0xa56b786e74de1408!8m2!3d-7.2335646!4d-35.8923451!15sChlQb2xpY2zDrW5pY2EgZGEgTGliZXJkYWRl4AEA!16s%2Fg%2F11v15mj5c7?entry=ttu",
+        "telefone": "8333106354",
+        "distrito": null
+    },
+    {
+        "nome": "Centro de Saúde Francisco Pinto",
+        "endereco": "Rua Venâncio Neiva, Centro",
+        "tipo": "Centros de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+de+Saúde+Dr.+Francisco+Pinto+de+Oliveira/@-7.2191361,-35.8941488,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e4ddfa190ef:0x9824d978720ab21a!8m2!3d-7.2191362!4d-35.8838491!16s%2Fg%2F1ydnqh24p?entry=ttu",
+        "telefone": "8333106384",
+        "distrito": null
+    },
+    {
+        "nome": "Centro de Saúde da Palmeira",
+        "endereco": "Rua E. Ana de Azevedo, 508 Palmeira",
+        "tipo": "Centros de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+de+Saúde+da+Palmeira/@-7.209258,-35.9062651,15z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fca2b0284fd:0xe4ec36230b7e6709!8m2!3d-7.2092581!4d-35.8959654!16s%2Fg%2F11cmh98kgn?entry=ttu",
+        "telefone": "8333106342",
+        "distrito": null
+    },
+    {
+        "nome": "Policlínica da Bela Vista",
+        "endereco": "Rua Dom Pedro II, 1554 Bela Vista",
+        "tipo": "Centros de Saúde",
+        "maps": "https://www.google.com/maps/place/R.+Dom+Pedro+II,+1554+-+Centro,+Campina+Grande+-+PB,+58400-062/@-7.217479,-35.901901,18.82z/data=!4m6!3m5!1s0x7ac1e33d10c75a5:0xbc0b78241945ec10!8m2!3d-7.2172876!4d-35.9011081!16s%2Fg%2F11fk02d80p?entry=ttu",
+        "telefone": "8333106347",
+        "distrito": null
+    },
+    {
+        "nome": "Centro de Saúde Severino Bezerra Cabral",
+        "endereco": "Rua R. José Francisco de Farias S/N São José da Mata",
+        "tipo": "Centros de Saúde",
+        "maps": "https://www.google.com/maps/place/Centro+de+Sa%C3%BAde+Severino+Bezerra/@-7.1729892,-35.9823525,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea1d3ec7ebd01:0x9c08f418c3a1d776!8m2!3d-7.1729945!4d-35.9797776!16s%2Fg%2F11t2ldb6vy?entry=ttu",
+        "telefone": "8333141042",
+        "distrito": null
+    },
+    {
+        "nome": "Policlínica Terezinha Garcia",
+        "endereco": "Ribeiro - Zona Leste, R. Pedro da Costa Agra, S/N José Pinheiro",
+        "tipo": "Policlínicas",
+        "maps": "https://www.google.com/maps/place/R.+Pedro+da+Costa+Agra+-+Jos%C3%A9+Pinheiro,+Campina+Grande+-+PB,+58407-270/@-7.2254386,-35.8707888,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ef77b33e12f:0x2103da219a048b49!8m2!3d-7.2254439!4d-35.8682139!16s%2Fg%2F1ymw9xhqq?entry=ttu",
+        "telefone": "8333155112",
+        "distrito": null
+    },
+    {
+        "nome": "Policlínica do Catolé",
+        "endereco": "R. Eutécia Vital Ribeiro, S/N Catolé",
+        "tipo": "Policlínicas",
+        "maps": "https://www.google.com/maps/place/R.+Profa.+Eut%C3%A9cia+Vital+Ribeiro+-+Sandra+Cavalcante,+Campina+Grande+-+PB/@-7.2399472,-35.8742212,17.3z/data=!4m6!3m5!1s0x7ac1e6271e91a6d:0x3dff4d71381dfc06!8m2!3d-7.2399133!4d-35.8721945!16s%2Fg%2F1ymtqybkc?entry=ttu",
+        "telefone": "8333107068",
+        "distrito": null
+    },
+    {
+        "nome": "Policlínica Luzia Cosme Dantas",
+        "endereco": "R. Plínio Lemos, S/N - Malvinas",
+        "tipo": "Policlínicas",
+        "maps": "https://www.google.com/maps/place/Av.+Plinio+Lemos+-+Malvinas,+Campina+Grande+-+PB/@-7.2337231,-35.9280163,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea0a29888d635:0xa447f4bf28e7c1c!8m2!3d-7.2337284!4d-35.9254414!16s%2Fg%2F1ymydmw02?entry=ttu",
+        "telefone": "8333107194",
+        "distrito": null
+    },
+    {
+        "nome": "CAPS AD II - Saber Viver",
+        "endereco": "Rua Capitão Ademar de Maia Paiva, 896 - Alto Branco",
+        "tipo": "Saúde Mental (Transtornos relacionados ao álcool e as drogas)",
+        "maps": "https://www.google.com/maps/place/R.+Cap.+Ademar+Maia+Paiva,+896+-+Alto+Branco,+Campina+Grande+-+PB,+58401-740/@-7.2028578,-35.8864257,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fbb3c53e991:0x5bb9a0d510b045e6!8m2!3d-7.2028631!4d-35.8838508!16s%2Fg%2F11csdkctgr?entry=ttu",
+        "telefone": "8333410017",
+        "distrito": null
+    },
+    {
+        "nome": "CAPS II - Novos Tempos",
+        "endereco": "Rua Santa Cecília, 94, Santo Antônio",
+        "tipo": "Saúde Mental (Transtornos mentais)",
+        "maps": "https://www.google.com/maps/place/R.+Santa+Cec%C3%ADlia,+94+-+Santo+Ant%C3%B4nio,+Campina+Grande+-+PB,+58406-015/@-7.2166494,-35.8780209,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e54c1df0151:0xcc8da444e11f16f6!8m2!3d-7.2166547!4d-35.875446!16s%2Fg%2F11hbgkhyh5?entry=ttu",
+        "telefone": "8333107193",
+        "distrito": null
+    },
+    {
+        "nome": "CAPS III - Reviver",
+        "endereco": "Rua Cônego Pequeno, 257 - Bela Vista",
+        "tipo": "Saúde Mental (Transtornos mentais)",
+        "maps": "https://www.google.com/maps/place/R.+C%C3%B4nego+Pequeno,+257+-+Monte+Santo,+Campina+Grande+-+PB,+58400-802/@-7.2181779,-35.9031405,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e3165ccdf3b:0xdfba0900fae4edc3!8m2!3d-7.2181832!4d-35.9005656!16s%2Fg%2F11c5p5xkvy?entry=ttu",
+        "telefone": "8333427192",
+        "distrito": null
+    },
+    {
+        "nome": "CAPS I - Galante",
+        "endereco": "Rua da chã - GALANTE",
+        "tipo": "Saúde Mental (Transtornos mentais)",
+        "maps": "https://www.google.com/maps/place/R.+da+Ch%C3%A3+-+Galante,+Campina+Grande+-+PB/@-7.3060582,-35.7912741,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1b1ce1fefaaf:0x61f63c0956ee8c8c!8m2!3d-7.3060635!4d-35.7886992!16s%2Fg%2F11h219bznp?entry=ttu",
+        "telefone": "8333171230",
+        "distrito": null
+    },
+    {
+        "nome": "CAPS I - São José da Mata",
+        "endereco": "Rua Arnaldo Luís de Melo, 54 - São José da Mata",
+        "tipo": "Saúde Mental (Transtornos mentais)",
+        "maps": "https://www.google.com/maps/place/R.+Arnaldo+Luis+de+Melo,+54+-+S%C3%A3o+Jos%C3%A9+da+Mata,+Campina+Grande+-+PB/@-7.1848313,-35.9875614,17z/data=!3m1!4b1!4m5!3m4!1s0x7aea1eb997fc7cb:0xe988484a0136f726!8m2!3d-7.1848366!4d-35.9849865?entry=ttu",
+        "telefone": "8333141073",
+        "distrito": null
+    },
+    {
+        "nome": "Centro Terapêutico Restituir",
+        "endereco": "R. Arquilino de Souza Guimarães, 291 Jardim Tavares",
+        "tipo": "Saúde Mental (Residências terapêuticas)",
+        "maps": "https://www.google.com/maps/place/R.+Arquilino+de+Souza+Guimar%C3%A3es,+291+-+Jardim+Tavares,+Campina+Grande+-+PB,+58402-030/@-7.2139362,-35.8783473,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fab6cdee5ed:0xee7905aca08392f0!8m2!3d-7.2139415!4d-35.8757724!16s%2Fg%2F11rg6pn2bb?entry=ttu",
+        "telefone": "83989070037",
+        "distrito": null
+    },
+    {
+        "nome": "Hospital Municipal Dr. Edgley Maciel",
+        "endereco": "R. Dom Bosco, S/N - José Pinheiro",
+        "tipo": "Saúde Mental (Emergências clínicas)",
+        "maps": "https://www.google.com/maps/place/Hospital+Municipal+Dr.+Edgley+Maciel/@-7.2274552,-35.8728055,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ef7b49a492b:0xd4037c52cdc78f5f!8m2!3d-7.2274605!4d-35.8702306!16s%2Fg%2F1tfxy79k?entry=ttu",
+        "telefone": "8330771442",
+        "distrito": null
+    },
+    {
+        "nome": "CEO Dr. Francisco Pinto",
+        "endereco": "Rua Venâncio Neiva - Centro",
+        "tipo": "Centro de Especialidades Odontológicas",
+        "maps": "https://www.google.com/maps/place/Centro+de+Sa%C3%BAde+Dr.+Francisco+Pinto+de+Oliveira/@-7.2186701,-35.8849436,18.51z/data=!4m15!1m8!3m7!1s0x7ac1e4dc7ca7b27:0x9261950ac7baec3a!2sR.+Ven%C3%A2ncio+Neiva+-+Centro,+Campina+Grande+-+PB,+58400-090!3b1!8m2!3d-7.21816!4d-35.8845104!16s%2Fg%2F1ymss3y8w!3m5!1s0x7ac1e4ddfa190ef:0x9824d978720ab21a!8m2!3d-7.2191362!4d-35.8838491!16s%2Fg%2F1ydnqh24p?entry=ttu",
+        "telefone": "8333106384",
+        "distrito": null
+    },
+    {
+        "nome": "CEO Catolé",
+        "endereco": "Rua Profa. Eutécia Vital Ribeiro - Sandra Cavalcante",
+        "tipo": "Centro de Especialidades Odontológicas",
+        "maps": "https://www.google.com/maps/place/Centro+de+Sa%C3%BAde+do+Catol%C3%A9/@-7.2399081,-35.8728657,18.51z/data=!4m15!1m8!3m7!1s0x7ac1e6271e91a6d:0x3dff4d71381dfc06!2sR.+Profa.+Eut%C3%A9cia+Vital+Ribeiro+-+Sandra+Cavalcante,+Campina+Grande+-+PB!3b1!8m2!3d-7.2399133!4d-35.8721945!16s%2Fg%2F1ymtqybkc!3m5!1s0x7ac1f7d38e805a5:0x9351a898cc913417!8m2!3d-7.2394572!4d-35.8727472!16s%2Fg%2F11g20htjyt?entry=ttu",
+        "telefone": "8333107068",
+        "distrito": null
+    },
+    {
+        "nome": "CEO São José da Mata",
+        "endereco": "Rua Professora Luiza Cabral Castro - s/n - São José da Mata",
+        "tipo": "Centro de Especialidades Odontológicas",
+        "maps": "https://www.google.com/maps/place/Tv.+Profa.+Luiza+Cabral+de+Castro+-+S%C3%A3o+Jos%C3%A9+da+Mata,+Campina+Grande+-+PB/@-7.1755171,-35.9796421,19.51z/data=!4m6!3m5!1s0x7aea1ddeb399857:0xc1026b78b167ac23!8m2!3d-7.1756719!4d-35.9794328!16s%2Fg%2F11jcqbcrnk?entry=ttu",
+        "telefone": "8333141042",
+        "distrito": null
+    },
+    {
+        "nome": "CEO Galante",
+        "endereco": "R. Antônio Alves Pimentel, 1157 - Galante",
+        "tipo": "Centro de Especialidades Odontológicas",
+        "maps": "https://www.google.com/maps/place/R.+Ant%C3%B4nio+Alves+Pimentel,+1157+-+Galante,+Campina+Grande+-+PB/@-7.3060219,-35.785308,19.72z/data=!4m6!3m5!1s0x7ac1b1d67ed85db:0xa9aa65ddbf15de73!8m2!3d-7.3060878!4d-35.7849637!16s%2Fg%2F11qpvdj0n1?entry=ttu",
+        "telefone": "8333171292",
+        "distrito": null
+    },
+    {
+        "nome": "UPA - ALTO BRANCO",
+        "endereco": " ALTO BRANCO",
+        "tipo": "Atendimentos de Saúde de Média Complexidade (UPA)",
+        "maps": "https://www.google.com/maps/place/UPA+-+Alto+Branco/@-7.1998929,-35.8798922,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fa3d5d9265b:0x3de77b2ae576838e!8m2!3d-7.1998982!4d-35.8773173!16s%2Fg%2F11b6dw860x?entry=ttu",
+        "telefone": "8333412079",
+        "distrito": null
+    },
+    {
+        "nome": "ADHEMAR DANTAS (DINAMÉRICA)",
+        "endereco": "SANTA CRUZ",
+        "tipo": "Atendimentos de Saúde de Média Complexidade (UPA)",
+        "maps": "https://www.google.com/maps/place/UPA+Adhemar+Dantas+(Dinam%C3%A9rica)/@-7.2452267,-35.9140126,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e011987ebd7:0xd11b58adb864ca78!8m2!3d-7.245232!4d-35.9114377!16s%2Fg%2F11fjyhf799?entry=ttu",
+        "telefone": "8333109800",
+        "distrito": null
+    },
+    {
+        "nome": "CER IV",
+        "endereco": "R. LUÍS MOTA, S/N - BODOCONGÓ",
+        "tipo": "Reabilitação/Habilitação",
+        "maps": "https://www.google.com/maps/place/R.+Lu%C3%ADs+Mota+-+Bodocong%C3%B3,+Campina+Grande+-+PB,+58430-710/@-7.220675,-35.9252251,18.82z/data=!4m6!3m5!1s0x7aea0852ca9331b:0xa2bc0b9262b98597!8m2!3d-7.2207462!4d-35.9240087!16s%2Fg%2F1ymvcdk9h?entry=ttu",
+        "telefone": "8333332830",
+        "distrito": null
+    },
+    {
+        "nome": "HOSPITAL MUNICIPAL DR. EDGLEY MACIEL",
+        "endereco": "R. DOM BOSCO, S/N - JOSÉ PINHEIRO",
+        "tipo": "Ala geriátrica (hospitais)",
+        "maps": "https://www.google.com/maps/place/Hospital+Municipal+Dr.+Edgley+Maciel/@-7.2274552,-35.8728055,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1ef7b49a492b:0xd4037c52cdc78f5f!8m2!3d-7.2274605!4d-35.8702306!16s%2Fg%2F1tfxy79k?entry=ttu",
+        "telefone": "8330771442",
+        "distrito": null
+    },
+    {
+        "nome": "HOSPITAL PEDRO I",
+        "endereco": "R. DOM PEDRO I, 605 - SÃO JOSÉ",
+        "tipo": "Ala geriátrica (hospitais)",
+        "maps": "https://www.google.com/maps/place/Hospital+Pedro+I/@-7.2285479,-35.8955794,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e47547c642b:0xc533ae47bfd65446!8m2!3d-7.2285532!4d-35.8930045!16s%2Fg%2F1tdg7_vb?entry=ttu",
+        "telefone": "8333106388",
+        "distrito": null
+    },
+    {
+        "nome": "UAMA (Universidade Aberta à Maturidade)",
+        "endereco": "RUA DOMITILA CABRAL, 225, CAMPUS BODOCONGÓ",
+        "tipo": "Instituições de Ensino Superior (IES)",
+        "maps": "https://www.google.com/maps/place/R.+Domitila+Cabral+de+Castro,+225+-+Universit%C3%A1rio,+Campina+Grande+-+PB,+58429-570/@-7.2077453,-35.920849,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea07eda1d82bb:0x296b0b222fc4c4d!8m2!3d-7.2077506!4d-35.9182741!16s%2Fg%2F11fk1j_t7j?entry=ttu",
+        "telefone": "8333153300",
+        "distrito": null
+    },
+    {
+        "nome": "PIATI(Programa Interdisciplinar de Apoio à Terceira Idade)/UFCG",
+        "endereco": "RUA APRÍGIO VELOSO, 882 - UNIVERSITÁRIO",
+        "tipo": "Instituições de Ensino Superior (IES)",
+        "maps": "https://www.google.com/maps/place/R.+Apr%C3%ADgio+Veloso,+882+-+Bodocong%C3%B3,+Campina+Grande+-+PB,+58428-830/@-7.2170067,-35.9132501,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e295906d5c5:0x33fef92e63e00113!8m2!3d-7.217012!4d-35.9106752!16s%2Fg%2F11gf9h05d1?entry=ttu",
+        "telefone": "8333105000",
+        "distrito": null
+    },
+    {
+        "nome": "DELEGACIA DA PESSOA IDOSA DE CAMPINA GRANDE",
+        "endereco": "RUA DOM PEDRO I, 117, SÃO JOSÉ",
+        "tipo": "Órgãos de defesa e proteção.",
+        "maps": "https://www.google.com/maps/place/R.+Dom+Pedro+I,+117+-+S%C3%A3o+Jos%C3%A9,+Campina+Grande+-+PB,+58400-414/@-7.2246349,-35.8939856,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e47ba88cd87:0xcd465575b81a91f6!8m2!3d-7.2246402!4d-35.8914107!16s%2Fg%2F11gsmbvvl_?entry=ttu",
+        "telefone": "8333377337",
+        "distrito": null
+    },
+    {
+        "nome": "MINISTÉRIO PÚBLICO",
+        "endereco": "R. EDGAR VILARIM MEIRA - ESTACAO VELHA",
+        "tipo": "Órgãos de defesa e proteção.",
+        "maps": "https://www.google.com/maps/place/R.+Edgar+Vilarim+Meira+-+Estacao+Velha,+Campina+Grande+-+PB,+58410-052/@-7.2319586,-35.8873589,19.72z/data=!4m6!3m5!1s0x7ac1e426caf343f:0x7099051756007a24!8m2!3d-7.2319327!4d-35.8869999!16s%2Fg%2F1ymt9hnd1?entry=ttu",
+        "telefone": "8333212166",
+        "distrito": null
+    },
+    {
+        "nome": "DEFENSORIA PÚBLICA DO ESTADO DA PARAÍBA",
+        "endereco": "AV. BARÃO RIO BRANCO - CENTRO",
+        "tipo": "Órgãos de defesa e proteção.",
+        "maps": "https://www.google.com/maps/place/Av.+Bar%C3%A3o+Rio+Branco+-+Centro,+Campina+Grande+-+PB,+58400-575/@-7.218732,-35.8944588,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e35dfd53b0b:0xd3e5f071d971af5b!8m2!3d-7.2187373!4d-35.8918839!16s%2Fg%2F1ymyf214j?entry=ttu",
+        "telefone": "8333434111",
+        "distrito": null
+    },
+    {
+        "nome": "ASSOCIAÇÃO DOS APOSENTADOS, PENSIONISTAS E IDOSOS DE CAMPINA GRANDE",
+        "endereco": "RUA CAP. JOÃO ALVES DE LIRA, 152 - PRATA",
+        "tipo": "Associações ou sindicatos",
+        "maps": "https://www.google.com/maps/place/R.+Cap.+Jo%C3%A3o+Alves+de+Lira,+152+-+Prata,+Campina+Grande+-+PB,+58400-560/@-7.2206205,-35.894094,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e49b248cef9:0xc82bf1c5134df5d7!8m2!3d-7.2206258!4d-35.8915191!16s%2Fg%2F11cnd7f86z?entry=ttu",
+        "telefone": "83987223632",
+        "distrito": null
+    },
+    {
+        "nome": "CONSELHO CENTRAL DE CAMPINA GRANDE DA SOCIEDADE DE SÃO VICENTE DE PAULO - SSVP",
+        "endereco": "RUA PREFEITO ERNANI LAURITZEN, 45 - CENTRO",
+        "tipo": "Associações ou sindicatos",
+        "maps": "https://www.google.com/maps/place/R.+Pref.+Ernane+Lauritzen,+45+-+Centro,+Campina+Grande+-+PB,+58400-130/@-7.2150487,-35.8862196,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fe3e80828e9:0x55218f2a0abc2eb4!8m2!3d-7.215054!4d-35.8836447!16s%2Fg%2F11qnjhcq1l?entry=ttu",
+        "telefone": "8333412116",
+        "distrito": null
+    },
+    {
+        "nome": "Conselho Municipal de Direitos da Pessoa Idosa",
+        "endereco": "---",
+        "tipo": "Acolhimento em Instituições de Longa Permanência ILP",
+        "maps": "---",
+        "telefone": "8333106278",
+        "distrito": null
+    },
+    {
+        "nome": "Secretaria Municipal de Assistência Social (SEMAS)",
+        "endereco": "R. Agrimensor José de Brito, 187 - Alto Branco",
+        "tipo": "Secretaria Municipal de Assistência Social (SEMAS)",
+        "maps": "https://www.google.com/maps/place/R.+Agrimensor+Jos%C3%A9+de+Brito,+187+-+Alto+Branco,+Campina+Grande+-+PB,+58401-396/@-7.2127658,-35.8847699,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fad7f2785f3:0x4bd9b3f884d3cddd!8m2!3d-7.2127711!4d-35.882195!16s%2Fg%2F11v0_42vd9?entry=ttu",
+        "telefone": "8333106275",
+        "distrito": null
+    },
+    {
+        "nome": "Secretaria Municipal de Saúde (SMS)",
+        "endereco": "Av. Jorn. Assis Chateaubriand, 1376",
+        "tipo": "Secretaria Municipal de Saúde (SMS)",
+        "maps": "https://www.google.com/maps/place/Av.+Jorn.+Assis+Chateaubriand,+1376+-+Estacao+Velha,+Campina+Grande+-+PB,+58414-285/@-7.2408624,-35.8908371,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e6de324e94b:0xe6934e4f06ff597c!8m2!3d-7.2408677!4d-35.8882622!16s%2Fg%2F11c5pzt42b?entry=ttu",
+        "telefone": "8330771321",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS ALUÍZIO CAMPOS",
+        "endereco": "RUA GERALDO NOGUEIRA S/N, MÓDULO 2, QUADRA W2: ALUÍZIO CAMPOS",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/CRAS+-+Aluizio+Campos/@-7.2967968,-35.8795881,18.51z/data=!4m9!1m2!2m1!1sRUA+GERALDO+NOGUEIRA+S%2FN,+M%C3%93DULO+2,+QUADRA+W2:+ALU%C3%8DZIO+CAMPOS!3m5!1s0x7ac1de266c38679:0xe786d7ad384154e!8m2!3d-7.2967751!4d-35.8796542!16s%2Fg%2F11j0s1bssw?entry=ttu",
+        "telefone": "8333320911",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS BORBOREMA",
+        "endereco": "RUA MANOEL DE FREITAS RAMOS, 218, ROSA CRUZ",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/Centro+de+Refer%C3%AAncia+de+Assist%C3%AAncia+Social+(CRAS)+-+Borborema/@-7.2447687,-35.8986024,19.42z/data=!4m14!1m7!3m6!1s0x7ac1fe1c185c18d:0x8c729940c11fd0e7!2sCentro+de+Refer%C3%AAncia+de+Assist%C3%AAncia+Social+(CRAS)+-+Borborema!8m2!3d-7.2447852!4d-35.8982311!16s%2Fg%2F11tn6ht0v1!3m5!1s0x7ac1fe1c185c18d:0x8c729940c11fd0e7!8m2!3d-7.2447852!4d-35.8982311!16s%2Fg%2F11tn6ht0v1?entry=ttu",
+        "telefone": "8333359792",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS GALANTE",
+        "endereco": "RUA MARIA DA COSTA AGRA, 22, GALANTE",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/cras+de+galante/@-7.3053716,-35.7824055,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1afcb323ec03:0x3964e875fbcad071!8m2!3d-7.3053769!4d-35.7798306!16s%2Fg%2F11g68x35xs?entry=ttu",
+        "telefone": "8333171068",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS LIBERDADE",
+        "endereco": "RUA MINAS GERAIS 430 - LIBERDADE",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/CRAS+Liberdade+-+Campina+Grande+(PB)/@-7.2303749,-35.8952434,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fbb1e9f0dd9:0x21cab6f6c66cce84!8m2!3d-7.2303802!4d-35.8926685!16s%2Fg%2F11tn5fm41q?entry=ttu",
+        "telefone": "8333316673",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS MALVINAS",
+        "endereco": "RUA DA JABUTICABEIRA, S/N. ESTAÇÃO CIDADANIA E CULTURA",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "---",
+        "telefone": "8333107060",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS BODOCONGÓ",
+        "endereco": "AVENIDA PORTUGAL, S/N, BODOCONGÓ",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "---",
+        "telefone": "8333332800",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS JEREMIAS",
+        "endereco": "RUA SAMUEL SIMÕES, 481, JEREMIAS",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/R.+Samuel+Simoes,+481+-+Jeremias,+Campina+Grande+-+PB,+58404-225/@-7.20518,-35.8998977,19.72z/data=!4m6!3m5!1s0x7ac1fcf460e93ad:0x33f19dd1075f5edf!8m2!3d-7.20519!4d-35.899603!16s%2Fg%2F11hbgkjfb6?entry=ttu",
+        "telefone": "8333106668",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS PEDREGAL",
+        "endereco": "RUA OSCAR GUEDES DE MOURA, 35, UNIVERSITÁRIO",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/CRAS+PEDREGAL/@-7.2205827,-35.9133199,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e28bc87ce9b:0xb61fe8a6ba620e9f!8m2!3d-7.220588!4d-35.910745!16s%2Fg%2F11dxkrbyrr?entry=ttu",
+        "telefone": "8333107014",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS SÃO JOSÉ DA MATA",
+        "endereco": "RUA MARIA SALETE CASTRO BRASILEIRO, 98A, SÃO JOŚE DA MATA",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/R.+Maria+da+Salete+Castro+Brasileiro,+98+-+S%C3%A3o+Jos%C3%A9+da+Mata,+Campina+Grande+-+PB/@-7.1779425,-35.9824367,17z/data=!3m1!4b1!4m5!3m4!1s0x7aea1dd68b24939:0x8601c57f269fa1c1!8m2!3d-7.1779478!4d-35.9798618?entry=ttu",
+        "telefone": "8333141963",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS TRÊS IRMÃS",
+        "endereco": "RUA GASTON DE O. GONZAGA, 335, TRÊS IRMÃS",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/R.+Gast%C3%B3n+Oliveira+Gonzaga,+335+-+Tr%C3%AAs+Irm%C3%A3s,+Campina+Grande+-+PB,+58423-533/@-7.256186,-35.9284473,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea75aabb0bc3b:0xca3a1d297113410c!8m2!3d-7.2561913!4d-35.9258724!16s%2Fg%2F11fkcw3955?entry=ttu",
+        "telefone": "8333107086",
+        "distrito": null
+    },
+    {
+        "nome": "CRAS ZONA LESTE",
+        "endereco": "RUA JOSINO AGRA, S/N, VILA OLÍMPICA PLÍNIO LEMOS",
+        "tipo": "Centro de Referência e Assistência Social (CRAS)",
+        "maps": "https://www.google.com/maps/place/Vila+Ol%C3%ADmpica+Pl%C3%ADnio+Lemos+-+R.+Gon%C3%A7alves+Dias+-+Santo+Ant%C3%B4nio,+Campina+Grande+-+PB,+58406-770/@-7.2201853,-35.8713618,17.91z/data=!4m6!3m5!1s0x7ac1ef8d27c9209:0x68e40dba4de8d33!8m2!3d-7.2202334!4d-35.8699103!16s%2Fg%2F11bw24_7lk?entry=ttu",
+        "telefone": "8333433059",
+        "distrito": null
+    },
+    {
+        "nome": "CREAS I (Catolé)",
+        "endereco": "Rua Cônsul Joseph Noujaim Habib, nº 1346",
+        "tipo": "Centro de Referência Especializado de Assistência Social (CREAS)",
+        "maps": "https://www.google.com/maps/place/R.+C%C3%B4nsul+Joseph+Noujaim+Habib+Nacad,+1346+-+Catol%C3%A9,+Campina+Grande+-+PB,+58410-260/@-7.2371777,-35.8867299,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e68cb14e6f9:0x3448b3996fbb62a7!8m2!3d-7.237183!4d-35.884155!16s%2Fg%2F11fwgn24d9?entry=ttu",
+        "telefone": [
+            "33106680",
+            "987283971"
+        ],
+        "distrito": null
+    },
+    {
+        "nome": "CREAS II (Cruzeiro)",
+        "endereco": "Antonio Cirilo Gomes, nº 108",
+        "tipo": "Centro de Referência Especializado de Assistência Social (CREAS)",
+        "maps": "https://www.google.com/maps/place/R.+Ant%C3%B4nio+Cir%C3%ADlo+Gomes,+108+-+Cruzeiro,+Campina+Grande+-+PB,+58415-563/@-7.2526446,-35.9076417,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1dfcba6ae703:0x74c340341f852203!8m2!3d-7.2526499!4d-35.9050668!16s%2Fg%2F11c4y4qvvq?entry=ttu",
+        "telefone": [
+            "33106117",
+            "998697502"
+        ],
+        "distrito": null
+    },
+    {
+        "nome": "CREAS III (Alto Branco)",
+        "endereco": "Rua Vereador Benedito Mota, Nº 69",
+        "tipo": "Centro de Referência Especializado de Assistência Social (CREAS)",
+        "maps": "https://www.google.com/maps/place/R.+Ver.+Benedito+Mota,+69+-+Alto+Branco,+Campina+Grande+-+PB,+58401-718/@-7.209642,-35.8838358,19.12z/data=!4m6!3m5!1s0x7ac1fb1efedf8b9:0xb177d39fbd89c035!8m2!3d-7.209683!4d-35.8832595!16s%2Fg%2F11h033jys2?entry=ttu",
+        "telefone": [
+            "33225925",
+            "991158604"
+        ],
+        "distrito": null
+    },
+    {
+        "nome": "Centro municipal de convivência do idoso",
+        "endereco": "RUA PARIS Nº 2110, BAIRRO DOS CUITÉS",
+        "tipo": "Centro municipal de convivência do idoso",
+        "maps": "https://www.google.com/maps/place/Centro+Municipal+de+Conviv%C3%AAncia+do+Idoso/@-7.1917787,-35.8942518,20.33z/data=!4m15!1m8!3m7!1s0x7ac1feb51919291:0x9cfbb832ec982f84!2sCentro+Mun.+de+Conviv%C3%AAncia+do+Idoso+-+Campina+Grande,+PB,+58115-000!3b1!8m2!3d-7.1917424!4d-35.8939244!16s%2Fg%2F11b8tgnnh2!3m5!1s0x7ac1feb5161b75b:0x9493bdc0cf89d633!8m2!3d-7.1916977!4d-35.8937606!16s%2Fg%2F11c5s35h64?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO CULTURAL",
+        "endereco": "R. PAULINO RAPOSO, S/N - SÃO JOSÉ",
+        "tipo": "Grupos de Convivência",
+        "maps": "https://www.google.com/maps/place/Centro+Cultural+Lourdes+Ramalho/@-7.2234005,-35.8890386,18.82z/data=!4m15!1m8!3m7!1s0x7ac1e46087064cd:0x2f963a557a6c8743!2sR.+Paulino+Raposo+-+S%C3%A3o+Jos%C3%A9,+Campina+Grande+-+PB,+58400-358!3b1!8m2!3d-7.2236154!4d-35.8886684!16s%2Fg%2F1ymx9mtys!3m5!1s0x7ac1e461d4cf44b:0x73e63d1950cfb8a0!8m2!3d-7.2234193!4d-35.8884876!16s%2Fg%2F11b6gk61rq?entry=ttu",
+        "telefone": "8333431523",
+        "distrito": null
+    },
+    {
+        "nome": "SESC (GRUPOS DE IDOSOS)",
+        "endereco": "R. GILÓ GUEDES, 650 - CENTRO",
+        "tipo": "Grupos de Convivência",
+        "maps": "https://www.google.com/maps/place/R.+Gil%C3%B3+Guedes,+650+-+Centro,+Campina+Grande+-+PB,+58407-360/@-7.2171345,-35.879852,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e537ced4a2b:0x264de427d2413970!8m2!3d-7.2171398!4d-35.8772771!16s%2Fg%2F11c1j7bg_d?entry=ttu",
+        "telefone": "8333415800",
+        "distrito": null
+    },
+    {
+        "nome": "SEST/SENAT",
+        "endereco": "AV. FRANCISCO LOPES DE ALMEIDA, 2000 - MALVINAS",
+        "tipo": "Grupos de Convivência",
+        "maps": "https://www.google.com/maps/place/SEST+Senat/@-7.2510423,-35.930545,18.51z/data=!4m6!3m5!1s0x7aea74e76fe720b:0x1ffd402ea7be5cff!8m2!3d-7.2507462!4d-35.9298133!16s%2Fg%2F11b6hmgy6r?entry=ttu",
+        "telefone": "8321013400",
+        "distrito": null
+    },
+    {
+        "nome": "Pastoral Diocesana da Pessoa Idosa",
+        "endereco": "R. AFONSO CAMPOS, 251 - CENTRO",
+        "tipo": "Pastoral Diocesana da Pessoa Idosa",
+        "maps": "https://www.google.com/maps/place/R.+Afonso+Campos,+251+-+Centro,+Campina+Grande+-+PB,+58400-235/@-7.2189991,-35.8835777,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e5222c32d5d:0x39bdbc88976c8f4b!8m2!3d-7.2190044!4d-35.8810028!16s%2Fg%2F11c1_cn4d2?entry=ttu",
+        "telefone": "08333214199",
+        "distrito": null
+    },
+    {
+        "nome": "União Fraternal Espírita",
+        "endereco": "R. DO PROGRESSO, 98 - JARDIM QUARENTA",
+        "tipo": "União Fraternal Espírita",
+        "maps": "https://www.google.com/maps/place/R.+do+Progresso,+98+-+Quarenta,+Campina+Grande+-+PB,+58416-180/@-7.2317492,-35.8978515,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e1562760d47:0xe371d89a0537a0d8!8m2!3d-7.2317545!4d-35.8952766!16s%2Fg%2F11cs7466ql?entry=ttu",
+        "telefone": "83988979836",
+        "distrito": null
+    },
+    {
+        "nome": "UNIDADE DE ACOLHIMENTO IR. ZULEIDE PORTO",
+        "endereco": "RUA DUQUE DE CAXIAS, 970 A - PRATA",
+        "tipo": "Situação de Rua",
+        "maps": "https://www.google.com/maps/place/R.+Duque+de+Caxias,+970+-+Centen%C3%A1rio,+Campina+Grande+-+PB,+58428-025/@-7.2252672,-35.8988038,18.82z/data=!4m5!3m4!1s0x7ac1e39643eb18b:0x5d90ef4fccd17efd!8m2!3d-7.2252701!4d-35.8986032?entry=ttu",
+        "telefone": "8333106811",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO POP",
+        "endereco": "RUA PEDRO II, 970 - PRATA",
+        "tipo": "Situação de Rua",
+        "maps": "https://www.google.com/maps/place/R.+Dom+Pedro+II,+970+-+Centro,+Campina+Grande+-+PB,+58400-062/@-7.2183639,-35.899011,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e3686b56e13:0x5a0069b2901b173c!8m2!3d-7.2183692!4d-35.8964361!16s%2Fg%2F11c2c88q76?entry=ttu",
+        "telefone": "08007072003",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO DE REFERÊNCIA DE ATENDIMENTO À MULHER (CRAM)",
+        "endereco": "RUA CAPITÃO JOÃO ALVES DE LIRA, 295 - PRATA",
+        "tipo": "Violência Doméstica",
+        "maps": "https://www.google.com/maps/place/Centro+de+Refer%C3%AAncia+de+Atendimento+a+Mulher+Professora+Ana+Luiza+Mendes+Leite/@-7.2204781,-35.893067,20.7z/data=!4m15!1m8!3m7!1s0x7ac1e49d36ed5f7:0x104a953dd42d38e9!2sR.+Cap.+Jo%C3%A3o+Alves+de+Lira,+295+-+Prata,+Campina+Grande+-+PB,+58400-560!3b1!8m2!3d-7.220597!4d-35.8930091!16s%2Fg%2F11c43xgkk0!3m5!1s0x7ac1e49d3955dc3:0x6ab97184c70280e9!8m2!3d-7.2206213!4d-35.8930286!16s%2Fg%2F11bbyb1r36?entry=ttu",
+        "telefone": "8333106279",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO ESTADUAL DE REFERÊNCIA DA MULHER FÁTIMA LOPES",
+        "endereco": "AV. DOM PEDRO I, 558 - SÃO JOSÉ",
+        "tipo": "Violência Doméstica",
+        "maps": "https://www.google.com/maps/place/Centro+Estadual+de+Refer%C3%AAncia+da+Mulher+F%C3%A1tima+Lopes/@-7.2266596,-35.8938678,19z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e475bde1519:0xaf4c6aa6d2a0b13d!8m2!3d-7.2266609!4d-35.8932241!16s%2Fg%2F11b6gpn3y7?entry=ttu",
+        "telefone": "8333429129",
+        "distrito": null
+    },
+    {
+        "nome": "CENTRO DE REFERÊNCIA DOS DIREITOS LGBTQIAP+ - LUCIANO BEZERRA VIEIRA",
+        "endereco": "AV. DOM PEDRO I, 558 - SÃO JOSÉ",
+        "tipo": "Violência Contra a População LGBTQIAP+",
+        "maps": "https://www.google.com/maps/place/R.+Dom+Pedro+I,+558+-+S%C3%A3o+Jos%C3%A9,+Campina+Grande+-+PB,+58400-414/@-7.2266631,-35.8957969,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e47591ed0e5:0x519cb8d4d52f8aed!8m2!3d-7.2266684!4d-35.893222!16s%2Fg%2F11c4p8dkm4?entry=ttu",
+        "telefone": "83991633465",
+        "distrito": null
+    },
+    {
+        "nome": "Escola Margarida Da Mota Rocha",
+        "endereco": "Professora Eutecia Vital Ribeiro, 525- Sandra Cavalcante",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/R.+Profa.+Eut%C3%A9cia+Vital+Ribeiro,+525+-+Sandra+Cavalcante,+Campina+Grande+-+PB,+58410-205/@-7.240709,-35.873885,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e882b5a9569:0xc4ba78439d289154!8m2!3d-7.2407143!4d-35.8713101!16s%2Fg%2F11h09p215t?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Emef Padre Antonino",
+        "endereco": "Rua Carlos Alberto De Sousa, 255- Bodocongo",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/R.+Carlos+Alberto+Souza,+255+-+Bodocong%C3%B3,+Campina+Grande+-+PB,+58430-360/@-7.2186059,-35.9179738,17z/data=!3m1!4b1!4m6!3m5!1s0x7aea0827e343fe5:0x836f919e78255eb9!8m2!3d-7.2186112!4d-35.9153989!16s%2Fg%2F11kqfxyb5y?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Servico Social Do Comércio - Sesc Centro",
+        "endereco": "Rua Gilo Guedes, 650 - Centro",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/R.+Gil%C3%B3+Guedes,+650+-+Centro,+Campina+Grande+-+PB,+58407-360/@-7.2171345,-35.879852,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e537ced4a2b:0x264de427d2413970!8m2!3d-7.2171398!4d-35.8772771!16s%2Fg%2F11c1j7bg_d?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Eeefm Antonio Guedes De Andrade",
+        "endereco": "Rua Severino Da Costa, 200- Catole De Ze Ferreira",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/R.+Cap.+Severino+M%C3%A1rio+da+Costa,+200+-+Velame,+Campina+Grande+-+PB,+58418-030/@-7.2579891,-35.9066396,19z/data=!3m1!4b1!4m5!3m4!1s0x7ac1df071d909d7:0xea54f33426897dfe!8m2!3d-7.2579904!4d-35.9059959?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Eeefm Monsenhor Sales",
+        "endereco": "R Vereador Antonio A Pimentel, 317- Centro",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/R.+Ver.+Ant%C3%B4nio+Dal%C3%A9cio,+317+-+Centro,+Tel%C3%AAmaco+Borba+-+PR,+84261-300/@-24.3238812,-50.6219579,17z/data=!3m1!4b1!4m5!3m4!1s0x94e983150b36390b:0x3550e6155636700e!8m2!3d-24.3238861!4d-50.619383?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Emef Felix Araujo",
+        "endereco": "Otacilio Nepomuceno, SN- Catolé",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/EMEF+F%C3%A9lix+Ara%C3%BAjo/@-7.2290015,-35.8790905,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e5eae6e81dd:0x73f798c6e7d34bf6!8m2!3d-7.2290068!4d-35.8765156!16s%2Fg%2F11b6dz7f6k?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Emef Lions Prata",
+        "endereco": "Rua João Quirino, S/N- Catolé",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/Escola+Municipal+Lions+Prata/@-7.2348259,-35.8800422,17z/data=!4m10!1m2!2m1!1sEmef+Lions+Prata!3m6!1s0x7ac1e60eb53a42b:0x5989494e82e29251!8m2!3d-7.2346287!4d-35.875394!15sChBFbWVmIExpb25zIFByYXRhkgEGc2Nob29s4AEA!16s%2Fg%2F11hcfpbddm?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Eeefm Monte Carmelo Cepes Cgi",
+        "endereco": "Av Profº Carlos Francisco Medeiros De Almeida, S/N- Bela Vista",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/EEEF+MONTE+CARMELO+CEPES+CGI/@-7.222651,-35.9033905,19.42z/data=!4m15!1m8!3m7!1s0x7ac1e3074e72313:0x8ba534db6f4d9aa9!2sR.+Prof.+Carlos+Francisco+Medeiros+de+Almeida+-+Bela+Vista,+Campina+Grande+-+PB,+58428-158!3b1!8m2!3d-7.2226306!4d-35.9032312!16s%2Fg%2F1ymwmzghg!3m5!1s0x7ac1fed931fa6c7:0xdadaacb0f4e7b6c4!8m2!3d-7.2225379!4d-35.9032942!16s%2Fg%2F11gszxdspt?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Emef Lafayete Cavalcante",
+        "endereco": "R Maestro Nestor Gomes Santiago, 58- Malvinas",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/EMEF+LAFAYETE+CAVALCANTE/@-7.2421094,-35.9227531,19.42z/data=!4m14!1m7!3m6!1s0x7aea0ae9bb05555:0x5d9606a4bfb84363!2sR.+Maestro+Nestor+Gomes+Santiago,+58+-+Malvinas,+Campina+Grande+-+PB,+58432-835!3b1!8m2!3d-7.2420958!4d-35.9221333!3m5!1s0x7aea1b732667cdf:0xb6a08e2dc4eb2e3b!8m2!3d-7.2421081!4d-35.9218684!16s%2Fg%2F11h1yh7r9h?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Eeefm Ademar Veloso Silveira",
+        "endereco": "João Virgolino Araújo, 1043- Bodocongó",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/EEEFM+ADEMAR+VELOSO+DA+SILVEIRA/@-7.2178352,-35.9177867,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fc3e15e24df:0x31824e228713eeab!8m2!3d-7.2178405!4d-35.9152118!16s%2Fg%2F1vn9p98f?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "EMEF CASSIANO PASCOAL PEREIRA",
+        "endereco": "Severino Pimentel, S/N- Jardim Paulistano",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/EMEF+CASSIANO+PASCOAL+PEREIRA/@-7.2413607,-35.8937047,18.51z/data=!4m15!1m8!3m7!1s0x7ac1e0d2c0a7609:0xb52c9d2aa5b6d88f!2sR.+Severino+P%C3%ADmentel+-+Liberdade,+Campina+Grande+-+PB,+58415-280!3b1!8m2!3d-7.239237!4d-35.8941249!16s%2Fg%2F1ymtsrygj!3m5!1s0x7ac1f579e2214f7:0x1945ac15ee319f60!8m2!3d-7.2419363!4d-35.8931319!16s%2Fg%2F11fhn11rkp?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "Eeef Jose Pinheiro",
+        "endereco": "Joana Darc Ferreira De Arruda, 937- José Pinheiro",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/EEEF+JOS%C3%89+PINHEIRO/@-7.2219856,-35.8716958,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e5cd87fc26b:0x615fa80ba83fa72f!8m2!3d-7.2219909!4d-35.8691209!16s%2Fg%2F1v44qmmt?entry=ttu",
+        "telefone": "null",
+        "distrito": null
+    },
+    {
+        "nome": "SECRETARIA DE EDUCAÇÃO DE CAMPINA GRANDE",
+        "endereco": "RUA PAULINO RAPOSO, 347 – CENTRO",
+        "tipo": "Educação para Jovens e Adultos",
+        "maps": "https://www.google.com/maps/place/Seduc+-+Secret%C3%A1ria+de+Educa%C3%A7%C3%A3o/@-7.2238986,-35.9216502,14z/data=!4m10!1m2!2m1!1ssecretaria+de+educa%C3%A7%C3%A3o+perto+de+Campina+Grande,+PB!3m6!1s0x7ac1e46100864f5:0xba705e9b28160396!8m2!3d-7.2238986!4d-35.8886912!15sCjRzZWNyZXRhcmlhIGRlIGVkdWNhw6fDo28gcGVydG8gZGUgQ2FtcGluYSBHcmFuZGUsIFBCkgEabXVuaWNpcGFsX29mZmljZV9lZHVjYXRpb27gAQA!16s%2Fg%2F11bbygj98g?entry=ttu",
+        "telefone": "null",
+        "distrito": 8333225503
+    },
+    {
+        "nome": "SECRETARIA DE CIÊNCIA, TECNOLOGIA E INOVAÇÃO DE CAMPINA GRANDE",
+        "endereco": "Av. Santa Clara – Prata",
+        "tipo": "Inclusão Digital para Idosos",
+        "maps": "https://www.google.com/maps/place/Av.+Santa+Clara+-+Prata,+Campina+Grande+-+PB/@-7.2232617,-35.8912093,18.21z/data=!4m6!3m5!1s0x7ac1e48f55130c9:0x53ae380231db8123!8m2!3d-7.2219648!4d-35.8905443!16s%2Fg%2F1ymwpvl9j?entry=ttu",
+        "telefone": "8333224976",
+        "distrito": null
+    },
+    {
+        "nome": "CASA DOS CONSELHOS",
+        "endereco": "R. GILÓ, 39 - SANTO ANTÔNIO",
+        "tipo": "Controle Social e Participação da Pessoa nas Políticas Públicas",
+        "maps": "https://www.google.com/maps/place/R.+Gil%C3%B3+Guedes,+39+-+Centro,+Campina+Grande+-+PB,+58407-360/@-7.2185317,-35.8779639,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e54438ce95b:0x784849692ed8834a!8m2!3d-7.218537!4d-35.875389!16s%2Fg%2F11gf9gydyp?entry=ttu",
+        "telefone": "8333106005",
+        "distrito": null
+    },
+    {
+        "nome": "Acessibilidade à moradia",
+        "endereco": "RUA NOSSA SRA. DE LOURDES, 85 - JARDIM TAVARES",
+        "tipo": "Acessibilidade à moradia",
+        "maps": "https://www.google.com/maps/place/R.+Nossa+Sra.+de+Lourdes,+85+-+Jardim+Tavares,+Campina+Grande+-+PB,+58402-045/@-7.2126065,-35.8787236,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1fab909a3c63:0x946a48698350c711!8m2!3d-7.2126118!4d-35.8761487!16s%2Fg%2F11fk4scb62?entry=ttu",
+        "telefone": "8333227124",
+        "distrito": null
+    },
+    {
+        "nome": "Cartão gratuidade e credencial para estacionamento",
+        "endereco": "R. CAZUZA BARRETO, 113 - CATOLÉ",
+        "tipo": "Cartão gratuidade e credencial para estacionamento",
+        "maps": "https://www.google.com/maps/place/R.+Cazuza+Barreto,+113+-+Catol%C3%A9,+Campina+Grande+-+PB,+58410-103/@-7.2287537,-35.8837465,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e435d1a0e29:0x501854f6facc53fe!8m2!3d-7.2287537!4d-35.8837465!16s%2Fg%2F11c5nc_gst?entry=ttu",
+        "telefone": "8333411517",
+        "distrito": null
+    },
+    {
+        "nome": "INSS - PREVIDÊNCIA SOCIAL",
+        "endereco": "RUA CORONEL JOÃO LOURENÇO PORTO, Nº 89 – CENTRO",
+        "tipo": "Aposentadoria e benefícios",
+        "maps": "https://www.google.com/maps/place/R.+Cel.+Jo%C3%A3o+Louren%C3%A7o+Porto,+89+-+Centro,+Campina+Grande+-+PB,+58400-240/@-7.2201263,-35.8850687,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e51e213acb1:0xbf8665204b4ed7cd!8m2!3d-7.2201316!4d-35.8824938!16s%2Fg%2F11f3nc8v3g?entry=ttu",
+        "telefone": "8333159124",
+        "distrito": null
+    },
+    {
+        "nome": "INSS - APS CG CATOLÉ",
+        "endereco": "RUA VIGÁRIO CALIXTO, Nº 418 – CATOLÉ",
+        "tipo": "Aposentadoria e benefícios",
+        "maps": "https://www.google.com/maps/place/R.+Vig.+Calixto,+418+-+Catol%C3%A9,+Campina+Grande+-+PB,+58410-340/@-7.2309001,-35.8811911,18.91z/data=!4m6!3m5!1s0x7ac1e5ce1ca04eb:0xde4bdc85febaabe3!8m2!3d-7.2307473!4d-35.8809455!16s%2Fg%2F11c29f5k74?entry=ttu",
+        "telefone": "8333373347",
+        "distrito": null
+    },
+    {
+        "nome": "INSS - INSTITUTO NACIONAL DO SEGURO SOCIAL",
+        "endereco": "PRAÇA FÉLIX ARAÚJO, Nº 68 – ESTAÇÃO VELHA",
+        "tipo": "Aposentadoria e benefícios",
+        "maps": "https://www.google.com/maps/place/Pra%C3%A7a+F%C3%A9lix+Ara%C3%BAjo/@-7.2150855,-35.8936881,19.21z/data=!4m6!3m5!1s0x7ac1e356079b8c9:0x3e148cbaa8e024!8m2!3d-7.215016!4d-35.893547!16s%2Fg%2F11b6d5bbjb?entry=ttu",
+        "telefone": "8333414448",
+        "distrito": null
+    },
+    {
+        "nome": "INSS - DINAMÉRICA",
+        "endereco": "AVENIDA DINAMÉRICA ALVES CORREIA, S/N – DINAMÉRICA",
+        "tipo": "Aposentadoria e benefícios",
+        "maps": "https://www.google.com/maps/place/INSS+-+Dinam%C3%A9rica/@-7.238907,-35.9129651,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e1cafcd833d:0x573fe5e791fb3560!8m2!3d-7.2389123!4d-35.9103902!16s%2Fg%2F11b6ch1pnl?entry=ttu",
+        "telefone": "83333411026",
+        "distrito": null
+    },
+    {
+        "nome": "PROCON MUNICIPAL DE CAMPINA GRANDE",
+        "endereco": "R. PREF. ERNANE LAURITZEN, 226 - CENTRO",
+        "tipo": "Denúncia do consumidor",
+        "maps": "https://www.google.com.br/maps/place/Procon+Municipal+de+Campina+Grande/@-7.2158223,-35.8844573,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e52bb367117:0x5929c7a6924d6936!8m2!3d-7.2158223!4d-35.8818824!16s%2Fg%2F11bzsff4m4?entry=ttu",
+        "telefone": "83981863609",
+        "distrito": null
+    }
+]

@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-height: 95%;
+    height: 100%;
     width: 1000px;
   }
   
@@ -31,19 +31,19 @@
     cursor: pointer;
   }
   
-  .videos {
+  .fase {
     display: flex;
-    flex-wrap: wrap; /* Vídeos se reajustam ao tamanho da tela */
-    justify-content: space-between; /* Vídeos enfileirados um ao lado do outro */
-    align-items: flex-start; /* Alinhamento no topo */
-    margin-top: 50px;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    justify-content: center; /* Vídeos enfileirados um ao lado do outro */
+    align-items: center; /* Alinhamento no topo */
   }
   
   .videoItem {
-    flex: 0 0 auto;
-    width: calc(33.33% - 20px); /* Cada vídeo ocupa cerca de 1/3 do contêiner com um espaçamento de 20px */
+    width: 100%; 
+    height: 100%;
     border-radius: 15px;
-    margin-bottom: 20px; /* Adicionar espaço entre os vídeos */
   }
   
   .videoItem iframe {
@@ -53,13 +53,6 @@
   }
   
   @media (max-width: 1400px) {
-    .videos {
-      justify-content: space-around; /* Ajustar o espaçamento entre os vídeos */
-    }
-  
-    .videoItem {
-      width: calc(50% - 20px); /* Cada vídeo ocupa cerca de 1/2 do contêiner com um espaçamento de 20px */
-    }
   
     /* Ajustar a largura dos botões para 100% na mesma media query */
     .options {
@@ -74,10 +67,6 @@
   @media (max-width: 1000px) {
     .all {
       width: 100%;
-    }
-    .videoItem {
-      width: 100%; /* Cada vídeo ocupa todo o contêiner */
-      height: 130px; /* Reduzir a altura dos vídeos em telas menores */
     }
   
     /* Ajustar a largura dos botões para 100% em telas menores que 800px */
@@ -109,13 +98,6 @@
         .option {
         width: 100%;
         }
-        .videos {
-        width: 100%;
-        }
-        .videoItem {
-        width: 100%;
-        height: 120px;
-        }
     }
   @media (max-width: 600px){
     .all {
@@ -127,13 +109,6 @@
     }
     .option {
       width: 100%;
-    }
-    .videos {
-      width: 100%;
-    }
-    .videoItem {
-      width: 100%;
-      height: 100px;
     }
   }
   

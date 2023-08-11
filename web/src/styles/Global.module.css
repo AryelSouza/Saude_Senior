@@ -55,9 +55,9 @@
   align-items: center;
   gap: 0px;
   margin-left: 80px;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 25px;
-  background-color: #fff;
+  background-color: #fffffff1;
   width: calc(100% - 78px); /* considera a largura da barra lateral */
   max-width: calc(100vw - 78px); /* considera a largura da barra lateral */
   max-height: 100vh;

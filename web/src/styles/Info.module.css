@@ -1,24 +1,48 @@
-.all {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    gap: 0;
-    border-radius: 25px;
-    height: 100%;
+
+  .all {
+    position: relative;
     width: 100%;
-    background-image: radial-gradient(circle, #3b3b34, #525249, #6b6b5f, #848475, #9f9f8d);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    
+  }
+  .global{
+    display: flex;
+    width: 100%;
+    max-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
+  .carousel{
+    cursor: grab;
+    overflow: hidden;
+  }
+
+  .img{
+    border-radius: 12px;
+    pointer-events: none;
+  }
+
+  .item{
+    min-height: 100px;
+    min-width: 330px;
+    padding: 0px;
+  }
+
+  .inner{
+    display: flex;
+  }
+
   .perfis {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 0px;
     margin: 20px 0;
   }
   

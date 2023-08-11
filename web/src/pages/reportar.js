@@ -20,7 +20,6 @@ export default function Reportar() {
 
       <Background>
         <div className={styles.all}>
-            <BarraPesquisa/>
             <div className={styles.ReportQuestions}>
                 <div className={styles.title}>
                   <h3 className={styles.ReportText}>Perguntas mais frequentes:</h3>
