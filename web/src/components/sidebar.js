@@ -43,7 +43,7 @@ export default function SideBar({pagAtual}){
             </div>
 
             <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/reportar')}}>
-              <img className={stylesGlobal.option} src='/flag.svg'></img>
+              <img className={stylesGlobal.option} src='/question.svg'></img>
               {
                 sidebar
                   ? <h2 className={stylesGlobal.tituloSidebar}>Dúvidas</h2>
