@@ -28,6 +28,12 @@
   margin-top: 10px;
 }
 
+.logos{
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 8px;
+}
+
 .barraLateral {
   position: fixed; /* torna a barra lateral fixa na tela */
   display: flex;
@@ -43,10 +49,6 @@
   border-radius: 25px;
   z-index: 9999; /* define uma camada acima dos outros elementos */
   transition: width 0.3s; /* adiciona uma transição suave */
-}
-
-.barraLateral:hover {
-  width: 300px; /* aumenta a largura ao passar o mouse */
 }
 
 .home {

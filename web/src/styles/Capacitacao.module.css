@@ -4,8 +4,9 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 1000px;
+    width: 95%;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
   
   .options {

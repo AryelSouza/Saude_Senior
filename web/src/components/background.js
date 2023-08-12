@@ -17,7 +17,9 @@ export default function Background({children, pagAtual}) {
 
         </div>
         <div className={stylesGlobal.footer}>
-          <img src='/logos.svg'></img>
+          <div className={stylesGlobal.logos}>
+            <img src='/logos.svg'></img>
+          </div>
           <p className={stylesGlobal.textFooter} >•</p>
           <p className={stylesGlobal.textFooter}> © Copyright Saude Senior. Todos os direitos reservados.</p>
         </div>
