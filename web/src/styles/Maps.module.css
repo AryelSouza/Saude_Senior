@@ -1,0 +1,38 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    z-index: 999;
+  }
+
+  .elements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+  }
+
+  .element{
+    width: calc(50% - 20px); /* Cada item ocupa metade da largura, subtraindo a margem */
+    margin: 5px; /* Margem entre os elementos */
+    background-color: #00000020;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
