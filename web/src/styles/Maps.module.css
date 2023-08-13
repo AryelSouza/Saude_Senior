@@ -35,4 +35,9 @@
     border-radius: 8px;
     z-index: 1;
   }
+
+  .element a{
+    color: blue;
+    text-decoration: underline;
+  }
   
