@@ -36,6 +36,14 @@
     z-index: 1;
   }
 
+  .element:hover{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    cursor: pointer;
+  }
+  .element:focus-within {
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+
   .element a{
     color: blue;
     text-decoration: underline;
