@@ -42,7 +42,7 @@ export default function Maps() {
             {
               data
               .filter((e) => {
-                if(search.length > 3){
+                if(search.length >= 3){
                   return (
                     (e.tipo).toLowerCase().includes(search.toLowerCase())
                     || (e.nome).toLowerCase().includes(search.toLowerCase())

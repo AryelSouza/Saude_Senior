@@ -37,7 +37,7 @@ export default function Home() {
     dots: true,
     infinite: true,
     speed: 500,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 6000,
     arrows: true,
     autoplay: true,
     slidesToShow: 1, // define quantos slides serão exibidos por vez

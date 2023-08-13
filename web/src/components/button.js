@@ -1,4 +1,4 @@
-import styles from '@/styles/Report.module.css'
+import styles from '@/styles/Duvidas.module.css'
 
 export default function Button({children, click}){
     return(

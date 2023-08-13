@@ -1,14 +1,10 @@
-import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Report.module.css'
-import stylesGlobal from '@/styles/Global.module.css'
+import styles from '@/styles/Duvidas.module.css'
 import {useRouter} from 'next/router'
 import axios from 'axios'
-import SideBar from '@/components/sidebar'
 import Background from '@/components/background'
 import Button from '@/components/button'
 import HeadPadrao from '@/components/headPadrao'
-import BarraPesquisa from '@/components/barraPesquisa'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,7 +31,7 @@ export default function Reportar() {
             </div>
 
             <div className={styles.ReportProblem}>
-            <h3>Qual o Problema encontrado ?</h3>
+            <h3 style={{textAlign:'center'}}>Alguma outra duvida? <br/> Entre em contato conosco!</h3>
             <textarea rows="6"cols="60" className={styles.ReportTextProblem}></textarea>
 
             <Button click={()=>{

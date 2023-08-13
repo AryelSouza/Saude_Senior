@@ -37,12 +37,12 @@ export default function SideBar({pagAtual}){
               <img className={stylesGlobal.option} src='/map.svg'></img>
               {
                 sidebar
-                  ? <h2 className={stylesGlobal.tituloSidebar}>Mapa</h2>
+                  ? <h2 className={stylesGlobal.tituloSidebar}>Direcionando</h2>
                   : null
               }
             </div>
 
-            <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/reportar')}}>
+            <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/duvidas')}}>
               <img className={stylesGlobal.option} src='/question.svg'></img>
               {
                 sidebar

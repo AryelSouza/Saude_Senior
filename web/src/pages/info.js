@@ -32,7 +32,7 @@ export default function Info() {
       <HeadPadrao>Info</HeadPadrao>
       <Background>
         <div className={styles.global}>
-          <h1 >Equipe de Produção</h1>
+          <h1 className={styles.titulo}>Equipe de Produção</h1>
           <div className={styles.all}>
             <motion.div ref={carousel} className={styles.carousel} whileTap={{cursor: "grabbing"}}>
               <motion.div 

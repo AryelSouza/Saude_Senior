@@ -26,6 +26,16 @@ export default function Home() {
       <Background>
         <div className={styles.all}>
           <div className={styles.options}>
+          <div
+              className={styles.option}
+              style={{
+                backgroundColor:
+                  fase == 0 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+              }}
+              onClick={() => setFase(0)}
+            >
+              Introdução
+            </div>
             <div
               className={styles.option}
               style={{
@@ -75,6 +85,16 @@ export default function Home() {
               onClick={() => setFase(5)}
             >
               Fase 5
+            </div>
+            <div
+              className={styles.option}
+              style={{
+                backgroundColor:
+                  fase == 6 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+              }}
+              onClick={() => setFase(6)}
+            >
+              Finalização
             </div>
           </div>
 
