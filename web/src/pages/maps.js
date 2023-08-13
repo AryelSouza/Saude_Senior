@@ -60,7 +60,7 @@ export default function Maps() {
                   Endereço: {element.endereco}<br/>
                   Tipo: {element.tipo}<br/>
                   Telefone: {element.telefone == "null" ? "Desconhecido" : element.telefone}<br/>
-                  <a href={element.maps != "zona rural" && element.maps != "---" ? element.maps : ""} target='_blank'>
+                  <a href={element.maps != "zona rural" && element.maps != "---" ? element.maps : "/naoencontrado"} target='_blank'>
                     {
                       element.maps == "zona rural" 
                       ?  "Zona Rural"

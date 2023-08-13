@@ -60,6 +60,14 @@
 
   }
 
+  .ReportLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
   .ReportTextProblem:focus{
     outline: none;
     border: none;

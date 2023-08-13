@@ -1,10 +1,12 @@
 import styles from '@/styles/Duvidas.module.css'
+import Link from 'next/link';
 
-export default function Button({children, click}){
+export default function Button({children, click, link}){
     return(
+    <Link className={styles.ReportLink} href={link ? link : "/capacitacao"}>
         <button className={styles.ReportButton} onClick={click}>
             {children}
-        
         </button>
+    </Link>
     )
 }

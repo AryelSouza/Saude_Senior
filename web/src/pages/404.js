@@ -11,9 +11,9 @@ export default function Erro() {
         <div className="container">
           <div className="row">
             <div className="texto">
-              <h1>O link não possui correspondência ;-;</h1>
+              <h1>Desculpe essa página não existe ;-;</h1>
               <p className={styles.animatedText}>
-                Lamentamos o ocorrido, estamos trabalhando nisso!
+                Tente navegar a partir da página incial do site!
               </p>
             </div>
           </div>

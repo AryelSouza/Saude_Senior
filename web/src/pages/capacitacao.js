@@ -1,24 +1,17 @@
-import Head from "next/head";
-import { Inter } from "next/font/google";
 import styles from "@/styles/Capacitacao.module.css";
-import stylesGlobal from "@/styles/Global.module.css";
-const inter = Inter({ subsets: ["latin"] });
 import { useRouter } from "next/router";
-import SideBar from "@/components/sidebar";
 import Background from "@/components/background";
 import HeadPadrao from "@/components/headPadrao";
-import BarraPesquisa from "@/components/barraPesquisa";
-import Apresentacao from "@/components/apresentacao";
 import { useState } from "react";
 import Button from "@/components/button";
 
-export default function Home() {
-  const router = useRouter();
+export default function Capacitacao() {
   const [fase, setFase] = useState(1);
+  const router = useRouter()
 
   return (
     <>
-      <HeadPadrao>Home</HeadPadrao>
+      <HeadPadrao>Capacitacao</HeadPadrao>
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
@@ -104,17 +97,29 @@ export default function Home() {
               {/* Exemplo de vídeo: */}
 
               <div className={styles.videoItem}>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/SMBPnXK-VKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h2>• Video 1</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SMBPnXK-VKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <h2>• Video 2</h2>
+                <iframe width="708" height="398" src="https://www.youtube.com/embed/FXTGgP9k3z0" title="Políticas de Saúde Voltadas À Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <h2>• Video 3</h2>
+                <iframe width="708" height="398" src="https://www.youtube.com/embed/3xC5jgL1VOo" title="Humanização, Acolhimento e Comunicação com a Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
-              <Button>Baixar</Button>
+              <Button link={"https://drive.google.com/drive/u/2/folders/1bLeXxaT_apaiZIP-EjpdQtyZHGV7AtlV"}>Baixar material complementar</Button>
             </div>
           )}
 
           {fase == 2 && (
-            <div className={styles.documentos}>
-              DOCUMENTOS
-              {/* Renderizar seus documentos aqui */}
+            <div className={styles.fase}>
+            {/* Renderizar seus vídeos aqui */}
+            {/* Exemplo de vídeo: */}
+
+            <div className={styles.videoItem}>
+              <iframe width="708" height="398" src="https://www.youtube.com/embed/CjjHqMp3f7Q" title="Estatuto da Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
+            <Button>Baixar material complementar</Button>
+          </div>
           )}
 
           {fase == 3 && (
