@@ -57,7 +57,7 @@ export default function SideBar({pagAtual}){
               <img className={stylesGlobal.option} src='/info.svg'></img>
               {
                 sidebar
-                  ? <h2 className={stylesGlobal.tituloSidebar}>Informações</h2>
+                  ? <h2 className={stylesGlobal.tituloSidebar}>Equipe</h2>
                   : null
               }
             </div>
