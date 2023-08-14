@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100%;
     width: 95%;
     overflow-y: scroll;
@@ -10,13 +9,14 @@
   }
   
   .options {
+    top: 15px;
     margin: 10px;
     display: flex;
     height: 40px;
     width: 50%;
     gap: 10px;
   }
-  
+
   .option {
     display: flex;
     background-color: rgba(0, 0, 0, 0.08);
@@ -37,25 +37,28 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 85%;
+    height: 100%;
     justify-content: center; /* Vídeos enfileirados um ao lado do outro */
     align-items: center; /* Alinhamento no topo */
   }
   
   .videoItem {
-    margin-top: 150px;
-    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    margin: 0 auto;
     flex-direction: column;
-    width: 100%; 
-    border-radius: 15px;
-  }
-  
-  .videoItem iframe {
     width: 100%;
     height: 100%;
     border-radius: 15px;
   }
   
+  .videoItem iframe {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+  }
+
   @media (max-width: 1400px) {
   
     /* Ajustar a largura dos botões para 100% na mesma media query */

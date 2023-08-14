@@ -1,13 +1,13 @@
 import styles from "@/styles/Capacitacao.module.css";
-import { useRouter } from "next/router";
 import Background from "@/components/background";
 import HeadPadrao from "@/components/headPadrao";
 import { useState } from "react";
 import Button from "@/components/button";
+import Link from 'next/link';
+
 
 export default function Capacitacao() {
   const [fase, setFase] = useState(1);
-  const router = useRouter()
 
   return (
     <>
@@ -98,15 +98,19 @@ export default function Capacitacao() {
 
               <div className={styles.videoItem}>
                 <h2>• Video 1</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SMBPnXK-VKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="398" src="https://www.youtube.com/embed/SMBPnXK-VKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 <h2>• Video 2</h2>
-                <iframe width="708" height="398" src="https://www.youtube.com/embed/FXTGgP9k3z0" title="Políticas de Saúde Voltadas À Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="398" src="https://www.youtube.com/embed/FXTGgP9k3z0" title="Políticas de Saúde Voltadas À Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 <h2>• Video 3</h2>
-                <iframe width="708" height="398" src="https://www.youtube.com/embed/3xC5jgL1VOo" title="Humanização, Acolhimento e Comunicação com a Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="398" src="https://www.youtube.com/embed/3xC5jgL1VOo" title="Humanização, Acolhimento e Comunicação com a Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
-              <Button link={"https://drive.google.com/drive/u/2/folders/1bLeXxaT_apaiZIP-EjpdQtyZHGV7AtlV"}>Baixar material complementar</Button>
+              {/* <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=1Q2f80pkvKNTZPOtO98PaCQQ413MrK4R9"}>
+                <button className={styles.button}>
+                    Baixar material complementar
+                </button>
+              </Link> */}
             </div>
           )}
 
@@ -118,7 +122,7 @@ export default function Capacitacao() {
             <div className={styles.videoItem}>
               <iframe width="708" height="398" src="https://www.youtube.com/embed/CjjHqMp3f7Q" title="Estatuto da Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <Button>Baixar material complementar</Button>
+            {/* <Button>Baixar material complementar</Button> */}
           </div>
           )}
 

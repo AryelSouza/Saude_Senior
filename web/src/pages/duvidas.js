@@ -32,10 +32,10 @@ export default function Reportar() {
 
             <div className={styles.ReportProblem}>
             <h3 style={{textAlign:'center'}}>Alguma outra duvida? <br/> Entre em contato conosco!</h3>
-            <div>
+            {/* <div>
               <label>Email:</label>
               <input></input>
-            </div>
+            </div> */}
             <textarea rows="6"cols="60" className={styles.ReportTextProblem}></textarea>
 
             <Button click={()=>{
