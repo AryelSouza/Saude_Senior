@@ -19,7 +19,7 @@ export default function Capacitacao() {
       <Background>
         <div className={styles.all}>
           <div className={styles.options}>
-          <div
+            <div
               className={styles.option}
               style={{
                 backgroundColor:
@@ -33,9 +33,9 @@ export default function Capacitacao() {
               className={styles.option}
               style={{
                 backgroundColor:
-                  fase == 1 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+                  fase == 1.1 || fase == 1.2 || fase == 1.3 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
               }}
-              onClick={() => setFase(1)}
+              onClick={() => setFase(1.1)}
             >
               Fase 1
             </div>
@@ -91,39 +91,67 @@ export default function Capacitacao() {
             </div>
           </div>
 
-          {fase == 1 && (
+          {fase == 1.1 && (
             <div className={styles.fase}>
               {/* Renderizar seus vídeos aqui */}
               {/* Exemplo de vídeo: */}
 
               <div className={styles.videoItem}>
                 <h2>• Video 1</h2>
-                <iframe width="560" height="398" src="https://www.youtube.com/embed/SMBPnXK-VKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+                <iframe width="560" height="500" src="https://www.youtube.com/embed/SMBPnXK-VKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div className={styles.link}>
+                <button onClick={()=>{setFase(1.2)}} className={styles.button}>
+                  Proximo video
+                </button>
+              </div>
+            </div>
+          )}
+          
+          {fase == 1.2 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+              <div className={styles.videoItem}>
                 <h2>• Video 2</h2>
                 <iframe width="560" height="398" src="https://www.youtube.com/embed/FXTGgP9k3z0" title="Políticas de Saúde Voltadas À Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div className={styles.link}>
+                <button onClick={()=>{setFase(1.3)}} className={styles.button}>
+                  Proximo video
+                </button>  
+              </div>
+            </div>
+          )}
 
+
+          {fase == 1.3 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+              <div className={styles.videoItem}>
                 <h2>• Video 3</h2>
                 <iframe width="560" height="398" src="https://www.youtube.com/embed/3xC5jgL1VOo" title="Humanização, Acolhimento e Comunicação com a Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
-              {/* <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=1Q2f80pkvKNTZPOtO98PaCQQ413MrK4R9"}>
+              <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=1Q2f80pkvKNTZPOtO98PaCQQ413MrK4R9"}>
                 <button className={styles.button}>
                     Baixar material complementar
                 </button>
-              </Link> */}
+              </Link>
             </div>
           )}
 
           {fase == 2 && (
             <div className={styles.fase}>
-            {/* Renderizar seus vídeos aqui */}
-            {/* Exemplo de vídeo: */}
-
-            <div className={styles.videoItem}>
-              <iframe width="708" height="398" src="https://www.youtube.com/embed/CjjHqMp3f7Q" title="Estatuto da Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div className={styles.videoItem}>
+                <iframe width="560" height="398" src="https://www.youtube.com/embed/CjjHqMp3f7Q" title="Estatuto da Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
+                <button className={styles.button}>
+                    Baixar material complementar
+                </button>
+              </Link>
             </div>
-            {/* <Button>Baixar material complementar</Button> */}
-          </div>
           )}
 
           {fase == 3 && (

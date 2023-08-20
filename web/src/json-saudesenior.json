@@ -1,6 +1,6 @@
 ﻿[
     {
-        "nome": "UBS Antônio Arruda,
+        "nome": "UBS Antônio Arruda",
         "endereco": "R.Josino Agra, S/N - José Pinheiro",
         "tipo": "Atenção Primária- Unidades Básicas de Saúde",
         "maps": "https://www.google.com/maps/place/UBS+Ant%C3%B4nio+Arruda/@-7.2200629,-35.8734571,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1f52625623c1:0x5927709563549ca8!8m2!3d-7.2200682!4d-35.8708822!16s%2Fg%2F11f7fpxgtr?entry=ttu",
@@ -1848,4 +1848,4 @@
         "telefone": "(83)981863609",
         "distrito": null
     }
-]"
+]
