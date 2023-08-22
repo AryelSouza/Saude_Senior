@@ -29,3 +29,21 @@ h2{
   font-size: 25px;
   color: black;
 }
+
+/* Altera a cor do scroll */
+::-webkit-scrollbar {
+  width: 5px;
+  
+}
+
+/* Altera o fundo da área do scroll */
+::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+/* Altera a aparência do handle (a parte que é arrastada) do scroll */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  margin: 15px;
+  background: #949494;
+}

@@ -2,12 +2,23 @@ import styles from "@/styles/Capacitacao.module.css";
 import Background from "@/components/background";
 import HeadPadrao from "@/components/headPadrao";
 import { useState } from "react";
-import Button from "@/components/button";
 import Link from 'next/link';
+import Image from "next/image";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  arrows: true,
+  slidesToShow: 1, // define quantos slides serão exibidos por vez
+  slidesToScroll: 1, // define quantos slides serão percorridos por vez,
+};
 
 export default function Capacitacao() {
-  const [fase, setFase] = useState(1);
+  const [fase, setFase] = useState(0);
 
   return (
     <>
@@ -53,9 +64,9 @@ export default function Capacitacao() {
               className={styles.option}
               style={{
                 backgroundColor:
-                  fase == 3 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+                  fase == 3.1 || fase == 3.2 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
               }}
-              onClick={() => setFase(3)}
+              onClick={() => setFase(3.1)}
             >
               Fase 3
             </div>
@@ -90,6 +101,20 @@ export default function Capacitacao() {
               Finalização
             </div>
           </div>
+          
+          {fase == 0 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+              <Slider {...settings} className={styles.images}>
+                <Image className={styles.image} src={"cap11.svg"} width={700} height={700}/>
+                <Image className={styles.image} src={"cap12.svg"} width={700} height={700}/>
+                <Image className={styles.image} src={"cap13.svg"} width={700} height={700}/>
+                <Image className={styles.image} src={"cap14.svg"} width={700} height={700}/>
+              </Slider> 
+
+            </div>
+          )}
 
           {fase == 1.1 && (
             <div className={styles.fase}>
@@ -144,7 +169,7 @@ export default function Capacitacao() {
           {fase == 2 && (
             <div className={styles.fase}>
               <div className={styles.videoItem}>
-                <iframe width="560" height="398" src="https://www.youtube.com/embed/CjjHqMp3f7Q" title="Estatuto da Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CjjHqMp3f7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
               <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
                 <button className={styles.button}>
@@ -154,10 +179,51 @@ export default function Capacitacao() {
             </div>
           )}
 
-          {fase == 3 && (
-            <div className={styles.mapasMentais}>
-              MAPAS
-              {/* Renderizar seus mapas mentais aqui */}
+          {fase == 3.1 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+
+              <div className={styles.videoItem}>
+                <h2>• Video 1</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y-ASs2Ej6o8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div className={styles.link}>
+                <button onClick={()=>{setFase(3.2)}} className={styles.button}>
+                  Proximo video
+                </button>
+              </div>
+            </div>
+          )}
+          
+          {fase == 3.2 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+              <div className={styles.videoItem}>
+                <h2>• Video 2</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iYToMgC5zVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
+                <button className={styles.button}>
+                    Baixar material complementar
+                </button>
+              </Link>
+            </div>
+          )}
+
+          {fase == 4 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+              <div className={styles.videoItem}>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2BOoiaQT63A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
+                <button className={styles.button}>
+                    Baixar material complementar
+                </button>
+              </Link>
             </div>
           )}
         </div>
