@@ -39,13 +39,7 @@ export default function Reportar() {
             <textarea rows="6"cols="60" className={styles.ReportTextProblem}></textarea>
 
             <Button click={()=>{
-              axios.get('http://localhost:3000/teste').then((resposta)=>{
-                alert(resposta.data)
-                console.log(resposta.data)
-              }).catch((err)=>{
-                alert(err.message)
-                console.log(err)
-              })
+              alert('opa')
             }}>
               Enviar
             </Button>
