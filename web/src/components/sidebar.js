@@ -1,10 +1,15 @@
 import stylesGlobal from '@/styles/Global.module.css'
 import {useRouter} from 'next/router'
 import { useMyContext } from '@/contexts/flagSideBar'
+import {AiOutlineQuestionCircle} from "react-icons/ai" //duvidas
+import {RiTeamFill} from "react-icons/ri" //equipe
+import {AiOutlineHome} from "react-icons/ai"//home
+import {LiaMapSolid} from "react-icons/lia"//map
+import {MdSlowMotionVideo} from "react-icons/md"
 
 export default function SideBar({pagAtual}){
-  const router = useRouter();
   const {sidebar, setSidebar} = useMyContext();
+  const router = useRouter();
 
   return(
       <div style={sidebar ? {width: "300px"} : {}} onMouseEnter={()=>{setSidebar(true);}} onMouseLeave={()=>{setSidebar(false)}} className={stylesGlobal.barraLateral}>
@@ -15,8 +20,8 @@ export default function SideBar({pagAtual}){
           
           <div className={stylesGlobal.options}>
 
-            <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/')}}>
-              <img className={stylesGlobal.option} src='/home.svg'></img>
+            <div className={sidebar ? stylesGlobal.divSidebarOpen  : stylesGlobal.divSidebar} onClick={()=>{router.push('/')}}>
+              <AiOutlineHome size={36} color='#fff'/>
               {
               sidebar
                 ? <h2 className={stylesGlobal.tituloSidebar}>Inicio</h2>
@@ -24,8 +29,8 @@ export default function SideBar({pagAtual}){
               }
             </div>
 
-            <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/capacitacao')}}>
-              <img className={stylesGlobal.option} src='/video.svg'></img>
+            <div className={sidebar ? stylesGlobal.divSidebarOpen  : stylesGlobal.divSidebar} onClick={()=>{router.push('/capacitacao')}}>
+              <MdSlowMotionVideo size={36} color='#fff'/>
               {
                 sidebar
                   ? <h2 className={stylesGlobal.tituloSidebar}>Capacitação</h2>
@@ -33,8 +38,8 @@ export default function SideBar({pagAtual}){
               }
             </div>
             
-            <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/maps')}}>
-              <img className={stylesGlobal.option} src='/map.svg'></img>
+            <div className={sidebar ? stylesGlobal.divSidebarOpen  : stylesGlobal.divSidebar} onClick={()=>{router.push('/maps')}}>
+            <LiaMapSolid size={36} color='#fff'/>
               {
                 sidebar
                   ? <h2 className={stylesGlobal.tituloSidebar}>Direcionando</h2>
@@ -42,8 +47,8 @@ export default function SideBar({pagAtual}){
               }
             </div>
 
-            <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/duvidas')}}>
-              <img className={stylesGlobal.option} src='/question.svg'></img>
+            <div className={sidebar ? stylesGlobal.divSidebarOpen  : stylesGlobal.divSidebar} onClick={()=>{router.push('/duvidas')}}>
+              <AiOutlineQuestionCircle size={36} color='#fff'/>
               {
                 sidebar
                   ? <h2 className={stylesGlobal.tituloSidebar}>Dúvidas</h2>
@@ -53,8 +58,8 @@ export default function SideBar({pagAtual}){
           </div>
 
           <div className={stylesGlobal.info}>
-            <div className={stylesGlobal.divSidebar} onClick={()=>{router.push('/info')}} >
-              <img className={stylesGlobal.option} src='/info.svg'></img>
+            <div className={sidebar ? stylesGlobal.divSidebarOpen  : stylesGlobal.divSidebar} onClick={()=>{router.push('/info')}} >
+            <RiTeamFill size={36} color='#fff'/>
               {
                 sidebar
                   ? <h2 className={stylesGlobal.tituloSidebar}>Equipe</h2>

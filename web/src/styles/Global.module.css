@@ -101,17 +101,26 @@
 }
 .divSidebar{
   display: flex;
-  width: 41px;
+  width: 36px;
   align-items: start;
   flex-direction: row;
   gap: 15px;
 }
-.divSidebar:hover{
+
+.divSidebarOpen{
+  display: flex;
+  width: 250px;
+  align-items: start;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.divSidebarOpen:hover{
   cursor: pointer;
   background-color: #d9d9d913;
-  width: 250px;
   border-radius: 8px;
 }
+
 
 @keyframes fadeIn {
   from {
