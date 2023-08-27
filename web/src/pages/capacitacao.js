@@ -147,6 +147,8 @@ export default function Capacitacao() {
               Finalização
             </div>
           </div>
+          <div className={styles.fases}>
+
 
           {fase == 0 && (
             <div className={styles.fase}>
@@ -204,15 +206,18 @@ export default function Capacitacao() {
                 <h2>• Video 3</h2>
                 <iframe width="560" height="398" src="https://www.youtube.com/embed/3xC5jgL1VOo" title="Humanização, Acolhimento e Comunicação com a Pessoa Idosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
-              <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=1Q2f80pkvKNTZPOtO98PaCQQ413MrK4R9"}>
-                <button className={styles.button}>
-                  Baixar material complementar
-                </button>
-              </Link>
-              <div className={styles.link}>
-                <button onClick={() => { setFase(1.4) }} className={styles.button}>
-                  Jogo de Fixação
-                </button>
+              <div className={styles.botoes}>
+                <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=1Q2f80pkvKNTZPOtO98PaCQQ413MrK4R9"}>
+                  <button className={styles.button}>
+                    Baixar material complementar
+                  </button>
+                </Link>
+
+                <div className={styles.link}>
+                  <button onClick={() => { setFase(1.4) }} className={styles.button}>
+                    Jogo de Fixação
+                  </button>
+                </div>
               </div>
             </div>
           )}
@@ -542,6 +547,7 @@ export default function Capacitacao() {
                   </Link>
                 </div>
               )}
+          </div>
             </div>
       </Background>
     </>

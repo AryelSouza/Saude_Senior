@@ -1,7 +1,7 @@
 import styles from '@/styles/StarRating.module.css'
 import { useState } from 'react';
 
-export default function StarRating() {
+export default function StarRating({setNstars}) {
     const [rating, setRating] = useState(0);
     const [hover, setHover] = useState(0);
     return (
@@ -13,7 +13,7 @@ export default function StarRating() {
               type="button"
               key={index}
               className={index <= (hover || rating) ? styles.on : styles.off}
-              onClick={() => setRating(index)}
+              onClick={() => {setRating(index); setNstars(index)}}
               onMouseEnter={() => setHover(index)}
               onMouseLeave={() => setHover(rating)}
             >

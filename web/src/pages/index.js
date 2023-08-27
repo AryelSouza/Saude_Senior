@@ -4,12 +4,14 @@ import { useRouter } from "next/router";
 import Background from "@/components/background";
 import HeadPadrao from "@/components/headPadrao";
 import Apresentacao from "@/components/apresentacao";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StarRating from "@/components/StarRating";
-import Button from "@/components/button";
+import { useForm } from "react-hook-form"
+import ButtonSubmit from "@/components/buttonSub";
+import axios from "axios";
 
 const customStyles = {
   content: {
@@ -24,6 +26,16 @@ const customStyles = {
 
 export default function Home() {
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [nStars, setNStars] = useState(0);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  useEffect(
+    ()=>{console.log(nStars)},[nStars]
+  )
 
   function openModal() {
     setIsOpen(true);
@@ -86,17 +98,25 @@ export default function Home() {
               style={customStyles}
               contentLabel="Example Modal"
             >
-              <form className={styles.form}>
+              <form onSubmit={handleSubmit((data)=>{
+                axios.post("https://api-gilt-zeta.vercel.app/avaliacao",{
+                  "nStars": nStars,
+                  "text": `${data.text}`
+                })
+                closeModal();
+                alert("Obrigado pelo feedback!");
+              })} className={styles.form}>
                 <h2>O que está achando da nossa plataforma?</h2>
 
-                <StarRating />
+                <StarRating setNstars={setNStars}/>
                 <textarea
                   rows={5}
                   cols={50}
                   className={styles.textarea}
+                  {...register("text")}
                 ></textarea>
 
-                <Button>Enviar</Button>
+                <ButtonSubmit>Enviar</ButtonSubmit>
               </form>
             </Modal>
           </div>
