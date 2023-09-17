@@ -1,4 +1,4 @@
-import styles from '@/styles/Duvidas.module.css'
+import styles from '@/styles/Feedback.module.css'
 import Link from 'next/link';
 
 export default function Button({children, click, link}){

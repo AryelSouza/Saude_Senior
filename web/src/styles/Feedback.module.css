@@ -1,0 +1,39 @@
+
+.textarea {
+  resize: none;
+  background-color: #00000020;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.ReportLink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ReportButton{
+    background: #0085FF;
+    color: #FFF;
+    border-radius: 6px;
+    width: 30%;
+    height: 40px;
+    margin-top: 12px;
+    border: none;
+}
+
+.ReportButton:hover{
+  box-shadow: 0px 4px 4px 0px #00000040;
+}

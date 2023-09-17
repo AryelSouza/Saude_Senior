@@ -1,4 +1,3 @@
-import Modal from "react-modal";
 import styles from "@/styles/Home.module.css";
 import { useRouter } from "next/router";
 import Background from "@/components/background";
@@ -8,10 +7,7 @@ import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import StarRating from "@/components/StarRating";
 import { useForm } from "react-hook-form"
-import ButtonSubmit from "@/components/buttonSub";
-import axios from "axios";
 
 const customStyles = {
   content: {
@@ -90,35 +86,8 @@ export default function Home() {
             <Apresentacao route={"/info"} src={"/sobrenos.png"} />
             <Apresentacao route={"/maps"} src={"/explica.png"} />
             <Apresentacao route={"/capacitacao"} src={"/capacita.png"} />
-            <Apresentacao click={openModal} src={"/feedback.png"} />
+            <Apresentacao route={"/feedback"} src={"/feedback.png"} />
 
-            <Modal
-              isOpen={modalIsOpen}
-              onRequestClose={closeModal}
-              style={customStyles}
-              contentLabel="Example Modal"
-            >
-              <form onSubmit={handleSubmit((data)=>{
-                axios.post("https://api-gilt-zeta.vercel.app/avaliacao",{
-                  "nStars": nStars,
-                  "text": `${data.text}`
-                })
-                closeModal();
-                alert("Obrigado pelo feedback!");
-              })} className={styles.form}>
-                <h2>O que está achando da nossa plataforma?</h2>
-
-                <StarRating setNstars={setNStars}/>
-                <textarea
-                  rows={5}
-                  cols={50}
-                  className={styles.textarea}
-                  {...register("text")}
-                ></textarea>
-
-                <ButtonSubmit>Enviar</ButtonSubmit>
-              </form>
-            </Modal>
           </div>
         </div>
       </Background>

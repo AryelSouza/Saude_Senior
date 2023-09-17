@@ -1,11 +1,10 @@
 import stylesGlobal from '@/styles/Global.module.css'
 import {useRouter} from 'next/router'
 import { useMyContext } from '@/contexts/flagSideBar'
-import {AiOutlineQuestionCircle} from "react-icons/ai" //duvidas
 import {RiTeamFill} from "react-icons/ri" //equipe
 import {AiOutlineHome} from "react-icons/ai"//home
 import {LiaMapSolid} from "react-icons/lia"//map
-import {MdSlowMotionVideo} from "react-icons/md"
+import {MdSlowMotionVideo, MdOutlineFeedback} from "react-icons/md"
 
 export default function SideBar({pagAtual}){
   const {sidebar, setSidebar} = useMyContext();
@@ -47,11 +46,11 @@ export default function SideBar({pagAtual}){
               }
             </div>
 
-            <div className={sidebar ? stylesGlobal.divSidebarOpen  : stylesGlobal.divSidebar} onClick={()=>{router.push('/duvidas')}}>
-              <AiOutlineQuestionCircle size={36} color='#fff'/>
+            <div className={sidebar ? stylesGlobal.divSidebarOpen  : stylesGlobal.divSidebar} onClick={()=>{router.push('/feedback')}}>
+              <MdOutlineFeedback size={36} color='#fff'/>
               {
                 sidebar
-                  ? <h2 className={stylesGlobal.tituloSidebar}>Dúvidas</h2>
+                  ? <h2 className={stylesGlobal.tituloSidebar}>Feedback</h2>
                   : null
               }
             </div>
