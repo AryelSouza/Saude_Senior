@@ -46,7 +46,7 @@ export default function Capacitacao() {
               className={styles.option}
               style={{
                 backgroundColor:
-                  fase == 1.1 || fase == 1.2 || fase == 1.3 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+                  fase == 1.1 || fase == 1.2 || fase == 1.3 || fase == 1.4 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
               }}
               onClick={() => setFase(1.1)}
             >
@@ -90,7 +90,7 @@ export default function Capacitacao() {
               }}
               onClick={() => setFase(5)}
             >
-              Fase 5
+              Projetos
             </div>
             <div
               className={styles.option}
@@ -115,6 +115,13 @@ export default function Capacitacao() {
                         <Image className={styles.image} src={"cap13.svg"} width={700} height={700} />
                         <Image className={styles.image} src={"cap14.svg"} width={700} height={700} />
                     </Slider>
+                    <div className={styles.botoes}>
+                      <div className={styles.link}>
+                        <button onClick={() => { setFase(1.1) }} className={styles.button}>
+                          Proxima Fase
+                        </button>
+                      </div>
+                    </div>
                 </div>
 
             </div>
@@ -171,12 +178,10 @@ export default function Capacitacao() {
                       Baixar material complementar
                     </button>
                   </Link>
-                  <div className={styles.botoes}>
-                    <div className={styles.link}>
-                      <button onClick={() => { setFase(1.4) }} className={styles.button}>
-                        Jogo de Fixação
-                      </button>
-                    </div>
+                  <div className={styles.link}>
+                    <button onClick={() => { setFase(1.4) }} className={styles.button}>
+                      Jogo de Fixação
+                    </button>
                   </div>
                 </div>
               </div>
@@ -250,6 +255,28 @@ export default function Capacitacao() {
                         </button>
                       </Link>
                     </div>
+                  </div>
+                </div>
+              )}
+              {fase == 5 && (
+                <div className={styles.fase}>
+                    <div className={styles.contain}>
+                        <Slider {...settings} className={styles.images}>
+                            <Image className={styles.image} src={"cap11.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap12.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap13.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap14.svg"} width={700} height={700} />
+                        </Slider>
+                    </div>
+
+                </div>
+              )}
+              {fase == 6 && (
+                <div className={styles.fase}>
+                  {/* Renderizar seus vídeos aqui */}
+                  {/* Exemplo de vídeo: */}
+                  <div className={styles.videoItem}>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CGgVhl6yPSE?si=h4Gj1MtEd6gDIkSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </div>
               )}

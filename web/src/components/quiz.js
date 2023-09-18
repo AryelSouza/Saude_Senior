@@ -96,9 +96,11 @@ export default function Quiz({fase,setFase}){
                         d) Irreversibilidade e Senescência
                       </label>
                       <br />
+                    </div>
+                    <div className={styles.botoes}>
                       <div className={styles.link}>
                         <button onClick={() => { setQuestion(2) }} className={styles.button}>
-                          Proxima questão
+                            Proxima questão
                         </button>
                       </div>
                     </div>
@@ -142,10 +144,12 @@ export default function Quiz({fase,setFase}){
                           d) PNAB
                         </label>
                         <br />
+                      </div>
+                      <div className={styles.botoes}>
                         <div className={styles.link}>
-                          <button onClick={() => { setQuestion(3) }} className={styles.button}>
+                            <button onClick={() => { setQuestion(3) }} className={styles.button}>
                             Proxima questão
-                          </button>
+                            </button>
                         </div>
                       </div>
                     </div>
@@ -174,32 +178,34 @@ export default function Quiz({fase,setFase}){
                         <br />
                       </p>
                     <div className={styles.opsao}>
-                      <p>Selecione a alternativa Correta:</p>
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question2" value="a" onClick={() => checkAnswer3('a')} className={styles.optionButton} />
-                        a) I, II e III.
-                      </label>
-                      <br />
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question2" value="b" onClick={() => checkAnswer3('b')} className={styles.optionButton} />
-                        b) II, III e I.
-                      </label>
-                      <br />
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question2" value="c" onClick={() => checkAnswer3('c')} className={styles.optionButton} />
-                        c) III, II e I.
-                      </label>
-                      <br />
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question2" value="d" onClick={() => checkAnswer3('d')} className={styles.optionButton} />
-                        d) II, I, e III.
-                      </label>
-                      <br />
-                    <div className={styles.link}>
-                      <button onClick={() => { setQuestion(4) }} className={styles.button}>
-                        Proxima questão
-                      </button>
+                        <p>Selecione a alternativa Correta:</p>
+                        <label className={styles.optionLabel}>
+                            <input type="radio" name="question2" value="a" onClick={() => checkAnswer3('a')} className={styles.optionButton} />
+                            a) I, II e III.
+                        </label>
+                        <br />
+                        <label className={styles.optionLabel}>
+                            <input type="radio" name="question2" value="b" onClick={() => checkAnswer3('b')} className={styles.optionButton} />
+                            b) II, III e I.
+                        </label>
+                        <br />
+                        <label className={styles.optionLabel}>
+                            <input type="radio" name="question2" value="c" onClick={() => checkAnswer3('c')} className={styles.optionButton} />
+                            c) III, II e I.
+                        </label>
+                        <br />
+                        <label className={styles.optionLabel}>
+                            <input type="radio" name="question2" value="d" onClick={() => checkAnswer3('d')} className={styles.optionButton} />
+                            d) II, I, e III.
+                        </label>
+                        <br />
                     </div>
+                    <div className={styles.botoes}>
+                        <div className={styles.link}>
+                        <button onClick={() => { setQuestion(4) }} className={styles.button}>
+                            Proxima questão
+                        </button>
+                        </div>
                     </div>
                 
               </div>
@@ -232,90 +238,94 @@ export default function Quiz({fase,setFase}){
                     senso de dignidade e prudência e esperam ser reconhecidas por isso.
                     <br />
                   </p>
-                  <div className={styles.opsao}>
+                <div className={styles.opsao}>
                     <p>Selecione a alternativa Correta:</p>
                     <label className={styles.optionLabel}>
-                      <input type="radio" name="question3" value="a" onClick={() => checkAnswer4('a')} className={styles.optionButton} />
-                      a) I e II.
+                        <input type="radio" name="question3" value="a" onClick={() => checkAnswer4('a')} className={styles.optionButton} />
+                        a) I e II.
                     </label>
                     <br />
                     <label className={styles.optionLabel}>
-                      <input type="radio" name="question3" value="b" onClick={() => checkAnswer4('b')} className={styles.optionButton} />
-                      b) II e III.
+                        <input type="radio" name="question3" value="b" onClick={() => checkAnswer4('b')} className={styles.optionButton} />
+                        b) II e III.
                     </label>
                     <br />
                     <label className={styles.optionLabel}>
-                      <input type="radio" name="question3" value="c" onClick={() => checkAnswer4('c')} className={styles.optionButton} />
-                      c) I e IV.
+                        <input type="radio" name="question3" value="c" onClick={() => checkAnswer4('c')} className={styles.optionButton} />
+                        c) I e IV.
                     </label>
                     <br />
                     <label className={styles.optionLabel}>
-                      <input type="radio" name="question3" value="d" onClick={() => checkAnswer4('d')} className={styles.optionButton} />
-                      d) II e IV.
+                        <input type="radio" name="question3" value="d" onClick={() => checkAnswer4('d')} className={styles.optionButton} />
+                        d) II e IV.
                     </label>
                     <br />
-                  </div>
-                  <div className={styles.link}>
-                    <button onClick={() => { setQuestion(5) }} className={styles.button}>
-                      Proxima questão
-                    </button>
-                  </div>
+                </div>
+                <div className={styles.botoes}>
+                    <div className={styles.link}>
+                        <button onClick={() => { setQuestion(5) }} className={styles.button}>
+                        Proxima questão
+                        </button>
+                    </div>
+                </div>
               </div>
                   
-                    :
-                    question == 5
-                    ?
-                    <div className={styles.question}>
-                    <p className={isAnswerCorrect === true ? 'correct' : 'incorrect'}>
-                      {isAnswerCorrect5 === true && "Muito bem, você assinalou a resposta correta."}
-                      {isAnswerCorrect5 === false && "Resposta correta: Letra D. É de extrema importância que durante o processo de comunicação com a pessoa idosa, o profissional de saúde, cuidador ou familiar fale de frente, mantendo contato visual, de preferência em um lugar iluminado, sem cobrir sua boca e, não se vire ou se afaste enquanto fala, para que de fato, a comunicação seja efetiva."}
-                    </p>
-                    <p>
-                      5) A comunicação efetiva é mais do que uma troca de palavras, trata-se de um
-                      processo dinâmico que permite que as pessoas se tornem acessíveis umas às
-                      outras por meio do compartilhamento de sentimentos, opiniões, experiências e
-                      informações. Diante disso, dentre as dicas abaixo, qual delas NÃO serve para
-                      aprimorar a comunicação com a pessoa idosa:
-                    </p>
-                    <div className={styles.opsao}>
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question4" value="a" onClick={() => checkAnswer5('a')} className={styles.optionButton} />
-                        a) Use frases curtas e objetivas, com uma linguagem clara, evitando-se a adoção de termos técnicos que podem não ser compreendidos pela pessoa idosa
-                      </label>
-                      <br />
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question4" value="b" onClick={() => checkAnswer5('b')} className={styles.optionButton} />
-                        b) Pergunte a pessoa idosa se ela entendeu bem a explicação, se houve alguma
-                        dúvida. Repita a informação, quando essa for erroneamente interpretada,
-                        utilizando palavras diferentes e, de preferência, uma linguagem mais
-                        apropriada à sua compreensão.
-                      </label>
-                      <br />
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question4" value="c" onClick={() => checkAnswer5('c')} className={styles.optionButton} />
-                        c) Chame a pessoa idosa pelo próprio nome ou da forma como ela preferir. Evite
-                        infantilizá-la utilizando termos inapropriados como “vovô(ó)”, “querido(a)”, ou
-                        ainda, utilizando termos diminutivos desnecessários (“bonitinho(a)”,
-                        “lindinho(a)” etc).
-                      </label>
-                      <br />
-                      <label className={styles.optionLabel}>
-                        <input type="radio" name="question4" value="d" onClick={() => checkAnswer5('d')} className={styles.optionButton} />
-                        d) Não importa a forma como você se porta na hora de se comunicar, só falar as
-                        informações necessárias é o suficiente nesse processo.
-                      </label>
-                      <br />
-                    </div>
-                    <div className={styles.link}>
-                      <button onClick={() => { setFase(2) }} className={styles.button}>
-                        Proxima Fase
-                      </button>
-                    </div>
-                  </div>
-                      :
-                      null
+            :
+            question == 5
+            ?
+            <div className={styles.question}>
+            <p className={isAnswerCorrect === true ? 'correct' : 'incorrect'}>
+                {isAnswerCorrect5 === true && "Muito bem, você assinalou a resposta correta."}
+                {isAnswerCorrect5 === false && "Resposta correta: Letra D. É de extrema importância que durante o processo de comunicação com a pessoa idosa, o profissional de saúde, cuidador ou familiar fale de frente, mantendo contato visual, de preferência em um lugar iluminado, sem cobrir sua boca e, não se vire ou se afaste enquanto fala, para que de fato, a comunicação seja efetiva."}
+            </p>
+            <p>
+                5) A comunicação efetiva é mais do que uma troca de palavras, trata-se de um
+                processo dinâmico que permite que as pessoas se tornem acessíveis umas às
+                outras por meio do compartilhamento de sentimentos, opiniões, experiências e
+                informações. Diante disso, dentre as dicas abaixo, qual delas NÃO serve para
+                aprimorar a comunicação com a pessoa idosa:
+            </p>
+            <div className={styles.opsao}>
+                <label className={styles.optionLabel}>
+                <input type="radio" name="question4" value="a" onClick={() => checkAnswer5('a')} className={styles.optionButton} />
+                a) Use frases curtas e objetivas, com uma linguagem clara, evitando-se a adoção de termos técnicos que podem não ser compreendidos pela pessoa idosa
+                </label>
+                <br />
+                <label className={styles.optionLabel}>
+                <input type="radio" name="question4" value="b" onClick={() => checkAnswer5('b')} className={styles.optionButton} />
+                b) Pergunte a pessoa idosa se ela entendeu bem a explicação, se houve alguma
+                dúvida. Repita a informação, quando essa for erroneamente interpretada,
+                utilizando palavras diferentes e, de preferência, uma linguagem mais
+                apropriada à sua compreensão.
+                </label>
+                <br />
+                <label className={styles.optionLabel}>
+                <input type="radio" name="question4" value="c" onClick={() => checkAnswer5('c')} className={styles.optionButton} />
+                c) Chame a pessoa idosa pelo próprio nome ou da forma como ela preferir. Evite
+                infantilizá-la utilizando termos inapropriados como “vovô(ó)”, “querido(a)”, ou
+                ainda, utilizando termos diminutivos desnecessários (“bonitinho(a)”,
+                “lindinho(a)” etc).
+                </label>
+                <br />
+                <label className={styles.optionLabel}>
+                <input type="radio" name="question4" value="d" onClick={() => checkAnswer5('d')} className={styles.optionButton} />
+                d) Não importa a forma como você se porta na hora de se comunicar, só falar as
+                informações necessárias é o suficiente nesse processo.
+                </label>
+                <br />
+            </div>
+            <div className={styles.botoes}>
+                <div className={styles.link}>
+                    <button onClick={() => { setFase(2) }} className={styles.button}>
+                    Proxima Fase
+                    </button>
+                </div>
+            </div>
+            </div>
+                :
+                null
               }
-                    </div>
+      </div>
           
     )
 }
