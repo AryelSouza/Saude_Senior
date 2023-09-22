@@ -272,6 +272,13 @@ export default function Capacitacao() {
                             <Image className={styles.image} src={"cap58.svg"} width={700} height={700} />
                             <Image className={styles.image} src={"cap59.svg"} width={700} height={700} />
                         </Slider>
+                        <div className={styles.botoes}>
+                      <div className={styles.link}>
+                        <button onClick={() => { setFase(6) }} className={styles.button}>
+                          Finalizar Capacitação
+                        </button>
+                      </div>
+                    </div>
                     </div>
 
                 </div>

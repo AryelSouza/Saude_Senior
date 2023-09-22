@@ -146,9 +146,17 @@ export default function Quiz({ fase, setFase }) {
               <button onClick={checkAnswer} className={styles.button}>
                 Verificar Resposta
               </button>
-              <button onClick={nextQuestion} className={styles.button}>
-                Próxima Questão
-              </button>
+              {
+                question == 4
+                ?
+                <button onClick={nextQuestion} className={styles.button}>
+                  Próxima Fase
+                </button>
+                :
+                <button onClick={nextQuestion} className={styles.button}>
+                  Próxima Questão
+                </button>
+              }
             </div>
           </div>
         </div>
