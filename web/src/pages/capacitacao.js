@@ -262,10 +262,15 @@ export default function Capacitacao() {
                 <div className={styles.fase}>
                     <div className={styles.contain}>
                         <Slider {...settings} className={styles.images}>
-                            <Image className={styles.image} src={"cap11.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap12.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap13.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap14.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap51.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap52.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap53.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap54.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap55.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap56.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap57.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap58.svg"} width={700} height={700} />
+                            <Image className={styles.image} src={"cap59.svg"} width={700} height={700} />
                         </Slider>
                     </div>
 
