@@ -8,6 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Quiz from "@/components/quiz";
+import CacaPalavras from "@/components/cacaPalavras";
 
 const settings = {
   dots: true,
@@ -283,15 +284,28 @@ export default function Capacitacao() {
 
                 </div>
               )}
-              {fase == 6 && (
+              
+              {/*
+              fase == 6 && (
                 <div className={styles.fase}>
-                  {/* Renderizar seus vídeos aqui */}
-                  {/* Exemplo de vídeo: */}
                   <div className={styles.videoItem}>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/CGgVhl6yPSE?si=h4Gj1MtEd6gDIkSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </div>
+              )*/}
+
+              {
+              fase == 6 && (
+
+                <CacaPalavras/>
+
+                // <div className={styles.fase}>
+                //   <div className={styles.videoItem}>
+                //     <iframe width="560" height="315" src="https://www.youtube.com/embed/CGgVhl6yPSE?si=h4Gj1MtEd6gDIkSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                //   </div>
+                // </div>
               )}
+              
           </div>
             </div>
       </Background>

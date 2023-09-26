@@ -108,7 +108,7 @@ export default function Quiz({ fase, setFase }) {
     }
   };
 
-  return (
+  return(
     <div className={styles.fase}>
       {question < questions.length ? (
         <div className={styles.question}>
@@ -172,4 +172,5 @@ export default function Quiz({ fase, setFase }) {
       )}
     </div>
   );
+  
 }

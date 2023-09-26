@@ -1,0 +1,91 @@
+.container {
+  /* Remova a altura fixa e mantenha o restante do estilo */
+  margin: 15px auto;
+}
+
+.container h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.container input,
+.container textarea,
+.container select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.inputs{
+  display: flex;
+}
+
+.input{
+  width: 100%;
+  height: 100%;
+}
+
+.textarea{
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  resize: none;
+  padding: 15px;
+}
+
+.field {
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #FFF;
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 0;
+  width: auto;
+}
+
+.checkbox input {
+  width: auto;
+  margin-right: 10px;
+}
+.checkbox span {
+  width: auto;
+  user-select: none;
+}
+
+.word-search {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.help {
+  display: block;
+  color: #626262;
+  margin-top: 5px;
+}
+
+.container ul li {
+  margin: 5px;
+}
+
+.container footer {
+  color: #626262;
+  text-align: center;
+  margin-top: 50px;
+}
