@@ -57,9 +57,9 @@ export default function Capacitacao() {
               className={styles.option}
               style={{
                 backgroundColor:
-                  fase == 2 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
+                  fase == 2.1 || fase == 2.2 ? "rgba(0, 0, 0, 0.2)" : "rgba(0, 0, 0, 0.08)",
               }}
-              onClick={() => setFase(2)}
+              onClick={() => setFase(2.1)}
             >
               Fase 2
             </div>
@@ -191,10 +191,54 @@ export default function Capacitacao() {
 
           {fase == 1.4 && (<Quiz fase={fase} setFase={setFase}/>)}
 
-          {fase == 2 && (
+          {fase == 2.1 && (
             <div className={styles.fase}>
               <div className={styles.videoItem}>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/CjjHqMp3f7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div className={styles.botoes}>
+                  <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
+                    <button className={styles.button}>
+                      Baixar material complementar
+                    </button>
+                  </Link>
+                  <div className={styles.link}>
+                    <button onClick={() => { setFase(2.2) }} className={styles.button}>
+                      Jogo de Fixação
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {fase == 2.2 && (<CacaPalavras setFase={setFase}/>)}
+
+          {fase == 3.1 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+
+              <div className={styles.videoItem}>
+                <h2>• Video 1</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y-ASs2Ej6o8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div className={styles.botoes}>
+                  <div className={styles.link}>
+                    <button onClick={() => { setFase(3.2) }} className={styles.button}>
+                      Proximo video
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {fase == 3.2 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+              <div className={styles.videoItem}>
+                <h2>• Video 2</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iYToMgC5zVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div className={styles.botoes}>
                   <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
                     <button className={styles.button}>
@@ -206,105 +250,56 @@ export default function Capacitacao() {
             </div>
           )}
 
-              {fase == 3.1 && (
-                <div className={styles.fase}>
-                  {/* Renderizar seus vídeos aqui */}
-                  {/* Exemplo de vídeo: */}
-
-                  <div className={styles.videoItem}>
-                    <h2>• Video 1</h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/y-ASs2Ej6o8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {fase == 4 && (
+            <div className={styles.fase}>
+              {/* Renderizar seus vídeos aqui */}
+              {/* Exemplo de vídeo: */}
+              <div className={styles.videoItem}>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2BOoiaQT63A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div className={styles.botoes}>
+                  <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
+                    <button className={styles.button}>
+                      Baixar material complementar
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )}
+          {fase == 5 && (
+            <div className={styles.fase}>
+                <div className={styles.contain}>
+                    <Slider {...settings} className={styles.images}>
+                        <Image className={styles.image} src={"cap51.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap52.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap53.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap54.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap55.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap56.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap57.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap58.svg"} width={700} height={700} />
+                        <Image className={styles.image} src={"cap59.svg"} width={700} height={700} />
+                    </Slider>
                     <div className={styles.botoes}>
-                      <div className={styles.link}>
-                        <button onClick={() => { setFase(3.2) }} className={styles.button}>
-                          Proximo video
-                        </button>
-                      </div>
-                    </div>
+                  <div className={styles.link}>
+                    <button onClick={() => { setFase(6) }} className={styles.button}>
+                      Finalizar Capacitação
+                    </button>
                   </div>
                 </div>
-              )}
-
-              {fase == 3.2 && (
-                <div className={styles.fase}>
-                  {/* Renderizar seus vídeos aqui */}
-                  {/* Exemplo de vídeo: */}
-                  <div className={styles.videoItem}>
-                    <h2>• Video 2</h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iYToMgC5zVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <div className={styles.botoes}>
-                      <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
-                        <button className={styles.button}>
-                          Baixar material complementar
-                        </button>
-                      </Link>
-                    </div>
-                  </div>
                 </div>
-              )}
 
-              {fase == 4 && (
-                <div className={styles.fase}>
-                  {/* Renderizar seus vídeos aqui */}
-                  {/* Exemplo de vídeo: */}
-                  <div className={styles.videoItem}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2BOoiaQT63A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <div className={styles.botoes}>
-                      <Link className={styles.link} href={"https://drive.google.com/uc?export=download&id=13ss4BNdOrx-vus9HMhSn5RWpfuNlX2VP"}>
-                        <button className={styles.button}>
-                          Baixar material complementar
-                        </button>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              )}
-              {fase == 5 && (
-                <div className={styles.fase}>
-                    <div className={styles.contain}>
-                        <Slider {...settings} className={styles.images}>
-                            <Image className={styles.image} src={"cap51.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap52.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap53.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap54.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap55.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap56.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap57.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap58.svg"} width={700} height={700} />
-                            <Image className={styles.image} src={"cap59.svg"} width={700} height={700} />
-                        </Slider>
-                        <div className={styles.botoes}>
-                      <div className={styles.link}>
-                        <button onClick={() => { setFase(6) }} className={styles.button}>
-                          Finalizar Capacitação
-                        </button>
-                      </div>
-                    </div>
-                    </div>
-
-                </div>
-              )}
-              
-              {/*
-              fase == 6 && (
-                <div className={styles.fase}>
-                  <div className={styles.videoItem}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CGgVhl6yPSE?si=h4Gj1MtEd6gDIkSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  </div>
-                </div>
-              )*/}
-
-              {
-              fase == 6 && (
-
-                <CacaPalavras/>
-
-                // <div className={styles.fase}>
-                //   <div className={styles.videoItem}>
-                //     <iframe width="560" height="315" src="https://www.youtube.com/embed/CGgVhl6yPSE?si=h4Gj1MtEd6gDIkSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                //   </div>
-                // </div>
-              )}
+            </div>
+          )}
+          
+          
+          {fase == 6 && (
+            <div className={styles.fase}>
+              <div className={styles.videoItem}>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CGgVhl6yPSE?si=h4Gj1MtEd6gDIkSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          )}
               
           </div>
             </div>

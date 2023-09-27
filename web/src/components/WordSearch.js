@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { randomChar, range, shuffleArray } from '../utils'
 import {
   UP,
@@ -11,13 +11,15 @@ import {
   RIGHT_DOWN
 } from '../types'
 
-function WordSearch ({ debug, highlightWords }) {
+function WordSearch ({ debug, arrayTest }) {
+  const highlightWords = true;
+  const words = ["vida", "saude", "alimentacao", "educacao", "cultura", "esporte", "lazer", "trabalho", "cidadania", "habitacao", "transporte", "liberdade", "dignidade", "respeito", "convivencia"]
+  const size = 20;
+  const modes = ["horizontal", "vertical"]
   const table = useMemo(() => {
-    const size = 20;
-    const modes = ["horizontal", "vertical"]
     const points = []
-    const words = ["Vida", "Saúde", "Alimentação", "Educação", "Cultura", "Esporte", "Lazer", "Trabalho", "Cidadania", "Habitação", "Transporte", "Liberdade", "Dignidade", "Respeito", "Convivência"]
 
+    
     const availableDirections = [
       UP,
       DOWN,
@@ -69,7 +71,7 @@ function WordSearch ({ debug, highlightWords }) {
                     style={{
                       textAlign: 'center',
                       textTransform: 'uppercase',
-                      color: (letter.isWord && highlightWords) ? 'blue' : 'black',
+                      color: (letter.isWord && arrayTest.includes(letter.word) && highlightWords) ? 'blue' : 'black',
                       padding: debug ? 15 : 5
                     }}
                   >
@@ -138,7 +140,8 @@ const createWord = (word, table, size, points, availableDirections) => {
       positions.forEach(([ x, y ], index) => {
         table[y][x] = {
           char: word[index],
-          isWord: true
+          isWord: true,
+          word: word.toLowerCase()
         }
       })
 

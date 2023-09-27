@@ -104,7 +104,7 @@ export default function Quiz({ fase, setFase }) {
       setAnswer("");
       setIsAnswerCorrect(null);
     } else {
-      setFase(2);
+      setFase(2.1);
     }
   };
 
@@ -164,7 +164,7 @@ export default function Quiz({ fase, setFase }) {
         <div>
           <p>Parabéns! Você completou o quiz.</p>
           <div className={styles.link}>
-            <button onClick={() => setFase(2)} className={styles.button}>
+            <button onClick={() => setFase(2.1)} className={styles.button}>
               Próxima Fase
             </button>
           </div>
