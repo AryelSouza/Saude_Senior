@@ -5,6 +5,13 @@ import { useForm } from "react-hook-form"
 import ButtonSubmit from './buttonSub'
 import Button from './button'
 
+function removerAcentuacao(texto) {
+  return texto
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // Remove acentuações
+    .replace(/ç/g, 'c'); // Substitui "ç" por "c"
+}
+
 function encontrarIntersecao(array1, array2) {
   return array1.filter(elemento => array2.includes(elemento));
 }
@@ -33,12 +40,12 @@ export default function CacaPalavras ({setFase}) {
     :
     <div className={styles.container}>
       <div className={styles.field}>
-        <p style={{color:"gray", textAlign:"center"}}>SUBMETA PALAVRAS SEM ACENTUAÇÃO (Ç,´,~,^)</p>
+        <p style={{color:"gray", textAlign:"center"}}>Quais os direitos garantidos pelo Estatuto da Pessoa Idosa?</p>
         <div style={{width:"100%", textAlign:"center"}}>
           {encontrarIntersecao(words,wordsTest).length}/15
         </div>
         <form onSubmit={handleSubmit((data)=>{
-          setWordsTest(prev => [...prev, data.word.toLowerCase()])
+          setWordsTest(prev => [...prev, removerAcentuacao(data.word.toLowerCase())])
         })}>
           <label className={styles.input}>
             <input {...register("word")} type='text' className={styles.textarea} placeholder='Escreva as palavras que você encontrar aqui!'/>
