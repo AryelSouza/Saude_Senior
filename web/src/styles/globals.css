@@ -4,27 +4,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
   background-color: #181818;
   max-height: 100vh;
 }
 
-:focus{
+:focus {
   outline: none;
 }
 
-.slick-prev.slick-arrow:before, .slick-next.slick-arrow:before{
+.slick-prev.slick-arrow:before,
+.slick-next.slick-arrow:before {
   color: black !important;
 }
 
-h1{
+h1 {
   font-weight: 900;
   font-size: 36px;
   color: black;
 }
 
-h2{
+h2 {
   font-weight: 900;
   font-size: 25px;
   color: black;
@@ -33,7 +34,7 @@ h2{
 /* Altera a cor do scroll */
 ::-webkit-scrollbar {
   width: 5px;
-  
+
 }
 
 /* Altera o fundo da área do scroll */
@@ -47,4 +48,3 @@ h2{
   margin: 15px;
   background: #949494;
 }
-

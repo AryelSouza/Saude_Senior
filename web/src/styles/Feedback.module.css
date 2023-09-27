@@ -1,4 +1,3 @@
-
 .textarea {
   resize: none;
   background-color: #00000020;
@@ -16,7 +15,7 @@
 }
 
 
-.ReportLink{
+.ReportLink {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,16 +23,16 @@
   height: 100%;
 }
 
-.ReportButton{
-    background: #0085FF;
-    color: #FFF;
-    border-radius: 6px;
-    width: 30%;
-    height: 40px;
-    margin-top: 12px;
-    border: none;
+.ReportButton {
+  background: #0085FF;
+  color: #FFF;
+  border-radius: 6px;
+  width: 30%;
+  height: 40px;
+  margin-top: 12px;
+  border: none;
 }
 
-.ReportButton:hover{
+.ReportButton:hover {
   box-shadow: 0px 4px 4px 0px #00000040;
 }

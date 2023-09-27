@@ -1,114 +1,116 @@
 .all {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding: 25px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
-  .contain{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 710px;
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.08);
-    border-radius: 15px;
-    gap: 25px;
-  }
+.contain {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 710px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  gap: 25px;
+}
 
-  .images{
-    width: 100%;
-    height: calc(100%-40px);
-    border-radius: 15px;
-  }
+.images {
+  width: 100%;
+  height: calc(100%-40px);
+  border-radius: 15px;
+}
 
-  .image{
-    border-radius: 15px;
-    width: 500px;
-    height: 400px;
-  }
+.image {
+  border-radius: 15px;
+  width: 500px;
+  height: 400px;
+}
 
-  .imageFim{
-    border-radius: 15px;
-    width: 500px;
-    height: 400px;
-  }
+.imageFim {
+  border-radius: 15px;
+  width: 500px;
+  height: 400px;
+}
 
-  .imageFim:hover{
-    cursor: pointer;
-  }
+.imageFim:hover {
+  cursor: pointer;
+}
 
-  .botoes{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    gap: 40px;
-  }
+.botoes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  gap: 40px;
+}
 
-  .link{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    height: 10px;
-  }
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 10px;
+}
 
-  .button{
-    background: #0085FF;
-    color: #FFF;
-    border-radius: 6px;
-    width: 30%;
-    height: 40px;
-    margin: 75px 0 25px 0;
-    border: none;
-  }
-  
-  .search{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    z-index: 999;
-  }
+.button {
+  background: #0085FF;
+  color: #FFF;
+  border-radius: 6px;
+  width: 30%;
+  height: 40px;
+  margin: 75px 0 25px 0;
+  border: none;
+}
 
-  .elements{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    z-index: 1;
-  }
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  z-index: 999;
+}
 
-  .element{
-    width: calc(50% - 20px); /* Cada item ocupa metade da largura, subtraindo a margem */
-    margin: 5px; /* Margem entre os elementos */
-    background-color: #00000020;
-    padding: 15px;
-    border-radius: 8px;
-    z-index: 1;
-  }
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
 
-  .element:hover{
-    box-shadow: 0px 4px 4px 0px #00000040;
-    cursor: pointer;
-  }
-  .element:focus-within {
-    box-shadow: 0px 4px 4px 0px #00000040;
-  }
+.element {
+  width: calc(50% - 20px);
+  /* Cada item ocupa metade da largura, subtraindo a margem */
+  margin: 5px;
+  /* Margem entre os elementos */
+  background-color: #00000020;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 1;
+}
 
-  .element a{
-    color: blue;
-    text-decoration: underline;
-  }
-  
+.element:hover {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  cursor: pointer;
+}
+
+.element:focus-within {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.element a {
+  color: blue;
+  text-decoration: underline;
+}
