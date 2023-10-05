@@ -2,6 +2,7 @@ import styles from "@/styles/Capacitacao.module.css";
 import { useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Button from "./button";
 
 export default function VouF({ fase, setFase }) {
   const [question, setQuestion] = useState(0);
@@ -27,7 +28,7 @@ export default function VouF({ fase, setFase }) {
         { value: "v", text: "Verdadeiro" },
         { value: "f", text: "Falso" },
       ],
-      correctAnswer: "a",
+      correctAnswer: "v",
       explanation:
         "VERDADEIRO. Essas principais Síndromes existem e são até conhecidas como as 7I's. São condições complexas, por isso, é demanda dos profissionais de saúde conhecer a maneira como elas acontecem, para assim, realizar um diagnóstico cuidadoso, instituir um tratamento adequado e então definir objetivos claros e realistas para a reabilitação.",
     },
@@ -38,7 +39,7 @@ export default function VouF({ fase, setFase }) {
         { value: "v", text: "Verdadeiro" },
         { value: "f", text: "Falso" },
       ],
-      correctAnswer: "a",
+      correctAnswer: "f",
       explanation:
         "FALSO. Pesquisas recentes alertam para a estreita relação entre saúdebucal e saúde geral, demonstrando que a má condição de saúde bucal,principalmente a presença de doenças periodontais, constitui fator predisponente adoenças sistêmicas, como pneumonia, cardiopatias e diabetes, bem comoagrava/debilita o estado geral de saúde da pessoa idosa. Da mesma forma, a mácondição de saúde pode ocasionar problemas bucais ou agravar os já existentes.Como uma via de mão dupla, os termos desta relação se interferem mutuamente epodem, ao entrar num ciclo infindável de agravos à saúde, prejudicar o processo deenvelhecimento saudável.",
     },
@@ -49,7 +50,7 @@ export default function VouF({ fase, setFase }) {
         { value: "v", text: "Verdadeiro" },
         { value: "f", text: "Falso" },
       ],
-      correctAnswer: "a",
+      correctAnswer: "v",
       explanation:
         "VERDADEIRO. Deve ser realizado um exame criterioso para detecção e diagnóstico das condições bucais, procurando associar possíveis fatores determinantes das doenças bucais. Uma boa anamnese, além de revelar informações sobre as condições de saúde-doença e de seus hábitos, é momento especial para se observar o comportamento e as atitudes em relação à sua saúde bucal, à saúde como um todo e posturas perante a vida.",
     },
@@ -73,8 +74,9 @@ export default function VouF({ fase, setFase }) {
       setQuestion(question + 1);
       setAnswer("");
       setIsAnswerCorrect(null);
-    } else {
-      setFase(2.1);
+    }
+    else {
+      setQuestion(question + 1);
     }
   };
 
@@ -104,7 +106,13 @@ export default function VouF({ fase, setFase }) {
               ?
               <div className={styles.linkVouF}>
                 <button onClick={() => { nextQuestion() }} className={styles.button}>
-                  Próxima pergunta
+                  {
+                    question == 3
+                      ?
+                      "Finalizar Questionário"
+                      :
+                      "Próxima pergunta"
+                  }
                 </button>
               </div>
               :
@@ -112,12 +120,12 @@ export default function VouF({ fase, setFase }) {
           }
         </div>
       ) : (
-        <div>
-          <p>Parabéns! Você completou o questionário.</p>
-          <div className={styles.link}>
-            <button onClick={() => setFase(2.1)} className={styles.button}>
-              Próxima Fase
-            </button>
+        <div className={styles.fieldCenter}>
+          <h1>Parabens! Você concluiu a terceira fase!</h1>
+          <div className={styles.botao}>
+            <Button click={() => setFase(4.1)}>
+              Proxima Fase
+            </Button>
           </div>
         </div>
       )}

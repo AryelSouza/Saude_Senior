@@ -2,6 +2,8 @@ import styles from "@/styles/Capacitacao.module.css";
 import { useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Button from "./button";
+import { rule } from "postcss";
 
 export default function Quiz({ fase, setFase }) {
   const [question, setQuestion] = useState(0);
@@ -36,18 +38,19 @@ export default function Quiz({ fase, setFase }) {
         "Resposta correta: Letra A. Tendo em vista que essa política não foi mencionada em nossa formação. Além disso, seu público-alvo são crianças, pois, como sua nomenclatura completa descreve, refere-se à Política Nacional de Atenção Integral à Saúde da Criança.",
     },
     {
-      questionText:(
-      <pre>
-      {`3) Assinale a alternativa que apresenta a ordem correta das numerações correspondentes às suas descrições:
-      I- Política Nacional de Promoção da Saúde.
-      II- A Política Nacional de Saúde da Pessoa Idosa.
-      III- A Política Nacional de Atenção Básica.
-      ( ) Define que a atenção à saúde das pessoas idosas terá como porta de entrada a Atenção Básica/Saúde da Família, tendo como referência a rede de serviços especializada de média e alta complexidade.
-      ( ) Contempla as estratégias de implementação, responsáveis por nortear as práticas de ações locais em relação à promoção da saúde da população idosa.
-      ( ) Caracteriza-se por desenvolver um conjunto de ações de saúde, no âmbito individual e coletivo, que abrangem a promoção e a proteção à saúde, a prevenção de agravos, o diagnóstico, o tratamento, a reabilitação e a manutenção da saúde.`}
-    </pre>
-  ),
-              options: [
+      questionText: (
+        <div>
+          <p>3) Assinale a alternativa que apresenta a ordem correta das numerações correspondentes às suas descrições:</p>
+
+          <p>I- Política Nacional de Promoção da Saúde.</p>
+          <p>II- A Política Nacional de Saúde da Pessoa Idosa.</p>
+          <p>III- A Política Nacional de Atenção Básica.</p>
+          <p>( ) Define que a atenção à saúde das pessoas idosas terá como porta de entrada a Atenção Básica/Saúde da Família, tendo como referência a rede de serviços especializada de média e alta complexidade.</p>
+          <p>( ) Contempla as estratégias de implementação, responsáveis por nortear as práticas de ações locais em relação à promoção da saúde da população idosa.</p>
+          <p>( ) Caracteriza-se por desenvolver um conjunto de ações de saúde, no âmbito individual e coletivo, que abrangem a promoção e a proteção à saúde, a prevenção de agravos, o diagnóstico, o tratamento, a reabilitação e a manutenção da saúde.</p>
+        </div>
+      ),
+      options: [
         { value: "a", text: "I, II e III." },
         { value: "b", text: "II, III e I." },
         { value: "c", text: "III, II e I." },
@@ -59,7 +62,19 @@ export default function Quiz({ fase, setFase }) {
     },
     {
       questionText:
-        "4) A operacionalização da Política Nacional de Humanização dá-se pela oferta de dispositivos. Dentre esses, destaca-se o “Acolhimento”, que tem a característica de um modo de operar os processos de trabalho em saúde de forma a dar atenção à todos que procuram os serviços de saúde, ouvindo suas necessidades e assumindo no serviço uma postura capaz de acolher, escutar e pactuar respostas mais adequadas junto aos usuários. Para a efetivação do Acolhimento da pessoa idosa, os profissionais de saúde devem compreender as especificidades dessa população e a própria legislação brasileira vigente. Para isso, devem:",
+      (
+        <div>
+          <p>4) A operacionalização da Política Nacional de Humanização dá-se pela oferta de dispositivos. Dentre esses, destaca-se o “Acolhimento”, que tem a característica de um modo de operar os processos de trabalho em saúde de forma a dar atenção à todos que procuram os serviços de saúde, ouvindo suas necessidades e assumindo no serviço uma postura capaz de acolher, escutar e pactuar respostas mais adequadas junto aos usuários. Para a efetivação do Acolhimento da pessoa idosa, os profissionais de saúde devem compreender as especificidades dessa população e a própria legislação brasileira vigente. Para isso, devem:</p>
+
+          <p>I- Estar preparados para lidar com as questões do processo de envelhecimento, a partir de qualificações, especialmente no que se refere à saúde da pessoa idosa;</p>
+
+          <p>II- Facilitar o acesso das pessoa idosas aos diversos níveis de complexidade da atenção;</p>
+
+          <p>III- Trabalhar de maneira fragmentada, sem investir na interação com a equipe profissional e sua diversas áreas;</p>
+
+          <p>IV- Estabelecer uma relação respeitosa, considerando que, com a experiência de toda uma vida, as pessoas se tornam em geral mais sábias, desenvolvem maior senso de dignidade e prudência e esperam ser reconhecidas por isso.</p>
+        </div>
+      ),
       options: [
         { value: "a", text: "I e II." },
         { value: "b", text: "II e III." },
@@ -98,17 +113,25 @@ export default function Quiz({ fase, setFase }) {
     setIsAnswerCorrect(null);
   }, [question, fase]);
 
+  useEffect(() => {
+    // Limpa todos os inputs radios
+    const inputs = document.querySelectorAll("input[type='radio']");
+    for (let i = 0; i < inputs.length; i++) {
+      inputs[i].checked = false;
+    }
+  }, [question]);
+
   const nextQuestion = () => {
     if (question < questions.length - 1) {
       setQuestion(question + 1);
       setAnswer("");
       setIsAnswerCorrect(null);
     } else {
-      setFase(2.1);
+      setQuestion(question + 1);
     }
   };
 
-  return(
+  return (
     <div className={styles.fase}>
       {question < questions.length ? (
         <div className={styles.question}>
@@ -147,30 +170,34 @@ export default function Quiz({ fase, setFase }) {
                 Verificar Resposta
               </button>
               {
-                question == 4
-                ?
-                <button onClick={nextQuestion} className={styles.button}>
-                  Próxima Fase
-                </button>
-                :
-                <button onClick={nextQuestion} className={styles.button}>
-                  Próxima Questão
-                </button>
+                isAnswerCorrect != null
+                  ?
+                  question == 4
+                    ?
+                    <button onClick={nextQuestion} className={styles.button}>
+                      Finalizar Quiz
+                    </button>
+                    :
+                    <button onClick={nextQuestion} className={styles.button}>
+                      Próxima Questão
+                    </button>
+                  :
+                  null
               }
             </div>
           </div>
         </div>
       ) : (
-        <div>
-          <p>Parabéns! Você completou o quiz.</p>
-          <div className={styles.link}>
-            <button onClick={() => setFase(2.1)} className={styles.button}>
-              Próxima Fase
-            </button>
+        <div className={styles.fieldCenter}>
+          <h1>Parabens! Você concluiu a primeira fase!</h1>
+          <div className={styles.botao}>
+            <Button click={() => setFase(2.1)}>
+              Proxima Fase
+            </Button>
           </div>
         </div>
       )}
     </div>
   );
-  
+
 }

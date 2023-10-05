@@ -9,6 +9,14 @@
   overflow-x: hidden;
 }
 
+.center{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contain {
   display: flex;
   flex-direction: column;

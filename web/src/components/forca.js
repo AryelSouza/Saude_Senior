@@ -38,11 +38,11 @@ class Hangman extends Component {
         let newAnswer;
         let newTitle;
         if (this.state.phase == 1) {
-            newAnswer = "planejamento"
-            newTitle = "A Caderneta de Saúde da Pessoa Idosa representa uma importante ferramenta de fortalecimento da Atenção Básica. Dessa forma, possibilita para os profissionais de saúde, o desenvolvimento do:"
-        } else {
             newAnswer = "cidadania",
             newTitle = "A partir da Caderneta de Saúde da Pessoa Idosa, a pessoa idosa terá em mãos informações relevantes para o melhor acompanhamento de sua saúde. Além disso, representa para esse público alvo, um instrumento de:"
+        } else {
+            newAnswer = "planejamento"
+            newTitle = "A Caderneta de Saúde da Pessoa Idosa representa uma importante ferramenta de fortalecimento da Atenção Básica. Dessa forma, possibilita para os profissionais de saúde, o desenvolvimento do:"
         }
         this.setState({
             nWrong: 0,
@@ -50,9 +50,11 @@ class Hangman extends Component {
             answer: newAnswer,
             title: newTitle,
             phase: this.state.phase + 1
+        }, () => {
+            console.log(this.state.phase);
         });
-        console.log(this.state.phase)
     }
+    
 
     reset() {
         this.setState({
@@ -110,7 +112,7 @@ class Hangman extends Component {
                 <div className={styles.fieldCenter}>
                     <h1>Parabens! Você concluiu a quarta fase!</h1>
                     <div className={styles.botao}>
-                        <button className={styles.HangmanReset} onClick={()=>this.end()}>
+                        <button className={styles.HangmanReset} onClick={() => this.end()}>
                             Ver Projetos
                         </button>
                     </div>

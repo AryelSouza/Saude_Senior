@@ -257,7 +257,7 @@ export default function Capacitacao() {
               </div>
             )}
 
-            {fase == 3.3 && (<VouF></VouF>)}
+            {fase == 3.3 && (<VouF setFase={setFase} fase={fase}></VouF>)}
 
 
             {fase == 4.1 && (
