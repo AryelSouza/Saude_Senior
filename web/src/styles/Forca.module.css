@@ -9,6 +9,10 @@
     height: 120%;
 }
 
+.title{
+    padding: 50px;
+}
+
 .fieldCenter {
     display: flex;
     flex-direction: column;

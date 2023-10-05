@@ -66,6 +66,16 @@
     cursor: pointer;
 }
 
+.linkVouF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+
+}
+
 .botoes {
     display: flex;
     flex-direction: column;

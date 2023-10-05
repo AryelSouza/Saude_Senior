@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Quiz from "@/components/quiz";
 import CacaPalavras from "@/components/cacaPalavras";
 import Hangman from "@/components/forca";
+import VouF from "@/components/VouF"
 
 const settings = {
   dots: true,
@@ -246,10 +247,17 @@ export default function Capacitacao() {
                         Baixar material complementar
                       </button>
                     </Link>
+                    <div className={styles.link}>
+                      <button onClick={() => { setFase(3.3) }} className={styles.button}>
+                        Jogo de Fixação
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             )}
+
+            {fase == 3.3 && (<VouF></VouF>)}
 
 
             {fase == 4.1 && (

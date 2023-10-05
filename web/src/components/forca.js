@@ -22,6 +22,7 @@ class Hangman extends Component {
         this.state = {
             nWrong: 0,
             guessed: new Set(),
+            title: "Nome do valioso instrumento que auxilia na identificação das pessoas idosas frágeis ou em risco de fragilização:",
             answer: "caderneta de saúde da pessoa idosa",
             phase: 0
         };
@@ -35,17 +36,22 @@ class Hangman extends Component {
 
     nextPhase = () => {
         let newAnswer;
+        let newTitle;
         if (this.state.phase == 1) {
             newAnswer = "planejamento"
+            newTitle = "A Caderneta de Saúde da Pessoa Idosa representa uma importante ferramenta de fortalecimento da Atenção Básica. Dessa forma, possibilita para os profissionais de saúde, o desenvolvimento do:"
         } else {
-            newAnswer = "cidadania"
+            newAnswer = "cidadania",
+            newTitle = "A partir da Caderneta de Saúde da Pessoa Idosa, a pessoa idosa terá em mãos informações relevantes para o melhor acompanhamento de sua saúde. Além disso, representa para esse público alvo, um instrumento de:"
         }
         this.setState({
             nWrong: 0,
             guessed: new Set(),
             answer: newAnswer,
+            title: newTitle,
             phase: this.state.phase + 1
         });
+        console.log(this.state.phase)
     }
 
     reset() {
@@ -111,6 +117,7 @@ class Hangman extends Component {
                 </div>
                 :
                 <div className={styles.Hangman}>
+                    <h2 className={styles.title}>{this.state.title}</h2>
                     <Image src={this.props.images[this.state.nWrong]} alt={altText} />
                     <p className={styles.HangmanWrong}>Palpites Errados: {this.state.nWrong}/6</p>
                     <p className={styles.HangmanWord}>
