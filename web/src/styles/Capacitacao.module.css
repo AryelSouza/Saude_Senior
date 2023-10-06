@@ -8,6 +8,9 @@
     overflow-y: scroll;
     overflow-x: hidden;
     gap: 15px;
+
+    max-width: 1000px;
+    max-height: 95%;
 }
 
 .contain {
@@ -193,33 +196,49 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     .all {
-        width: 100%;
+        padding: 0 20px;
     }
 
-    /* Ajustar a largura dos botões para 100% em telas menores que 800px */
-    .options {
-        width: 100%;
+    .contain {
+        display: flex;
         flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .fase{
+        align-items: center;
+    }
+
+    .options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
         height: auto;
+        padding: 0;
     }
 
     .option {
-        width: 100%;
-        margin-bottom: 10px;
-        /* Adicionar espaço entre os botões empilhados */
+        margin: 5px;
+        width: auto;
     }
 
-    /* Ajustar a largura da barra de pesquisa para 100% em telas menores que 800px */
-    .barraPesquisa {
-        width: 100%;
+    .button{
+        width: 70%;
+        height: auto;
+    }
+
+    .videoItem{
+        margin-bottom: 20px;
     }
 }
 
 @media (max-width: 800px) {
     .all {
-        width: 100%;
+        padding: 0 20px;
     }
 
     .options {
@@ -232,17 +251,44 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 420px) {
     .all {
+        padding: 0 20px;
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+        overflow-y: scroll;
+        
+    }
+
+    .fase{
+        align-items: center;
     }
 
     .options {
-        width: 100%;
-        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        height: auto;
+        padding: 0;
     }
 
     .option {
-        width: 100%;
+        margin: 5px;
+        width: auto;
+    }
+
+    .button{
+        width: 70%;
+        height: auto;
+    }
+
+    .videoItem{
+        margin-bottom: 20px;
     }
 }

@@ -121,6 +121,30 @@
   }
 }
 
+@media (max-width: 420px) {
+  .all {
+    padding: 0 20px;
+    /* Adiciona espaçamento lateral */
+  }
+
+  .titulo {
+    margin-top: 40px;
+    text-align: center;
+    
+  }
+
+  .perfis {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .perfil {
+    width: auto;
+    height: auto;
+  }
+}
+
 @media (max-width: 1024px) {
   .perfis {
     gap: 20px;

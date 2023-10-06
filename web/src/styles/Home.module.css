@@ -88,6 +88,7 @@
   .contain {
     display: flex;
     flex-direction: column;
+    
   }
 
   .apresentacoes {
@@ -100,6 +101,36 @@
     max-width: 100%;
     max-height: 100%;
     transform: scale(1);
+    /* Removido o scale para manter o tamanho original */
+  }
+}
+
+@media (max-width: 420px) {
+  .all {
+    padding: 0 20px;
+  }
+
+  .contain {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .apresentacoes {
+    
+    overflow-y: scroll;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    /* Adicionado para centralizar os itens */
+  }
+
+  .box {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1);
+    
     /* Removido o scale para manter o tamanho original */
   }
 }

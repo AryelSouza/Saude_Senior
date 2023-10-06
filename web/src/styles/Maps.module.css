@@ -122,3 +122,41 @@
   color: blue;
   text-decoration: underline;
 }
+
+@media (max-width: 420px) {
+  .all {
+    padding: 0 20px;
+    /* Adiciona espaçamento lateral */
+  }
+  
+  .contain {
+    display: flex;
+
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: 1fr ;
+    list-style: none;
+    height: auto;
+    padding: 0;
+  }
+
+  .image {
+      margin: 5px;
+      width: 100%;
+  }
+
+  .elements{
+      display: grid;
+      grid-template-columns: 1fr;
+      list-style: none;
+      height: auto;
+      padding: 0;
+  }
+
+  .element{
+      margin: 5px;
+      width: auto;
+  }
+}
