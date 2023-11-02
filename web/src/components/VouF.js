@@ -41,7 +41,7 @@ export default function VouF({ fase, setFase }) {
       ],
       correctAnswer: "f",
       explanation:
-        "FALSO. Pesquisas recentes alertam para a estreita relação entre saúdebucal e saúde geral, demonstrando que a má condição de saúde bucal,principalmente a presença de doenças periodontais, constitui fator predisponente adoenças sistêmicas, como pneumonia, cardiopatias e diabetes, bem comoagrava/debilita o estado geral de saúde da pessoa idosa. Da mesma forma, a mácondição de saúde pode ocasionar problemas bucais ou agravar os já existentes.Como uma via de mão dupla, os termos desta relação se interferem mutuamente epodem, ao entrar num ciclo infindável de agravos à saúde, prejudicar o processo deenvelhecimento saudável.",
+        "FALSO. Pesquisas recentes alertam para a estreita relação entre saúde bucal e saúde geral, demonstrando que a má condição de saúde bucal,principalmente a presença de doenças periodontais, constitui fator predisponente a doenças sistêmicas, como pneumonia, cardiopatias e diabetes, bem como agrava/debilita o estado geral de saúde da pessoa idosa. Da mesma forma, a má condição de saúde pode ocasionar problemas bucais ou agravar os já existentes.Como uma via de mão dupla, os termos desta relação se interferem mutuamente e podem, ao entrar num ciclo infindável de agravos à saúde, prejudicar o processo de envelhecimento saudável.",
     },
     {
       questionText:

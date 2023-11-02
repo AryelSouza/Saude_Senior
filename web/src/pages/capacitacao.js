@@ -113,10 +113,10 @@ export default function Capacitacao() {
               <div className={styles.fase}>
                 <div className={styles.contain}>
                   <Slider {...settings} className={styles.images}>
-                    <Image className={styles.image} src={"cap11.svg"} width={700} height={700} />
-                    <Image className={styles.image} src={"cap12.svg"} width={700} height={700} />
-                    <Image className={styles.image} src={"cap13.svg"} width={700} height={700} />
-                    <Image className={styles.image} src={"cap14.svg"} width={700} height={700} />
+                    <Image className={styles.image} src={"/cap11.svg"} width={700} height={700} />
+                    <Image className={styles.image} src={"/cap12.svg"} width={700} height={700} />
+                    <Image className={styles.image} src={"/cap13.svg"} width={700} height={700} />
+                    <Image className={styles.image} src={"/cap14.svg"} width={700} height={700} />
                   </Slider>
                   <div className={styles.botoes}>
                     <div className={styles.link}>
